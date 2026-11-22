@@ -1,0 +1,2344 @@
+{
+    "shared": {
+        "dateInput": {
+            "pickDate": "Datum wählen",
+            "pickDateTime": "Datum & Uhrzeit wählen",
+            "clearDate": "Datum löschen"
+        }
+    },
+    "header": {
+        "shop": "SHOP",
+        "trending": "TRENDS",
+        "blog": "BLOG",
+        "contact": "KONTAKT",
+        "myOrders": "MEINE BESTELLUNGEN",
+        "settings": "Einstellungen",
+        "logout": "ABMELDEN",
+        "login": "ANMELDEN"
+    },
+    "trending": {
+        "back": "Zurück zur Startseite",
+        "eyebrow": "GERADE IM TREND",
+        "title": "Was unsere Kunden diese Woche wählen",
+        "subtitle": "Eine kurze Liste, die unser Team jede Woche zusammenstellt – aus gutem Grund beliebt. Tippe für Details.",
+        "itemOne": "Produkt",
+        "itemMany": "Produkte",
+        "empty": {
+            "title": "Gerade nichts im Trend",
+            "body": "Wir wechseln diese Liste jede Woche. Schau dich in der Zwischenzeit im Shop um.",
+            "cta": "Zum Shop"
+        }
+    },
+    "account": {
+        "settings": {
+            "back": "Zurück zu meinen Bestellungen",
+            "title": "Kontoeinstellungen",
+            "subtitle": "Verwalte dein Konto und dein Passwort.",
+            "profile": "Profil",
+            "email": "E-Mail",
+            "verified": "Bestätigt",
+            "unverified": "Nicht bestätigt",
+            "changePassword": "Passwort ändern",
+            "current": "Aktuelles Passwort",
+            "newPassword": "Neues Passwort",
+            "confirm": "Neues Passwort bestätigen",
+            "hint": "Mindestens 12 Zeichen.",
+            "submit": "Passwort aktualisieren",
+            "saving": "Wird aktualisiert…",
+            "changed": "Dein Passwort wurde aktualisiert.",
+            "mismatch": "Die neuen Passwörter stimmen nicht überein.",
+            "error": "Wir konnten dein Passwort nicht aktualisieren."
+        },
+        "orders": {
+            "title": "Meine Bestellungen",
+            "subtitle": "Verfolge Zahlung, Bearbeitung und Lieferung für alles, was du gekauft hast.",
+            "empty": {
+                "title": "Noch keine Bestellungen",
+                "subtitle": "Sobald du bestellst, erscheinen deine Bestellungen hier.",
+                "cta": "Jetzt einkaufen"
+            },
+            "loading": "Bestellungen werden geladen…",
+            "loadError": "Wir konnten deine Bestellungen nicht laden. Bitte versuche es erneut.",
+            "retry": "Erneut versuchen",
+            "col": {
+                "orderNumber": "Bestellung",
+                "placed": "Aufgegeben",
+                "total": "Gesamt",
+                "status": "Status",
+                "actions": "Aktionen"
+            },
+            "view": "Ansehen",
+            "page": "Seite {{page}} von {{total}}",
+            "previous": "Zurück",
+            "next": "Weiter",
+            "status": {
+                "PENDING": "Zahlung ausstehend",
+                "PAID": "Bezahlt",
+                "ON_HOLD": "Angehalten",
+                "PROCESSING": "In Bearbeitung",
+                "SHIPPED": "Versandt",
+                "DELIVERED": "Zugestellt",
+                "CANCELLED": "Storniert",
+                "FAILED": "Zahlung fehlgeschlagen",
+                "REFUNDED": "Erstattet",
+                "RETURNED": "Zurückgegeben"
+            }
+        },
+        "order": {
+            "confirming": {
+                "title": "Wir bestätigen deine Zahlung",
+                "body": "Das dauert meist nur ein paar Sekunden. Du musst nichts tun. Diese Seite aktualisiert sich von selbst.",
+                "slow": "Die Bestätigung deiner Zahlung dauert länger als üblich. Bitte nicht erneut zahlen. Lade die Seite in einer Minute neu, um den aktuellen Stand zu sehen.",
+                "refresh": "Neu laden"
+            },
+            "paymentMethod": "Zahlungsart",
+            "howToPay": {
+                "codTitle": "Zahlung bei Lieferung",
+                "codBody": "Du zahlst {{amount}} in bar, wenn deine Bestellung geliefert wird.",
+                "bankTitle": "Wir warten auf deine Überweisung",
+                "bankBody": "Überweise {{amount}} auf das unten stehende Konto und gib {{ref}} als Verwendungszweck an. Wir bestätigen deine Bestellung, sobald das Geld eingeht.",
+                "bankNoDetails": "Wir aktualisieren gerade unsere Bankdaten. Bitte kontaktiere uns, um die Zahlung abzuschließen."
+            },
+            "back": "Zurück zu meinen Bestellungen",
+            "loading": "Bestellung wird geladen…",
+            "loadError": "Wir konnten diese Bestellung nicht laden. Bitte versuche es erneut.",
+            "retry": "Erneut versuchen",
+            "notFound": {
+                "title": "Bestellung nicht gefunden",
+                "subtitle": "Diese Bestellung existiert nicht oder gehört nicht zu deinem Konto.",
+                "cta": "Zurück zu meinen Bestellungen"
+            },
+            "summary": "Bestellübersicht",
+            "placedOn": "Aufgegeben am",
+            "paidOn": "Bezahlt am",
+            "shippedOn": "Versandt am",
+            "deliveredOn": "Zugestellt am",
+            "cancelledOn": "Storniert am",
+            "cancellationReason": "Stornierungsgrund",
+            "shipping": "Lieferadresse",
+            "items": "Artikel",
+            "itemColumn": {
+                "product": "Produkt",
+                "quantity": "Menge",
+                "unitPrice": "Stückpreis",
+                "lineTotal": "Summe"
+            },
+            "total": "Gesamt",
+            "subtotalExclTax": "Zwischensumme (exkl. MwSt.)",
+            "vat": "MwSt.",
+            "breakdown": {
+                "subtotal": "Zwischensumme",
+                "transport": "Transport",
+                "installation": "Installation",
+                "coupon": "Gutschein",
+                "vatIncluded": "Davon MwSt. ({{rate}} %)"
+            },
+            "tracking": {
+                "title": "Sendungsverfolgung",
+                "carrier": "Versanddienst",
+                "number": "Sendungsnummer",
+                "open": "Paket verfolgen"
+            },
+            "invoice": {
+                "download": "Rechnung herunterladen (PDF)",
+                "downloading": "Deine Rechnung wird erstellt…",
+                "error": "Wir konnten deine Rechnung nicht erstellen. Bitte versuche es erneut."
+            },
+            "cancel": {
+                "button": "Bestellung stornieren",
+                "title": "Diese Bestellung stornieren",
+                "help": "Du kannst nur Bestellungen stornieren, die noch nicht bezahlt sind. Sag uns gern warum – das ist freiwillig.",
+                "reasonLabel": "Grund (optional)",
+                "reasonPlaceholder": "Meinung geändert, woanders günstiger gefunden usw.",
+                "submit": "Bestellung stornieren",
+                "submitting": "Wird storniert…",
+                "close": "Bestellung behalten",
+                "errorGeneric": "Wir konnten diese Bestellung nicht stornieren. Bitte versuche es erneut."
+            }
+        }
+    },
+    "home": {
+        "trust": {
+            "headline": "Über 12.400 Haushalte vertrauen uns"
+        },
+        "howItWorks": {
+            "eyebrow": "So funktioniert es",
+            "title": "Vom Angebot zur Ersparnis –",
+            "titleEmph": "in nur drei Schritten.",
+            "subtitle": "Keine langen Formulare, keine endlosen Anrufe. Alles in weniger als einer Woche.",
+            "steps": {
+                "quote": {
+                    "title": "Hol dir dein kostenloses Angebot",
+                    "body": "Nenne uns deine monatliche Rechnung und deinen Dachtyp. Innerhalb eines Werktags erhältst du Anlagengröße, Kosten und Amortisationszeit.",
+                    "timeframe": "Innerhalb von 24 Std."
+                },
+                "install": {
+                    "title": "Wir installieren alles",
+                    "body": "Unser zertifiziertes Team kümmert sich um Genehmigungen, Montage, Verkabelung und Netzanschluss. Du musst nichts tun – wir übergeben die Anlage betriebsbereit.",
+                    "timeframe": "48 Std. vor Ort"
+                },
+                "save": {
+                    "title": "Die Ersparnis beginnt sofort",
+                    "body": "Der Zähler läuft ab dem ersten Tag rückwärts. Die meisten Kunden decken 60–90 % ihrer Rechnung ab dem ersten Monat.",
+                    "timeframe": "Ab dem ersten Tag"
+                }
+            }
+        },
+        "calculator": {
+            "eyebrow": "Ersparnis berechnen · live",
+            "title": "Wie viel kannst du sparen mit",
+            "titleEmph": "Solarmodulen?",
+            "subtitle": "Bewege den Regler. Wähle dein Dach. Jede Zahl rechts aktualisiert sich sofort – keine E-Mail, keine langen Formulare.",
+            "liveTag": "Aktualisiert in Echtzeit",
+            "liveBadge": "Live · sofort aktualisiert",
+            "validity": "14 Tage gültig",
+            "bill": "Monatliche Stromrechnung",
+            "billHelp": "Dein 12-Monats-Durchschnitt liefert die genaueste Schätzung.",
+            "perMonth": " / Monat",
+            "roofLabel": "Dachtyp",
+            "roofTypes": {
+                "TILTED": "Schrägdach",
+                "FLAT": "Flachdach",
+                "UNKNOWN": "Nicht sicher"
+            },
+            "city": "Stadt",
+            "cityPlaceholder": "z. B. Prishtina",
+            "recommended": "Empfohlene Anlage",
+            "annualSavings": "Jährliche Ersparnis",
+            "value25": "Wert über 25 Jahre",
+            "tiles": {
+                "size": "Anlagengröße",
+                "panels": "Module",
+                "cost": "Kosten",
+                "turnkey": "schlüsselfertig",
+                "payback": "Amortisation",
+                "years": "J.",
+                "thenPure": "danach reine Ersparnis",
+                "onSite": "Vor Ort",
+                "teamGrid": "Team + Netzanschluss"
+            },
+            "chartTitle": "Deine Rechnung, Jahr 1",
+            "chartBefore": "Vorher",
+            "chartAfter": "Mit SolarX",
+            "ctaQuote": "Besuch buchen – 0 €",
+            "ctaShop": "Produkte ansehen",
+            "disclaimer": "Unverbindliche Schätzung. Endgültiges Angebot nach dem kostenlosen Vor-Ort-Termin.",
+            "empty": {
+                "title": "Hier erscheinen die Ergebnisse",
+                "body": "Bewege den Rechnungsregler und sieh sofort deine Ersparnis."
+            }
+        },
+        "trending": {
+            "eyebrow": "Im Trend",
+            "title": "Die Favoriten dieser Woche",
+            "viewAll": "Alle ansehen",
+            "badge": "Im Trend"
+        },
+        "energyStar": "ENERGY-STAR-PARTNER",
+        "tuvCertified": "TÜV RHEINLAND ZERTIFIZIERT",
+        "fastInstall": "INSTALLATION IN 48 STD.",
+        "solarAlliance": "MITGLIED DER GLOBAL SOLAR ALLIANCE",
+        "bestSellers": "BESTSELLER",
+        "bestSellersTitle": "Hardware, die hält",
+        "viewAllProducts": "ALLE PRODUKTE",
+        "onSale": "SALE",
+        "bundle": "PAKET",
+        "exclInstallation": "OHNE INSTALLATION",
+        "latestInsights": "NEUESTE BEITRÄGE",
+        "blogTitle": "Lerne mehr über",
+        "blogTitleEmph": "Solarenergie.",
+        "openBlog": "ZUM BLOG",
+        "readArticle": "ARTIKEL LESEN",
+        "featuredBadge": "BEREIT FÜR DEN WECHSEL ZU",
+        "cta": "ANGEBOT ANFORDERN",
+        "addToCart": "In den Warenkorb",
+        "hotNow": "JETZT ANGESAGT",
+        "hotTitle": "ANGEBOTE, DIE NICHT LANGE BLEIBEN",
+        "hotSubtitle": "Ausgewählte Highlights unseres Teams diese Woche – begrenzter Bestand und zeitlich befristete Angebote.",
+        "fireReason": {
+            "HOT_DEAL": "TOP-ANGEBOT",
+            "CLEARANCE": "ABVERKAUF",
+            "NEW_ARRIVAL": "NEU"
+        },
+        "browse": "STÖBERN",
+        "categoriesTitle": "NACH KATEGORIE EINKAUFEN",
+        "allCategories": "ALLE KATEGORIEN",
+        "products": "Produkte",
+        "why": "WARUM SOLARX",
+        "whyTitle": "Gebaut,",
+        "whyTitleEmph": "um zu halten.",
+        "value": {
+            "quality": {
+                "title": "Premium-Hardware",
+                "body": "Tier-1-Module, Wechselrichter und Batterien – alle zertifiziert, alle mit Herstellergarantie."
+            },
+            "install": {
+                "title": "Schlüsselfertige Installation",
+                "body": "Geschulte Teams übernehmen Besichtigung, Montage und Inbetriebnahme – du legst nur noch den Schalter um."
+            },
+            "warranty": {
+                "title": "Lange Garantie",
+                "body": "25 Jahre Leistung, 12 Jahre Produkt, 10 Jahre Speicher – im Vertrag festgeschrieben."
+            },
+            "support": {
+                "title": "Support vor Ort",
+                "body": "Ein Team vom Angebot bis zum Kundendienst. Echte Menschen, echte Zahlen, schnelle Antworten."
+            }
+        },
+        "help": "WIR SIND FÜR DICH DA",
+        "contactTitle": "FRAGEN? SPRICH MIT UNS.",
+        "contactBody": "Erzähl uns von deinem Dach, deinen Rechnungen oder deinem Projekt – wir dimensionieren eine Anlage und machen dir ein Angebot. Kein Druck, kein Fachchinesisch.",
+        "contactCta": "Kontakt aufnehmen",
+        "exploreShop": "Shop entdecken"
+    },
+    "nav": {
+        "shop": "Shop",
+        "trending": "Trends",
+        "blog": "Blog",
+        "contact": "Kontakt",
+        "getQuote": "Angebot anfordern",
+        "menu": "Menü",
+        "account": "Konto",
+        "signIn": "Anmelden",
+        "createAccount": "Konto erstellen",
+        "cart": "Warenkorb"
+    },
+    "hero": {
+        "eyebrow": "VON DER SONNE ANGETRIEBEN",
+        "shopCta": "Zum Shop",
+        "calcSavings": "Meine Ersparnis berechnen",
+        "aria": {
+            "label": "Ausgewählte Produkte und Angebote",
+            "prev": "Vorherige Folie",
+            "next": "Nächste Folie",
+            "dots": "Folienauswahl",
+            "goTo": "Gehe zu Folie"
+        },
+        "slide1": {
+            "title": "ERNTE DIE",
+            "highlight": "ZUKUNFT",
+            "subtext": "Monokristalline Premium-Solartechnik für maximale Energieausbeute und langfristige Unabhängigkeit.",
+            "ctaText": "MODULE ANSEHEN"
+        },
+        "slide2": {
+            "title": "VERSORGE DEIN",
+            "highlight": "ZUHAUSE",
+            "subtext": "Solarpakete der nächsten Generation für Wohnhäuser. Komplette Systeme vom Wechselrichter bis zum Montagematerial.",
+            "ctaText": "PAKETE ANSEHEN"
+        },
+        "slide3": {
+            "title": "SICHERE DEINE",
+            "highlight": "ENERGIE",
+            "subtext": "Batteriespeicher mit hoher Dichte, damit dein Zuhause weiterläuft, wenn das Netz ausfällt. Zuverlässig, sicher und zukunftsweisend.",
+            "ctaText": "NETZUNABHÄNGIG WERDEN"
+        },
+        "hud": {
+            "output": "Aktuelle Leistung",
+            "saved": "Erwartete Ersparnis",
+            "co2": "CO₂ pro Jahr",
+            "yr": "J."
+        },
+        "p1": {
+            "eyebrow": "Von der Sonne angetrieben",
+            "title": "Ernte die",
+            "emph": "Zukunft.",
+            "body": "Monokristalline Premium-Module, die mehr Sonnenenergie einfangen – gebaut für Jahrzehnte.",
+            "cta": "Zum Shop",
+            "ctaAlt": "Ersparnis berechnen"
+        },
+        "p2": {
+            "eyebrow": "Freiheit vom Netz",
+            "title": "Energie, die dir",
+            "emph": "gehört.",
+            "body": "Erzeuge, speichere und nutze deinen eigenen Strom. Unabhängig von Strompreisen, die jedes Jahr steigen.",
+            "cta": "Hardware ansehen",
+            "ctaAlt": "Warum SolarX"
+        },
+        "p3": {
+            "eyebrow": "48 Stunden vor Ort",
+            "title": "Schlüsselfertige",
+            "emph": "Installation.",
+            "body": "Unser Team kümmert sich um Genehmigungen, Montage und Netzanschluss. Du legst nur noch den Schalter um.",
+            "cta": "Besuch buchen",
+            "ctaAlt": "So funktioniert es"
+        }
+    },
+    "shop": {
+        "title": "SOLAR",
+        "highlight": "HARDWARE",
+        "subtitle": "Entdecke unsere Auswahl an Premium-Solartechnik.",
+        "searchPlaceholder": "Produkte suchen...",
+        "filters": "Filter",
+        "categories": {
+            "title": "Kategorie"
+        },
+        "allCategories": "Alle Kategorien",
+        "allProducts": "Alle Produkte",
+        "showing": "Angezeigt",
+        "clear": "Zurücksetzen",
+        "expand": "Aufklappen",
+        "noCategories": "Noch keine Kategorien.",
+        "empty": {
+            "title": "Keine Produkte passen zu dieser Auswahl.",
+            "subtitle": "Wähle eine andere Kategorie oder setze den Filter zurück, um alles zu sehen.",
+            "viewAll": "Alle Produkte ansehen"
+        },
+        "sortBy": "Sortieren nach",
+        "sort": {
+            "featured": "Empfohlen",
+            "priceAsc": "Preis: aufsteigend",
+            "priceDesc": "Preis: absteigend",
+            "nameAsc": "Name: A–Z"
+        },
+        "showingCount": "{{visible}} von {{total}} Produkten",
+        "viewDetails": "Details ansehen",
+        "loadError": "Wir konnten die Produkte gerade nicht laden.",
+        "loadErrorBody": "Beim Abrufen des Shops ist etwas schiefgelaufen. Bitte versuche es erneut.",
+        "retry": "Erneut versuchen",
+        "priceRange": "Preisspanne",
+        "allIn": "Alles inklusive",
+        "clearSearch": "Suche löschen",
+        "openFilters": "Filter öffnen",
+        "closeFilters": "Filter schließen",
+        "minPrice": "Min.",
+        "maxPrice": "Max.",
+        "emptySearch": {
+            "title": "Keine Ergebnisse für „{{term}}“",
+            "subtitle": "Versuche einen anderen Suchbegriff oder lösche die Suche.",
+            "cta": "Suche löschen"
+        },
+        "onFireTitle": "Gerade heiß begehrt",
+        "onFireSubtitle": "Zeitlich begrenzte Angebote, Neuheiten und Abverkauf.",
+        "onFireBadge": {
+            "HOT_DEAL": "Top-Angebot",
+            "CLEARANCE": "Abverkauf",
+            "NEW_ARRIVAL": "Neu"
+        }
+    },
+    "blog": {
+        "title": "PHOTONEN",
+        "highlight": "WISSEN",
+        "subtitle": "Neueste Einblicke aus der Welt der Solarenergie.",
+        "loadError": "Wir konnten die Artikel gerade nicht laden.",
+        "loadErrorBody": "Beim Abrufen des Blogs ist etwas schiefgelaufen. Bitte versuche es erneut.",
+        "retry": "Erneut versuchen",
+        "readMore": "Artikel lesen",
+        "readFull": "Ganzen Artikel lesen",
+        "featured": "EMPFOHLEN",
+        "featuredTitle": "Empfohlene Beiträge",
+        "backToList": "Zurück zum Blog",
+        "publishedOn": "Veröffentlicht am",
+        "loading": "Wird geladen…",
+        "minRead": "{{count}} Min. Lesezeit",
+        "byline": "Von",
+        "editorialTeam": "Redaktion",
+        "share": "Teilen",
+        "shareCopied": "Kopiert",
+        "like": "Gefällt mir",
+        "unlike": "Gefällt mir nicht mehr",
+        "likeLoginPrompt": "Melde dich an, um diesen Beitrag zu liken",
+        "keyTakeaways": "Das Wichtigste",
+        "linksTitle": "Nützliche Links",
+        "relatedProducts": "Passende Produkte",
+        "viewProduct": "Produkt ansehen",
+        "tagsTitle": "Tags",
+        "categoriesTitle": "Kategorien",
+        "noCategories": "Noch keine Kategorien",
+        "noTags": "Noch keine Tags",
+        "allPosts": "Alle Beiträge",
+        "filters": "Filter",
+        "openFilters": "Filter öffnen",
+        "closeFilters": "Filter schließen",
+        "searchPlaceholder": "Artikel suchen…",
+        "clearSearch": "Suche löschen",
+        "sortBy": "Sortieren nach",
+        "sort": {
+            "newest": "Neueste",
+            "oldest": "Älteste",
+            "mostViewed": "Meistgelesen",
+            "mostLiked": "Beliebteste"
+        },
+        "showing": "Angezeigt",
+        "clear": "Zurücksetzen",
+        "empty": {
+            "title": "Keine Beiträge passen zu dieser Auswahl",
+            "subtitle": "Versuche eine andere Kategorie oder einen anderen Tag.",
+            "viewAll": "Alle Beiträge ansehen"
+        },
+        "emptySearch": {
+            "title": "Keine Ergebnisse für „{{term}}“",
+            "subtitle": "Versuche einen anderen Suchbegriff.",
+            "cta": "Suche löschen"
+        },
+        "notFound": {
+            "title": "Beitrag nicht gefunden",
+            "subtitle": "Dieser Artikel wurde möglicherweise verschoben oder nicht mehr veröffentlicht.",
+            "cta": "Alle Beiträge ansehen"
+        },
+        "commentsTitle": "Kommentare",
+        "commentGuest": "Gast",
+        "commentsEmpty": "Noch keine Kommentare – schreib den ersten.",
+        "commentForm": {
+            "title": "Kommentar schreiben",
+            "bodyLabel": "Dein Kommentar",
+            "bodyPlaceholder": "Teile deine Gedanken…",
+            "submit": "Kommentar senden",
+            "submitting": "Wird gesendet…",
+            "success": "Danke – dein Kommentar wartet auf Freigabe.",
+            "loginPrompt": "Melde dich an, um einen Kommentar zu schreiben.",
+            "loginCta": "Anmelden",
+            "invalid": "Bitte schreib einen Kommentar, bevor du ihn absendest.",
+            "error": "Dein Kommentar konnte nicht gesendet werden. Bitte versuche es erneut."
+        },
+        "cta": {
+            "title": "Bereit, deine Zukunft",
+            "highlight": "mit Energie zu versorgen?",
+            "subtitle": "Durchstöbere unseren Solarkatalog und finde die passende Anlage für dein Zuhause.",
+            "button": "Zum Shop"
+        }
+    },
+    "contact": {
+        "eyebrow": "Kontakt",
+        "titlePrefix": "SCHREIB",
+        "titleSuffix": "UNS",
+        "subtitle": "Fragen? Unsere Solarexperten helfen dir gern.",
+        "emailUs": "Schreib uns",
+        "emailResponse": "Antwort innerhalb von 2 Stunden",
+        "callUs": "Ruf uns an",
+        "callHours": "Mo–Fr, 9–18 Uhr (EST)",
+        "hq": "Hauptsitz",
+        "hqAddress": "123 Solar Way<br>Tech District, NY 10001",
+        "form": {
+            "name": "Vollständiger Name",
+            "namePlaceholder": "Dein Name",
+            "email": "E-Mail-Adresse",
+            "emailPlaceholder": "email@beispiel.de",
+            "subject": "Betreff (optional)",
+            "subjectPlaceholder": "Worum geht es?",
+            "message": "Nachricht",
+            "messagePlaceholder": "Wie können wir dir helfen?",
+            "submit": "Nachricht senden",
+            "submitting": "Wird gesendet…",
+            "sentTitle": "Danke – Nachricht erhalten",
+            "sentBody": "Wir antworten dir an die angegebene E-Mail-Adresse. Die meisten Antworten kommen innerhalb weniger Stunden.",
+            "sendAnother": "Weitere Nachricht senden"
+        },
+        "info": {
+            "title": "Kontaktinformationen",
+            "address": "Hauptsitz: New York, Tech District",
+            "email": "contact@solarx.com",
+            "phone": "+1 (555) SOLAR-X"
+        }
+    },
+    "admin": {
+        "readOnly": {
+            "note": "Du hast hier nur Leserechte. Bitte einen Super-Admin, wenn du etwas ändern musst."
+        },
+        "noAccess": {
+            "title": "Du hast noch auf nichts Zugriff",
+            "body": "Dein Admin-Konto wurde angelegt, hat aber noch keine Berechtigungen. Bitte einen Super-Admin, dir Zugriff auf die benötigten Bereiche zu geben."
+        },
+        "console": "SolarX Verwaltungskonsole",
+        "search": {
+            "placeholder": "Bestellungen, Kunden, Produkte suchen…",
+            "searching": "Wird gesucht…",
+            "noResults": "Keine Treffer",
+            "orders": "Bestellungen",
+            "customers": "Kunden",
+            "products": "Produkte"
+        },
+        "nav": {
+            "section": {
+                "catalog": "KATALOG",
+                "sales": "VERKAUF",
+                "content": "INHALTE",
+                "system": "SYSTEM"
+            },
+            "dashboard": "Dashboard",
+            "needsAttention": "Erfordert Aufmerksamkeit",
+            "products": "Produkte",
+            "reviews": "Bewertungen",
+            "taxonomy": "Kategorien",
+            "deals": "Angebote",
+            "coupons": "Gutscheine",
+            "orders": "Bestellungen",
+            "customers": "Kunden",
+            "carriers": "Versanddienste",
+            "installation": "Installation",
+            "blog": "Blogbeiträge",
+            "blogCategories": "Blog-Kategorien",
+            "blogTags": "Blog-Tags",
+            "blogComments": "Blog-Kommentare",
+            "settings": "Einstellungen",
+            "calculator": "Rechner-Konfiguration",
+            "imageEnhancement": "Bildoptimierung",
+            "payments": "Zahlungsarten",
+            "users": "Benutzer & Berechtigungen",
+            "audit": "Audit-Log",
+            "logging": "Protokollierung",
+            "emails": "E-Mails",
+            "contact": "Kontaktnachrichten",
+            "signOut": "Abmelden"
+        },
+        "dashboard": {
+            "eyebrow": "Betriebsübersicht",
+            "title": "Dashboard",
+            "subtitle": "Live-Zahlen aus Bestellungen, Angeboten und Leads – keine Platzhalterdaten.",
+            "openOrdersCta": "Offene Bestellungen",
+            "needsAttention": {
+                "title": "Erfordert Aufmerksamkeit",
+                "ordersOnHold": "Angehaltene Bestellungen",
+                "ordersShippedNoTracking": "Versandt, noch ohne Tracking",
+                "ordersFailed": "Fehlgeschlagene Zahlungen",
+                "lockedCustomers": "Gesperrte Konten",
+                "pendingReviews": "Zu prüfende Bewertungen",
+                "pendingBlogComments": "Zu prüfende Kommentare",
+                "newContactMessages": "Neue Nachrichten"
+            },
+            "loading": "Dashboard wird geladen…",
+            "loadError": "Wir konnten das Dashboard gerade nicht laden.",
+            "cards": {
+                "totalSales": "Erfasster Umsatz",
+                "totalSalesHelp": "Alle bezahlten, bearbeiteten, versandten und zugestellten Umsätze in den Büchern.",
+                "totalOrders": "Bestellungen",
+                "totalOrdersHelp": "{{count}} in diesem Monat aufgegeben.",
+                "salesThisMonth": "Dieser Monat",
+                "salesThisMonthHelp": "{{count}} Bestellungen in diesem Monat.",
+                "openOrders": "Laufende Bestellungen",
+                "openOrdersHelp": "Warten auf Zahlung, Verpackung oder Lieferung.",
+                "deliveredOrders": "Zugestellte Bestellungen",
+                "deliveredOrdersHelp": "Abgeschlossene Bestellungen, die beim Kunden angekommen sind.",
+                "totalLeads": "Leads",
+                "totalLeadsHelp": "{{count}} neue Leads in diesem Monat.",
+                "activeDeals": "Aktive Angebote",
+                "activeDealsHelp": "Rabatte, die gerade laufen."
+            },
+            "revenue": {
+                "title": "Umsatz der letzten 7 Tage",
+                "subtitle": "Tatsächliche Bestellsummen nach Tag gruppiert.",
+                "orders": "{{count}} Bestellungen"
+            },
+            "status": {
+                "title": "Bestell-Pipeline",
+                "subtitle": "Wo die Bestellungen gerade stehen."
+            },
+            "recent": {
+                "title": "Neueste Bestellungen",
+                "subtitle": "Neueste Bestellungen in jedem Status.",
+                "cta": "Ganze Liste öffnen",
+                "empty": "Noch keine Bestellungen.",
+                "customerFallback": "Unbekannter Kunde"
+            }
+        },
+        "deals": {
+            "title": "Angebote",
+            "subtitle": "Setze ein oder mehrere Produkte im Preis herab – prozentual (z. B. 10 %, 50 %) oder um einen festen Betrag, optional in einem Zeitfenster.",
+            "new": "Neues Angebot",
+            "edit": "Angebot bearbeiten",
+            "searchPlaceholder": "Nach Titel suchen",
+            "allStatuses": "Alle Status",
+            "loading": "Angebote werden geladen…",
+            "empty": "Noch keine Angebote. Lege eines an, um Produkte zu reduzieren.",
+            "productOne": "Produkt",
+            "productMany": "Produkte",
+            "deleteConfirm": "Angebot „{{title}}“ löschen? Das kann nicht rückgängig gemacht werden.",
+            "col": {
+                "title": "Titel",
+                "value": "Rabatt",
+                "products": "Produkte",
+                "window": "Zeitraum",
+                "status": "Status",
+                "actions": "Aktionen"
+            },
+            "status": {
+                "ACTIVE": "Aktiv",
+                "SCHEDULED": "Geplant",
+                "EXPIRED": "Abgelaufen",
+                "INACTIVE": "Inaktiv"
+            },
+            "typeLabel": {
+                "PERCENT": "Prozent Rabatt",
+                "FIXED": "Fester Betrag Rabatt"
+            },
+            "actions": {
+                "edit": "Angebot bearbeiten",
+                "delete": "Angebot löschen"
+            },
+            "form": {
+                "title": "Titel",
+                "type": "Rabattart",
+                "percent": "Prozent (0–100)",
+                "fixed": "Rabattbetrag (€)",
+                "startAt": "Beginnt am (optional)",
+                "endAt": "Endet am (optional)",
+                "badgeText": "Badge",
+                "badgeHint": "Kurzes Label auf Produktkarten, z. B. „10 % RABATT“",
+                "bannerText": "Banner",
+                "active": "Aktiv",
+                "activeHelp": "Inaktive Angebote gelten nie, auch nicht innerhalb des Zeitraums.",
+                "products": "Reduzierte Produkte",
+                "productSearch": "Produkte suchen…",
+                "noProducts": "Keine Produkte passen zu deiner Suche.",
+                "cancel": "Abbrechen",
+                "save": "Speichern",
+                "saving": "Wird gespeichert…"
+            },
+            "errors": {
+                "titleRequired": "Titel ist erforderlich.",
+                "valueRequired": "Der Wert muss größer als null sein.",
+                "percentMax": "Der Prozentwert darf 100 nicht überschreiten.",
+                "endBeforeStart": "Das Enddatum muss nach dem Startdatum liegen.",
+                "deleteFailed": "Löschen fehlgeschlagen."
+            }
+        },
+        "coupons": {
+            "title": "Gutscheine",
+            "subtitle": "Rabattcodes, die Kunden eingeben. Anders als automatische Angebote – Kunden tippen diese an der Kasse ein.",
+            "new": "Neuer Gutschein",
+            "createTitle": "Neuer Gutschein",
+            "editTitle": "Gutschein bearbeiten",
+            "modalHelp": "Codes unterscheiden keine Groß-/Kleinschreibung und werden automatisch großgeschrieben. Limits und Zeiträume sind optional.",
+            "searchPlaceholder": "Nach Code oder Beschreibung suchen",
+            "allStatuses": "Alle Status",
+            "loading": "Gutscheine werden geladen…",
+            "saving": "Wird gespeichert…",
+            "save": "Speichern",
+            "cancel": "Abbrechen",
+            "empty": "Noch keine Gutscheine. Lege einen an, um eine Kampagne zu starten.",
+            "notStackable": "Nicht mit Angeboten kombinierbar",
+            "minOrder": "Mindestbestellwert",
+            "perUser": "Pro Kunde",
+            "deleteConfirm": "Gutschein „{{code}}“ löschen? Bisherige Einlösungen bleiben im Audit-Log.",
+            "col": {
+                "code": "Code",
+                "value": "Wert",
+                "usage": "Nutzung",
+                "window": "Zeitraum",
+                "status": "Status",
+                "actions": "Aktionen"
+            },
+            "status": {
+                "ACTIVE": "Aktiv",
+                "SCHEDULED": "Geplant",
+                "EXPIRED": "Abgelaufen",
+                "EXHAUSTED": "Aufgebraucht",
+                "INACTIVE": "Inaktiv"
+            },
+            "actions": {
+                "edit": "Gutschein bearbeiten",
+                "delete": "Gutschein löschen"
+            },
+            "form": {
+                "code": "Code",
+                "description": "Beschreibung",
+                "descriptionPlaceholder": "Optionale interne Notiz (z. B. „Black Friday – Newsletter“)",
+                "type": "Typ",
+                "typePercent": "Prozent Rabatt",
+                "typeFixed": "Fester Betrag Rabatt",
+                "valuePercent": "Prozent (1–100)",
+                "valueFixed": "Rabattbetrag (€)",
+                "minOrder": "Mindest-Zwischensumme (€)",
+                "maxRedemptions": "Maximale Einlösungen gesamt",
+                "maxPerUser": "Maximum pro Kunde",
+                "validFrom": "Gültig ab",
+                "validUntil": "Gültig bis",
+                "active": "Aktiv",
+                "stackable": "Mit automatischen Angeboten kombinierbar",
+                "optional": "Optional"
+            },
+            "errors": {
+                "codeRequired": "Code ist erforderlich.",
+                "valueRequired": "Der Wert muss größer als null sein.",
+                "percentRange": "Der Prozentwert darf 100 nicht überschreiten.",
+                "invalidWindow": "„Gültig bis“ muss nach „Gültig ab“ liegen.",
+                "saveFailed": "Speichern fehlgeschlagen."
+            }
+        },
+        "taxonomy": {
+            "title": "Kategorien",
+            "subtitle": "Strukturiere den Shop mit Hauptkategorien und ihren Unterkategorien. Namen sind auf Englisch und Albanisch erforderlich.",
+            "addCategory": "Kategorie hinzufügen",
+            "addSubcategory": "Unterkategorie hinzufügen",
+            "noSubcategories": "Noch keine Unterkategorien.",
+            "under": "Unter",
+            "parent": "Übergeordnet",
+            "noParent": "Keine (Hauptkategorie)",
+            "addTitle": "Neu hinzufügen",
+            "editTitle": "Bearbeiten",
+            "slug": "Slug",
+            "nameEn": "Name (EN)",
+            "nameSq": "Name (SQ)",
+            "descriptionEn": "Beschreibung (EN)",
+            "descriptionSq": "Beschreibung (SQ)",
+            "order": "Reihenfolge",
+            "status": "Status",
+            "active": "Aktiv",
+            "inactive": "Ausgeblendet",
+            "actions": "Aktionen",
+            "empty": "Noch nichts hier – füge den ersten Eintrag hinzu."
+        },
+        "users": {
+            "title": "Benutzer & Berechtigungen",
+            "subtitle": "Lege Admin-Benutzer an und bestimme, auf welche Bereiche sie zugreifen dürfen.",
+            "addUser": "Admin-Benutzer hinzufügen",
+            "editPermissions": "Berechtigungen bearbeiten",
+            "email": "E-Mail",
+            "password": "Passwort",
+            "firstName": "Vorname",
+            "lastName": "Nachname",
+            "name": "Name",
+            "role": "Rolle",
+            "permissions": "Berechtigungen",
+            "actions": "Aktionen",
+            "superAdmin": "Super-Admin",
+            "admin": "Admin",
+            "customer": "Kunde",
+            "allAccess": "Vollzugriff",
+            "assigned": "zugewiesen",
+            "edit": "Berechtigungen bearbeiten",
+            "delete": "Benutzer löschen",
+            "empty": "Noch keine Admin-Benutzer.",
+            "status": "Status",
+            "locked": "Gesperrt",
+            "unverified": "Nicht bestätigt",
+            "unlock": "Konto entsperren",
+            "filterAll": "Alle",
+            "filterLocked": "Gesperrt"
+        },
+        "carriers": {
+            "title": "Versanddienste",
+            "subtitle": "Verwalte deine Paketdienste – die Auswahl beim Hinzufügen der Sendungsverfolgung und der Link, über den Kunden ihr Paket verfolgen.",
+            "add": "Versanddienst hinzufügen",
+            "loadError": "Wir konnten die Versanddienste gerade nicht laden.",
+            "retry": "Erneut versuchen",
+            "empty": "Noch keine Versanddienste – füge den ersten hinzu.",
+            "edit": "Bearbeiten",
+            "delete": "Löschen",
+            "deleteConfirm": "Versanddienst „{{name}}“ löschen?",
+            "col": {
+                "name": "Name",
+                "link": "Vorlage für Tracking-Link",
+                "active": "Aktiv",
+                "sort": "Reihenfolge",
+                "actions": "Aktionen"
+            },
+            "active": {
+                "yes": "Aktiv",
+                "no": "Ausgeblendet"
+            },
+            "modal": {
+                "titleNew": "Versanddienst hinzufügen",
+                "titleEdit": "Versanddienst bearbeiten",
+                "name": "Name",
+                "namePlaceholder": "z. B. Posta e Kosovës",
+                "link": "Tracking-Link (optional)",
+                "linkPlaceholder": "https://paketdienst.de/track/{tracking}",
+                "linkHelp": "Verwende {tracking} an der Stelle der Sendungsnummer. Leer lassen, wenn es keinen klickbaren Link geben soll.",
+                "active": "Aktiv",
+                "sort": "Reihenfolge",
+                "save": "Speichern",
+                "saving": "Wird gespeichert…",
+                "cancel": "Abbrechen"
+            }
+        },
+        "customers": {
+            "title": "Kunden",
+            "subtitle": "Finde einen Kunden und sieh seinen kompletten Verlauf – was er gekauft hat, eventuelle Probleme und alle Aktivitäten.",
+            "loadError": "Wir konnten die Kunden gerade nicht laden.",
+            "retry": "Erneut versuchen",
+            "empty": "Keine Kunden passen zu diesem Filter.",
+            "view": "Ansehen",
+            "pageOf": "Seite {{page}} von {{total}}",
+            "previous": "Zurück",
+            "next": "Weiter",
+            "filters": {
+                "email": "E-Mail",
+                "emailPlaceholder": "Nach E-Mail suchen",
+                "name": "Name",
+                "namePlaceholder": "Nach Name suchen",
+                "from": "Registriert ab",
+                "to": "Registriert bis",
+                "apply": "Anwenden",
+                "reset": "Zurücksetzen"
+            },
+            "col": {
+                "name": "Name",
+                "email": "E-Mail",
+                "orders": "Bestellungen",
+                "totalSpent": "Gesamtausgaben",
+                "joined": "Registriert",
+                "actions": "Aktionen"
+            },
+            "flag": {
+                "locked": "Gesperrt",
+                "unverified": "Nicht bestätigt"
+            },
+            "detail": {
+                "back": "Zurück zu den Kunden",
+                "loading": "Kunde wird geladen…",
+                "loadError": "Wir konnten diesen Kunden gerade nicht laden.",
+                "never": "Nie",
+                "verified": "Bestätigt",
+                "joined": "Registriert",
+                "lastLogin": "Letzte Anmeldung",
+                "totalSpent": "Gesamtausgaben",
+                "paidOrders": "Bezahlte Bestellungen",
+                "avgOrder": "Durchschnittliche Bestellung",
+                "lastOrder": "Letzte Bestellung",
+                "notFound": {
+                    "title": "Kunde nicht gefunden",
+                    "subtitle": "Dieser Kunde existiert nicht oder du hast keinen Zugriff.",
+                    "cta": "Zurück zu den Kunden"
+                },
+                "problems": {
+                    "title": "Probleme",
+                    "none": "Keine Probleme erfasst – keine fehlgeschlagenen Zahlungen, Stornierungen, Erstattungen oder Kontoprobleme.",
+                    "failed": "{{n}} fehlgeschlagene Zahlung(en)",
+                    "cancelled": "{{n}} storniert",
+                    "refunded": "{{n}} erstattet",
+                    "returned": "{{n}} zurückgegeben",
+                    "loginFailures": "{{n}} fehlgeschlagene Anmeldung(en)",
+                    "locked": "Konto gesperrt",
+                    "unverified": "E-Mail nicht bestätigt"
+                },
+                "orders": {
+                    "title": "Bestellungen",
+                    "number": "Bestellung",
+                    "status": "Status",
+                    "total": "Gesamt",
+                    "placed": "Aufgegeben",
+                    "empty": "Dieser Kunde hat noch keine Bestellungen."
+                },
+                "timeline": {
+                    "title": "Aktivitätsverlauf",
+                    "from": "Von",
+                    "to": "Bis",
+                    "apply": "Anwenden",
+                    "empty": "Keine Aktivität in diesem Zeitraum.",
+                    "error": "Wir konnten die Aktivität nicht laden.",
+                    "loadMore": "Mehr laden"
+                }
+            }
+        },
+        "audit": {
+            "title": "Audit-Log",
+            "subtitle": "Jede Aktion zu Produkten, Warenkorb und Zahlungen. Neueste zuerst.",
+            "category": "Kategorie",
+            "severity": "Schweregrad",
+            "from": "Von",
+            "to": "Bis",
+            "time": "Zeit",
+            "event": "Ereignis",
+            "summary": "Zusammenfassung",
+            "actor": "Ausgeführt von",
+            "actorEmail": "Kunden-E-Mail",
+            "actorEmailPlaceholder": "Nach E-Mail filtern",
+            "allCategories": "Alle Kategorien",
+            "allSeverities": "Alle Schweregrade",
+            "empty": "Keine Einträge passen zu diesen Filtern.",
+            "page": "Seite",
+            "showing": "Angezeigt",
+            "pageNumber": "Seite",
+            "previous": "Zurück",
+            "next": "Weiter"
+        },
+        "imageEnhancement": {
+            "eyebrow": "KI-FOTOOPTIMIERUNG",
+            "title": "Bildoptimierung",
+            "subtitle": "Lege das OpenAI-Token für die kostenpflichtige Aktion „Optimieren“ fest. Die kostenlose Hintergrundentfernung funktioniert ohne Token.",
+            "loading": "Wird geladen…",
+            "configured": "OpenAI-Token eingerichtet",
+            "notConfigured": "Kein OpenAI-Token hinterlegt",
+            "tokenLabel": "OpenAI-API-Token",
+            "tokenPlaceholder": "sk-…",
+            "tokenHelp": "Wird einmal eingefügt und verschlüsselt gespeichert. Es wird nie wieder angezeigt – nur die letzten 4 Zeichen.",
+            "save": "Token speichern",
+            "saving": "Wird gespeichert…",
+            "saved": "Gespeichert",
+            "clear": "Token entfernen",
+            "clearing": "Wird entfernt…",
+            "clearConfirm": "Gespeichertes OpenAI-Token entfernen? „Optimieren“ funktioniert erst wieder, wenn du ein neues hinzufügst.",
+            "explainer": {
+                "paid": "„Optimieren“ nutzt OpenAI, um ein Foto neu auszuleuchten und aufzubereiten, ohne das Produkt selbst zu verändern. Jeder Durchlauf kostet ein paar Cent auf deinem OpenAI-Konto.",
+                "free": "„Hintergrund entfernen“ nutzt ein kostenloses, selbst gehostetes Modell – ohne Token und ohne Kosten. Aktiviere dafür den rembg-Dienst."
+            },
+            "errors": {
+                "loadFailed": "Die Einstellungen zur Bildoptimierung konnten nicht geladen werden.",
+                "saveFailed": "Speichern fehlgeschlagen. Bitte versuche es erneut."
+            }
+        },
+        "payments": {
+            "eyebrow": "ZAHLUNGSARTEN",
+            "title": "Zahlungsarten",
+            "subtitle": "Lege fest, wie Kunden bezahlen können. Du kannst jede Zahlungsart jederzeit ein- oder ausschalten – mindestens eine muss aktiv bleiben.",
+            "loading": "Wird geladen…",
+            "retry": "Erneut versuchen",
+            "save": "Änderungen speichern",
+            "saving": "Wird gespeichert…",
+            "card": "Kartenzahlung (Stripe)",
+            "cardHelp": "Online mit Karte bezahlen. Wird automatisch bestätigt. Erfordert Stripe-Schlüssel.",
+            "cod": "Nachnahme (bar)",
+            "codHelp": "Der Kunde zahlt bar bei Lieferung. Du markierst die Bestellung als bezahlt, sobald das Geld eingenommen ist.",
+            "bankTransfer": "Banküberweisung",
+            "bankTransferHelp": "Der Kunde überweist auf dein Konto und du markierst die Bestellung als bezahlt, sobald das Geld eingeht.",
+            "bankDetails": "Bankverbindung (wird dem Kunden angezeigt)",
+            "bankDetailsPlaceholder": "Bankname, Kontoinhaber, IBAN (XK05…) und bitte den Kunden, die Bestellnummer als Verwendungszweck anzugeben.",
+            "defaultMethod": "Vorausgewählte Zahlungsart an der Kasse",
+            "explainer": "Nachnahme und Überweisung werden manuell abgewickelt – die Bestellung wird aufgegeben und wartet, bis du sie im Bestellbereich als bezahlt markierst. Kartenzahlungen bestätigen sich selbst.",
+            "errors": {
+                "loadFailed": "Die Zahlungseinstellungen konnten nicht geladen werden.",
+                "saveFailed": "Speichern fehlgeschlagen. Bitte versuche es erneut.",
+                "invalid": "Diese Einstellungen konnten nicht gespeichert werden. Lade die Seite neu und prüfe sie erneut.",
+                "noneEnabled": "Aktiviere mindestens eine Zahlungsart.",
+                "bankDetailsRequired": "Füge die Bankverbindung hinzu, auf die Kunden überweisen sollen."
+            }
+        },
+        "calculator": {
+            "eyebrow": "STARTSEITEN-RECHNER",
+            "title": "Konstanten für die Solar-Amortisation",
+            "subtitle": "Diese fünf Zahlen und der Hinweistext steuern den Sparrechner auf der Startseite. Jede Eingabe wird serverseitig auf einen Bereich begrenzt; die Live-Vorschau zeigt vor dem Speichern, was eine Beispielrechnung von 100 €/Monat mit deinen Änderungen ergibt.",
+            "loading": "Aktuelle Einstellungen werden geladen…",
+            "save": "Änderungen speichern",
+            "saving": "Wird gespeichert…",
+            "discard": "Änderungen verwerfen",
+            "savedFeedback": "Gespeichert. Die neuen Werte sind auf der Startseite live.",
+            "field": {
+                "visible": "Rechner auf der Website anzeigen",
+                "visibleHelp": "Standardmäßig aus. Wenn aktiv, sehen Kunden den Sparrechner auf der Startseite und der Seite /calculator. Wenn aus, bleibt er überall ausgeblendet.",
+                "tariff": "Stromtarif (€/kWh)",
+                "tariffHelp": "Gemischter Haushaltstarif. Bereich 0,02 – 0,50. Kosovo 2026 ≈ 0,08.",
+                "irradiance": "Einstrahlung (kWh/kWp/Jahr)",
+                "irradianceHelp": "Jahresertrag pro installiertem kWp. Bereich 800 – 2200. PVGIS Prishtina ≈ 1400.",
+                "derating": "Systemverluste (0–1)",
+                "deratingHelp": "Reale Verluste (Wechselrichter, Verschmutzung, Temperatur). Bereich 0,60 – 0,95. Branchenstandard ≈ 0,80.",
+                "cost": "Installationskosten (€/kWp)",
+                "costHelp": "Schlüsselfertig, mittlerer Wohnbereich. Bereich 500 – 3000. Kosovo 2026 ≈ 1000.",
+                "variance": "Kostenspanne (± Anteil)",
+                "varianceHelp": "Breite der Kostenspanne. Bereich 0 – 0,50. 0,10 = ±10 %.",
+                "disclaimerEn": "Hinweistext (Englisch)",
+                "disclaimerSq": "Hinweistext (Albanisch)"
+            },
+            "preview": {
+                "title": "Vorschau · 100 €/Monat, Schrägdach",
+                "help": "Live mit deinen aktuellen Werten berechnet, mit derselben Formel wie im Backend.",
+                "systemSize": "Anlagengröße",
+                "installCost": "Installationskosten (Spanne)",
+                "payback": "Amortisation in",
+                "years": "Jahren",
+                "empty": "Gib alle fünf Zahlenwerte ein, um die Vorschau zu sehen."
+            },
+            "errors": {
+                "saveFailed": "Speichern fehlgeschlagen. Prüfe, ob die Werte im zulässigen Bereich liegen, und versuche es erneut."
+            },
+            "explainer": {
+                "toggle": "Wie funktioniert diese Berechnung?",
+                "fields": {
+                    "title": "Was jedes Feld steuert",
+                    "intro": "Jede Eingabe oben fließt in einen bestimmten Teil der Formel ein. Hier siehst du, was sie bewirkt und warum sie wichtig ist.",
+                    "tariff": {
+                        "title": "Tarif (€/kWh)",
+                        "body": "Der Preis, den der Kunde aktuell für eine Kilowattstunde Netzstrom zahlt. Damit wird seine Monatsrechnung in kWh Verbrauch zurückgerechnet – der Ausgangspunkt der ganzen Berechnung. Stimmt dieser Wert nicht, stimmt keine der folgenden Zahlen."
+                    },
+                    "irradiance": {
+                        "title": "Einstrahlung (kWh/kWp/Jahr)",
+                        "body": "Wie viel Energie eine 1-kWp-Anlage in deinem Land auf einem nach Süden geneigten Dach pro Jahr tatsächlich erzeugt. Stammt aus der PVGIS-Datenbank der EU. Größere Zahl = kleinere Anlage für dieselbe Rechnung."
+                    },
+                    "derating": {
+                        "title": "Systemverluste",
+                        "body": "Reale Verluste: Wechselrichter (~3 %), Verschmutzung der Module (~2 %), Leistungsabfall bei Sommerhitze, Leitungsverluste usw. Der Standardwert 0,80 bedeutet, dass die Anlage 80 % ihrer theoretischen Leistung liefert. Höherer Wert = kleinere (günstigere) Anlage."
+                    },
+                    "cost": {
+                        "title": "Kosten pro kWp (€)",
+                        "body": "Schlüsselfertige Installationskosten – Module, Wechselrichter, Montage, Arbeit, Genehmigungen – für ein kWp Anlagenleistung. 1.000 €/kWp ist der Mittelwert für Wohnhäuser im Kosovo; steigt, wenn die Modulpreise weltweit steigen."
+                    },
+                    "variance": {
+                        "title": "Kostenspanne",
+                        "body": "Wie breit die Kostenspanne um den Mittelwert ist. 0,10 = ±10 %, ein Mittelwert von 13.500 € wird also als 12.150–14.850 € angezeigt. Breiter = ehrlicher bei Unsicherheit; schmaler = wirkt sicherer, birgt aber das Risiko eines zu niedrigen Angebots."
+                    },
+                    "disclaimer": {
+                        "title": "Hinweistext (EN + SQ)",
+                        "body": "Wird direkt unter dem Ergebnis auf der Startseite angezeigt, damit Kunden wissen, dass es eine Schätzung und kein verbindliches Angebot ist. Wenn du Tarif oder Einstrahlung änderst, passe auch das Bezugsjahr im Hinweis an – deshalb stehen Rechnung und Rechtstext an derselben Stelle."
+                    }
+                },
+                "roof": {
+                    "title": "Dachfaktor (nicht bearbeitbar)",
+                    "body": "Der Kunde wählt einen von drei Dachtypen. Jeder passt die Einstrahlung an die reale Leistung im Vergleich zum nach Süden geneigten Referenzdach an.",
+                    "colType": "Dachtyp",
+                    "colFactor": "Faktor",
+                    "colNote": "Begründung",
+                    "tilted": "Nach Süden ausgerichtetes Schrägdach – Referenzwert.",
+                    "flat": "Flachdach; Ballast- oder flache Montage erreicht selten den optimalen Winkel, ~5 % Verlust.",
+                    "unknown": "Der Kunde hat es nicht angegeben – wir rechnen lieber mit einer etwas größeren Anlage."
+                },
+                "formula": {
+                    "title": "Die Formel, Schritt für Schritt",
+                    "intro": "Fünf Schritte von der Monatsrechnung zu den Amortisationsjahren. Jede Kundenschätzung läuft genau so auf dem Server.",
+                    "steps": {
+                        "monthlyKwh": {
+                            "title": "1. Rechnung → Verbrauch",
+                            "body": "Teile die Monatsrechnung durch den Tarif, um den Monatsverbrauch in kWh zu erhalten, und multipliziere mit 12 für den Jahreswert.",
+                            "expr": "annual_kWh = (monthly_bill ÷ tariff) × 12"
+                        },
+                        "requiredKwp": {
+                            "title": "2. Wie groß muss die Anlage sein?",
+                            "body": "Teile den Jahresverbrauch durch das, was 1 kWp Solar unter realen Bedingungen auf diesem Dach tatsächlich erzeugt.",
+                            "expr": "required_kWp = annual_kWh ÷ (irradiance × derating × roof_factor)"
+                        },
+                        "roundQuarter": {
+                            "title": "3. Auf die nächsten 0,25 aufrunden",
+                            "body": "Echte Anlagen gibt es nur in ganzen Modulschritten. Wir runden auf, damit die Anlage nie zu klein ist – lieber etwas zu groß, als den Kunden zu kurz kommen zu lassen.",
+                            "expr": "system_kWp = ⌈required_kWp × 4⌉ ÷ 4"
+                        },
+                        "cost": {
+                            "title": "4. Installationskosten (mit Spanne)",
+                            "body": "Multipliziere die Anlagengröße mit deinen Kosten pro kWp für den Mittelwert und lege dann die Spanne für einen unteren und oberen Wert darum.",
+                            "expr": "mid = system_kWp × cost_per_kWp;  range = mid × (1 ± variance)"
+                        },
+                        "payback": {
+                            "title": "5. Amortisationszeit",
+                            "body": "Wie viele Jahre eingesparter Strom die Installation zurückzahlen. Verwendet die mittleren Kosten – der Kunde sieht eine Zahl, keine Spanne.",
+                            "expr": "payback_years = mid ÷ (monthly_bill × 12)"
+                        }
+                    }
+                },
+                "example": {
+                    "title": "Rechenbeispiel mit deinen aktuellen Werten",
+                    "intro": "Beispielkunde: 100 €/Monat Rechnung, Schrägdach, Prishtina. Die Zahlen unten werden neu berechnet, während du die Eingaben oben änderst – so prüfst du eine Änderung, bevor du auf Speichern klickst.",
+                    "input": "Eingaben:",
+                    "step1": "Schritt 1 – Rechnung → kWh",
+                    "step2": "Schritt 2 – Benötigte Anlagengröße",
+                    "step3": "Schritt 3 – Auf die nächsten 0,25 kWp aufrunden",
+                    "step4": "Schritt 4 – Installationskosten",
+                    "step5": "Schritt 5 – Jährliche Ersparnis + Amortisation"
+                },
+                "safetyNote": "Tipp: Kleine Änderungen haben große Wirkung. Allein den Tarif von 0,08 auf 0,10 anzuheben, verkürzt die Amortisation bei gleicher Rechnung von ~11,3 auf ~9,0 Jahre. Sieh dir vor dem Speichern immer die Live-Vorschau an."
+            }
+        },
+        "logging": {
+            "title": "Protokollierung",
+            "subtitle": "Lege fest, wie detailliert das Backend protokolliert.",
+            "verboseMode": "Ausführlicher Modus",
+            "verboseExplanation": "Schalte das ein, um detaillierte Logs zu sehen (SQL, interne Aufrufe, Spring Security). Schalte es aus, damit die Logs ruhig bleiben und nur Wesentliches und Fehler zeigen.",
+            "current": "Aktuell",
+            "on": "An",
+            "off": "Aus",
+            "ephemeralNote": "Hinweis: Diese Einstellung wird beim Neustart des Servers auf den konfigurierten Standard zurückgesetzt.",
+            "tail": {
+                "title": "Live-Log",
+                "subtitle": "Die letzten Zeilen der Server-Logdatei. Nur verfügbar, wenn die Dateiausgabe aktiv ist (Prod-Profil oder logging.file.name gesetzt).",
+                "refresh": "Aktualisieren",
+                "loading": "Wird geladen…",
+                "autoRefresh": "Alle 5 Sek. automatisch aktualisieren",
+                "empty": "Noch keine Logzeilen."
+            }
+        },
+        "products": {
+            "categoriesError": "Wir konnten die Kategorien nicht laden. Die Liste oben ist eventuell unvollständig.",
+            "categoriesRetry": "Erneut versuchen",
+            "title": "Produkte",
+            "subtitle": "Verwalte den Katalog – Entwürfe, veröffentlichte und ausgemusterte Artikel.",
+            "new": "Produkt hinzufügen",
+            "edit": "Produkt bearbeiten",
+            "searchPlaceholder": "Nach Name oder Slug suchen…",
+            "allStatuses": "Alle Status",
+            "showDeleted": "Gelöschte anzeigen",
+            "loading": "Wird geladen…",
+            "empty": "Keine Produkte passen zu diesen Filtern.",
+            "statusDeleted": "Gelöscht",
+            "statuses": {
+                "DRAFT": "Entwurf",
+                "PUBLISHED": "Veröffentlicht",
+                "ARCHIVED": "Archiviert"
+            },
+            "reasons": {
+                "HOT_DEAL": "Top-Angebot",
+                "CLEARANCE": "Abverkauf",
+                "NEW_ARRIVAL": "Neu eingetroffen"
+            },
+            "col": {
+                "product": "Produkt",
+                "category": "Kategorie",
+                "price": "Preis",
+                "stock": "Bestand",
+                "status": "Status",
+                "spotlight": "Spotlight",
+                "actions": "Aktionen"
+            },
+            "actions": {
+                "edit": "Bearbeiten",
+                "delete": "Löschen",
+                "restore": "Wiederherstellen",
+                "spotlight": "Spotlight"
+            },
+            "form": {
+                "name": "Name",
+                "type": "Typ",
+                "status": "Status",
+                "price": "Preis (€)",
+                "salePrice": "Angebotspreis (€)",
+                "stock": "Bestand",
+                "brand": "Marke",
+                "model": "Modell",
+                "sku": "Artikelnr.",
+                "category": "Kategorie",
+                "noCategory": "Keine Kategorie",
+                "description": "Beschreibung",
+                "featured": "Auf der Startseite hervorheben",
+                "save": "Speichern",
+                "saving": "Wird gespeichert…",
+                "cancel": "Abbrechen"
+            },
+            "spotlight": {
+                "title": "Produkt ins Spotlight",
+                "help": "Wähle einen Grund, um dieses Produkt ins Regal „Gerade heiß begehrt“ zu stellen. Lass das Ablaufdatum leer für ein dauerhaftes Spotlight – es läuft, bis du es entfernst.",
+                "reason": "Grund",
+                "none": "Kein Spotlight",
+                "until": "Bis",
+                "permanent": "Leer lassen für ein dauerhaftes Spotlight."
+            },
+            "quickCreate": {
+                "title": "Neues Produkt hinzufügen",
+                "help": "Beginne mit den Grunddaten – Preise, technische Daten und Bilder ergänzt du im Editor und veröffentlichst dort.",
+                "name": "Produktname",
+                "namePlaceholder": "z. B. SolarX 450W Modul",
+                "type": "Produkttyp",
+                "brandOptional": "Marke (optional)",
+                "categoryOptional": "Kategorie (optional)",
+                "noCategory": "Keine Kategorie",
+                "createAndContinue": "Anlegen und weiter"
+            },
+            "detail": {
+                "back": "Zurück zu den Produkten",
+                "tabs": {
+                    "overview": "Übersicht",
+                    "pricing": "Preis & Bestand",
+                    "specs": "Technische Daten",
+                    "details": "Details",
+                    "links": "Links",
+                    "images": "Bilder",
+                    "spotlight": "Spotlight",
+                    "danger": "Gefahrenzone"
+                },
+                "overview": {
+                    "nameEn": "Name (Englisch)",
+                    "nameSq": "Name (Albanisch)",
+                    "descriptionEn": "Beschreibung (Englisch)",
+                    "descriptionSq": "Beschreibung (Albanisch)",
+                    "brand": "Marke",
+                    "model": "Modell",
+                    "sku": "Artikelnr.",
+                    "type": "Typ",
+                    "category": "Kategorie",
+                    "featured": "Auf der Startseite hervorheben"
+                },
+                "pricing": {
+                    "price": "Preis (€)",
+                    "salePrice": "Angebotspreis (€)",
+                    "transport": "Transportpreis (€, optional)",
+                    "installation": "Installationspreis (€, optional)",
+                    "feesHelp": "Lass Transport oder Installation leer, wenn sie nicht anfallen – Kunden sehen nur die Zeilen, die du ausfüllst.",
+                    "stock": "Bestand",
+                    "stockHelp": "Live-Bestand, wird bei jeder bezahlten Bestellung reduziert. Auf 0 setzen, um als nicht vorrätig zu markieren.",
+                    "showStock": "Live-Bestand für Kunden anzeigen",
+                    "showStockHelp": "Wenn aus, wird die Zahl auf der öffentlichen Seite ausgeblendet; Kunden sehen weiterhin „Auf Lager“ / „Nicht vorrätig“.",
+                    "transportHelp": "Optionale Gebühr, separat angezeigt, wenn das Produkt Lieferunterstützung braucht.",
+                    "installationHelp": "Optionale Servicegebühr, nur angezeigt, wenn professionelle Installation angeboten wird."
+                },
+                "details": {
+                    "title": "Produktdetails",
+                    "subtitle": "Ausführliche Informationen auf der Produktseite – technische Daten, Kompatibilität, Lieferumfang. Unterstützt Text mit Zeilenumbrüchen.",
+                    "detailsEn": "Details (Englisch)",
+                    "detailsSq": "Details (Albanisch)",
+                    "placeholder": "z. B. Lieferumfang, Kompatibilität, Zertifizierungen, Kabellängen…",
+                    "help": "Ausführliche Informationen auf der Produktseite – technische Daten, Kompatibilität und Lieferumfang."
+                },
+                "links": {
+                    "title": "Externe Links",
+                    "subtitle": "Füge Links zu Dokumentation, Datenblättern, Installationsanleitungen oder Videos hinzu. Kunden sehen sie auf der Produktseite.",
+                    "add": "Link hinzufügen",
+                    "addTitle": "Link hinzufügen",
+                    "editTitle": "Link bearbeiten",
+                    "label": "Bezeichnung (optional)",
+                    "labelPlaceholder": "z. B. Installationsanleitung",
+                    "url": "URL",
+                    "urlPlaceholder": "https://…",
+                    "save": "Link speichern",
+                    "saving": "Wird gespeichert…",
+                    "empty": "Noch keine Links. Füge oben den ersten hinzu.",
+                    "edit": "Bearbeiten",
+                    "delete": "Entfernen",
+                    "deleteConfirm": "Link „{{label}}“ löschen?",
+                    "help": "Füge Links zu Dokumentation, Datenblättern, Installationsanleitungen oder Videos hinzu.",
+                    "cancel": "Abbrechen",
+                    "noLabel": "Link ohne Titel"
+                },
+                "specs": {
+                    "wattage": "Leistung (W)",
+                    "efficiency": "Wirkungsgrad (%)",
+                    "dimensions": "Abmessungen",
+                    "weight": "Gewicht (kg)",
+                    "warranty": "Garantie (Jahre)"
+                },
+                "danger": {
+                    "title": "Gefahrenzone",
+                    "unpublish": "Dieses Produkt zurückziehen",
+                    "unpublishHelp": "Zurück in den Entwurf verschieben, damit Kunden es nicht sehen, während du Änderungen machst.",
+                    "softDelete": "Dieses Produkt löschen",
+                    "softDeleteConfirm": "Dieses Produkt löschen? Es wird archiviert und im Shop ausgeblendet.",
+                    "softDeleteHelp": "Archiviert das Produkt und blendet es im Shop aus. Du kannst es später wiederherstellen.",
+                    "restore": "Dieses Produkt wiederherstellen",
+                    "restoreHelp": "Holt das Produkt als Entwurf zurück. Du musst es erneut veröffentlichen, damit es live ist."
+                }
+            },
+            "publish": {
+                "title": "Bereit zur Veröffentlichung",
+                "helpReady": "Alles in Ordnung. Du kannst dieses Produkt jetzt veröffentlichen.",
+                "helpNotReady": "Behebe die Punkte unten, bevor dieses Produkt live gehen kann.",
+                "button": "Veröffentlichen",
+                "unpublishButton": "Zurückziehen",
+                "publishing": "Wird veröffentlicht…",
+                "saved": "Gespeichert."
+            },
+            "images": {
+                "title": "Produktbilder",
+                "subtitle": "Lade Fotos hoch, lege ein Hauptbild fest und ändere die Reihenfolge. Das Hauptbild wird im Shop zuerst angezeigt.",
+                "upload": "Bild hochladen",
+                "uploading": "Wird hochgeladen…",
+                "searchPlaceholder": "Nach Dateiname suchen…",
+                "dropHint": "Wähle eine JPG-, PNG-, WEBP- oder GIF-Datei. Dateien werden unter ihrem Namen gespeichert, damit du sie später leicht findest.",
+                "empty": "Noch keine Bilder. Lade das erste hoch, um zu starten.",
+                "primary": "Hauptbild",
+                "makePrimary": "Als Hauptbild festlegen",
+                "isMain": "Hauptbild",
+                "delete": "Bild löschen",
+                "deleteConfirm": "Bild „{{filename}}“ löschen?",
+                "moveUp": "Nach oben",
+                "moveDown": "Nach unten",
+                "altText": "Alternativtext",
+                "previewUnavailable": "Vorschau nicht verfügbar"
+            },
+            "enhance": {
+                "cleanBackground": "Hintergrund entfernen (kostenlos)",
+                "enhance": "Mit KI optimieren",
+                "needsToken": "Füge in den Einstellungen ein OpenAI-Token hinzu, um „Optimieren“ zu nutzen",
+                "processing": "Wird optimiert…",
+                "reviewTitle": "Optimiertes Foto prüfen",
+                "reviewHint": "Vergleiche das Original mit dem KI-Ergebnis. Übernimm es, um das Live-Foto zu ersetzen, oder verwirf es – das Original bleibt immer gespeichert.",
+                "original": "Original",
+                "enhanced": "Optimiert",
+                "apply": "Übernehmen",
+                "applying": "Wird übernommen…",
+                "discard": "Verwerfen"
+            }
+        },
+        "reviews": {
+            "title": "Bewertungen prüfen",
+            "subtitle": "Kundenbewertungen freigeben, ablehnen oder entfernen. Nur freigegebene Bewertungen erscheinen im Shop.",
+            "loading": "Wird geladen…",
+            "empty": "Keine Bewertungen passen zu diesen Filtern.",
+            "loadError": "Wir konnten die Bewertungen gerade nicht laden.",
+            "deleteConfirm": "Diese Bewertung löschen? Das kann nicht rückgängig gemacht werden.",
+            "filters": {
+                "all": "Alle",
+                "pending": "Ausstehend",
+                "approved": "Freigegeben",
+                "rejected": "Abgelehnt"
+            },
+            "status": {
+                "PENDING": "Ausstehend",
+                "APPROVED": "Freigegeben",
+                "REJECTED": "Abgelehnt"
+            },
+            "actions": {
+                "approve": "Freigeben",
+                "reject": "Ablehnen",
+                "delete": "Löschen"
+            }
+        },
+        "emails": {
+            "title": "E-Mail-Ausgang",
+            "subtitle": "Jede transaktionale E-Mail, die das System eingereiht, gesendet oder nicht zustellen konnte. Neueste zuerst.",
+            "recipient": "Empfänger",
+            "subject": "Betreff",
+            "template": "Vorlage",
+            "status": "Status",
+            "attempts": "Versuche",
+            "createdAt": "Erstellt",
+            "empty": "Keine E-Mails passen zu diesem Filter.",
+            "loadError": "Wir konnten den E-Mail-Ausgang nicht laden. Bitte versuche es erneut.",
+            "pageOf": "Seite {{page}} von {{total}}",
+            "filterAll": "Alle",
+            "filterPending": "Ausstehend",
+            "filterSent": "Gesendet",
+            "filterFailed": "Fehlgeschlagen"
+        },
+        "contact": {
+            "title": "Kontaktnachrichten",
+            "subtitle": "Nachrichten von Kunden über das öffentliche /contact-Formular. Neueste zuerst.",
+            "empty": "Keine Nachrichten passen zu diesem Filter.",
+            "loadError": "Wir konnten die Kontaktnachrichten nicht laden. Bitte versuche es erneut.",
+            "pageOf": "Seite {{page}} von {{total}}",
+            "deleteConfirm": "Nachricht von {{name}} löschen?",
+            "filters": {
+                "all": "Alle",
+                "new": "Neu",
+                "inProgress": "In Bearbeitung",
+                "resolved": "Erledigt",
+                "spam": "Spam"
+            },
+            "col": {
+                "from": "Von",
+                "subject": "Betreff",
+                "message": "Nachricht",
+                "status": "Status",
+                "received": "Eingegangen",
+                "actions": "Aktionen"
+            },
+            "status": {
+                "NEW": "Neu",
+                "IN_PROGRESS": "In Bearbeitung",
+                "RESOLVED": "Erledigt",
+                "SPAM": "Spam"
+            },
+            "actions": {
+                "view": "Nachricht ansehen",
+                "reply": "Per E-Mail antworten",
+                "delete": "Löschen"
+            },
+            "detail": {
+                "noSubject": "(kein Betreff)",
+                "reply": "Per E-Mail antworten"
+            }
+        },
+        "installation": {
+            "title": "Installationsprojekte",
+            "subtitle": "Verfolge jeden Installationsauftrag – wer, wo, was installiert wird und wie weit es ist. Servicemodelle bestimmen die Standardpreise im Shop.",
+            "tabs": {
+                "jobs": "Aufträge",
+                "models": "Servicemodelle"
+            },
+            "jobs": {
+                "title": "Installationsaufträge",
+                "subtitle": "Neueste zuerst. Nach Status filtern, nach Kunden-E-Mail suchen.",
+                "new": "Neuer Auftrag",
+                "edit": "Auftrag bearbeiten",
+                "searchPlaceholder": "Nach Kunden-E-Mail suchen",
+                "refresh": "Aktualisieren",
+                "loading": "Aufträge werden geladen…",
+                "empty": "Keine Installationsaufträge passen zu diesem Filter.",
+                "deleteConfirm": "Installationsauftrag für {{name}} löschen? Das kann nicht rückgängig gemacht werden.",
+                "cancelReason": "Grund für die Stornierung (optional, aber hilfreich)",
+                "move": "Verschieben nach…",
+                "filterAll": "Alle",
+                "status": {
+                    "REQUESTED": "Angefragt",
+                    "SCHEDULED": "Geplant",
+                    "IN_PROGRESS": "In Arbeit",
+                    "ON_HOLD": "Angehalten",
+                    "COMPLETED": "Abgeschlossen",
+                    "CANCELLED": "Storniert"
+                },
+                "col": {
+                    "customer": "Kunde",
+                    "site": "Standort",
+                    "products": "Produkte",
+                    "installer": "Installateur",
+                    "scheduled": "Geplant",
+                    "status": "Status",
+                    "actions": "Aktionen"
+                },
+                "actions": {
+                    "edit": "Bearbeiten",
+                    "delete": "Löschen"
+                },
+                "form": {
+                    "customerName": "Kundenname",
+                    "customerEmail": "Kunden-E-Mail",
+                    "customerPhone": "Telefon (optional)",
+                    "installer": "Zugewiesener Installateur",
+                    "installerHint": "Name des Technikers oder Teams",
+                    "siteStreet": "Straße und Hausnummer",
+                    "siteCity": "Stadt",
+                    "sitePostal": "Postleitzahl",
+                    "siteCountry": "Land",
+                    "option": "Servicemodell",
+                    "optionNone": "Keins – individueller Auftrag",
+                    "scheduledAt": "Geplant für",
+                    "basePrice": "Grundpreis (€)",
+                    "finalCost": "Endkosten (€)",
+                    "notes": "Notizen",
+                    "products": "Zu installierende Produkte",
+                    "addItem": "Produkt hinzufügen",
+                    "itemPickProduct": "Produkt wählen…",
+                    "itemUnit": "Stückpreis",
+                    "noItems": "Noch keine Produkte – füge eins hinzu, wenn dieser Auftrag bestimmte Geräte umfasst.",
+                    "cancel": "Abbrechen",
+                    "save": "Auftrag speichern",
+                    "saving": "Wird gespeichert…"
+                },
+                "errors": {
+                    "customerNameRequired": "Kundenname ist erforderlich.",
+                    "customerEmailRequired": "Kunden-E-Mail ist erforderlich.",
+                    "itemProductRequired": "Wähle für jede Zeile ein Produkt.",
+                    "itemQtyInvalid": "Die Menge muss mindestens 1 sein."
+                }
+            },
+            "models": {
+                "title": "Servicemodelle",
+                "new": "Neues Modell",
+                "edit": "Bearbeiten",
+                "delete": "Löschen",
+                "defaultBadge": "STANDARD",
+                "basePrice": "Grundpreis",
+                "empty": "Noch keine Servicemodelle – lege eins an, um den Standard-Installationspreis an der Kasse festzulegen.",
+                "loading": "Modelle werden geladen…",
+                "deleteConfirm": "Servicemodell „{{name}}“ löschen? Bestehende Aufträge behalten ihren ursprünglichen Preis.",
+                "pricing": {
+                    "FIXED": "Pauschale",
+                    "PER_KW": "Pro kW",
+                    "REGION": "Regionsabhängig"
+                },
+                "form": {
+                    "name": "Name",
+                    "pricingModel": "Preismodell",
+                    "basePrice": "Grundpreis (€)",
+                    "perKwPrice": "Preis pro kW (€, optional)",
+                    "description": "Beschreibung",
+                    "isDefault": "Standardmodell (an der Kasse verwendet)",
+                    "isActive": "Aktiv (für Kunden sichtbar)",
+                    "cancel": "Abbrechen",
+                    "save": "Modell speichern",
+                    "saving": "Wird gespeichert…"
+                },
+                "errors": {
+                    "nameRequired": "Name ist erforderlich.",
+                    "basePriceRequired": "Grundpreis ist erforderlich und muss ≥ 0 sein."
+                }
+            }
+        },
+        "orders": {
+            "eyebrow": "Abwicklung",
+            "title": "Bestellungen",
+            "subtitle": "Prüfe jede Bestellung, sieh dir die Positionen an und führe sie durch die Status-Schritte.",
+            "loading": "Bestellungen werden geladen…",
+            "loadError": "Wir konnten die Bestellungen gerade nicht laden.",
+            "updateError": "Wir konnten die Bestellung gerade nicht aktualisieren.",
+            "empty": "Keine Bestellungen passen zu diesem Filter.",
+            "emptyHint": "Setze den Zeitraum oder Statusfilter zurück – dein Treffer liegt wahrscheinlich auf einer früheren Seite.",
+            "bulk": {
+                "selectAll": "Alle auswählen",
+                "selected": "{{n}} ausgewählt",
+                "pickStatus": "Status ändern zu…",
+                "apply": "Anwenden",
+                "applying": "Wird angewendet…",
+                "clear": "Aufheben",
+                "applied": "{{updated}} aktualisiert · {{skipped}} übersprungen",
+                "confirm": "{{n}} Bestellungen auf {{status}} setzen? Das lässt sich schwer rückgängig machen.",
+                "confirmApply": "Ja, verschieben"
+            },
+            "view": "Ansehen",
+            "previous": "Zurück",
+            "next": "Weiter",
+            "pageOf": "Seite {{page}} von {{total}}",
+            "itemCount": "{{count}} Artikel",
+            "totalOne": "1 Bestellung",
+            "totalMany": "{{count}} Bestellungen",
+            "filters": {
+                "customerEmail": "Kunden-E-Mail",
+                "customerEmailPlaceholder": "Nach Kunden-E-Mail suchen",
+                "status": "Status",
+                "allStatuses": "Alle",
+                "from": "Von",
+                "to": "Bis",
+                "apply": "Anwenden",
+                "reset": "Zurücksetzen",
+                "dateRange": "Zeitraum",
+                "today": "Heute",
+                "last7": "Letzte 7 Tage",
+                "last30": "Letzte 30 Tage",
+                "custom": "Eigener Zeitraum",
+                "all": "Gesamter Zeitraum"
+            },
+            "col": {
+                "order": "Bestellung",
+                "customer": "Kunde",
+                "placed": "Aufgegeben",
+                "total": "Gesamt",
+                "status": "Status",
+                "items": "Artikel",
+                "actions": "Aktionen"
+            },
+            "status": {
+                "PENDING": "Ausstehend",
+                "PAID": "Bezahlt",
+                "ON_HOLD": "Angehalten",
+                "PROCESSING": "In Bearbeitung",
+                "SHIPPED": "Versandt",
+                "DELIVERED": "Zugestellt",
+                "CANCELLED": "Storniert",
+                "FAILED": "Fehlgeschlagen",
+                "REFUNDED": "Erstattet",
+                "RETURNED": "Zurückgegeben"
+            },
+            "detail": {
+                "title": "Ausgewählte Bestellung",
+                "emptyTitle": "Wähle eine Bestellung",
+                "empty": "Wähle eine Zeile, um Kunde, Artikel, Zahlungsverlauf und den nächsten zulässigen Status zu sehen.",
+                "customer": "Kunde",
+                "customerFallback": "Unbekannter Kunde",
+                "shipping": "Lieferadresse",
+                "paymentIntent": "Stripe Payment Intent",
+                "payment": "Zahlung",
+                "paymentDev": "Testmodus",
+                "copyId": "ID kopieren",
+                "copied": "Kopiert!",
+                "installation": "Installationsauftrag",
+                "installationLinked": "Verknüpft",
+                "installationOpen": "Auftrag öffnen",
+                "noInstallation": "Kein verknüpfter Installationsauftrag.",
+                "items": "Artikel",
+                "noItems": "Diese Bestellung hat keine Positionen.",
+                "noProductName": "Produkt entfernt",
+                "quantity": "Menge: {{count}}",
+                "timeline": "Verlauf",
+                "created": "Erstellt",
+                "updated": "Aktualisiert",
+                "paid": "Bezahlt",
+                "shipped": "Versandt",
+                "delivered": "Zugestellt",
+                "cancelled": "Storniert",
+                "reason": "Grund",
+                "moveTitle": "Bestellung verschieben",
+                "holdBack": "Pausieren / zurückstufen",
+                "moveHelp": "Hier werden nur zulässige nächste Status angeboten. Optionale Notizen werden bei Stornierungen, Fehlschlägen und Erstattungen gespeichert.",
+                "noTransitions": "Diese Bestellung ist bereits abgeschlossen.",
+                "nextStatus": "Nächster Status",
+                "nextStatusPlaceholder": "Nächsten Status wählen",
+                "reasonHelp": "Optional, aber hilfreich, wenn die Statusänderung Kontext braucht.",
+                "confirmTitle": "Diese Bestellung auf {{status}} setzen?",
+                "confirmHelp": "Das lässt sich schwer rückgängig machen. Du kannst eine Notiz zum Grund hinzufügen.",
+                "confirmApply": "Ja, verschieben",
+                "confirmCancel": "So lassen",
+                "apply": "Übergang anwenden",
+                "applying": "Wird gespeichert…",
+                "priceBreakdown": {
+                    "subtotal": "Warenwert",
+                    "transport": "Transport",
+                    "installation": "Installation",
+                    "coupon": "Gutschein",
+                    "vatIncluded": "Davon MwSt. ({{rate}} %)",
+                    "total": "Abgerechneter Gesamtbetrag"
+                },
+                "trackingTitle": "Sendungsverfolgung",
+                "trackingHelp": "Trage Versanddienst und Sendungsnummer ein, sobald das Paket rausgeht. Der Kunde sieht das auf seiner Bestellseite.",
+                "trackingActive": "Aktuell hinterlegt",
+                "trackingNumber": "Sendungsnummer",
+                "trackingOpen": "Tracking-Seite öffnen →",
+                "carrier": "Versanddienst",
+                "carrierPick": "Versanddienst wählen…",
+                "saveTracking": "Tracking speichern",
+                "savingTracking": "Wird gespeichert…",
+                "clearTracking": "Tracking entfernen"
+            }
+        },
+        "blog": {
+            "list": {
+                "title": "Blogbeiträge",
+                "subtitle": "Schreibe, bearbeite und veröffentliche zweisprachige Blogbeiträge. Lege sie mit dem Nötigsten an und ergänze den Rest im Editor.",
+                "new": "Neuer Beitrag",
+                "searchPlaceholder": "Nach Titel oder Slug suchen",
+                "allStatuses": "Alle Status",
+                "showDeleted": "Gelöschte anzeigen",
+                "loading": "Beiträge werden geladen…",
+                "empty": "Keine Beiträge passen zu diesem Filter.",
+                "col": {
+                    "post": "Beitrag",
+                    "category": "Kategorie",
+                    "status": "Status",
+                    "published": "Veröffentlicht",
+                    "views": "Aufrufe",
+                    "likes": "Likes",
+                    "actions": "Aktionen"
+                },
+                "neverPublished": "—",
+                "deleteConfirm": "„{{title}}“ löschen? Er kann in der Gefahrenzone wiederhergestellt werden.",
+                "restoreConfirm": "„{{title}}“ als Entwurf wiederherstellen?",
+                "deleteFailed": "Löschen fehlgeschlagen."
+            },
+            "statusDeleted": "Gelöscht",
+            "statuses": {
+                "DRAFT": "Entwurf",
+                "PUBLISHED": "Veröffentlicht",
+                "ARCHIVED": "Archiviert"
+            },
+            "actions": {
+                "edit": "Beitrag bearbeiten",
+                "delete": "Beitrag löschen",
+                "restore": "Beitrag wiederherstellen"
+            },
+            "quickCreate": {
+                "title": "Neuer Blogbeitrag",
+                "help": "Nur das Wichtigste – alles andere ergänzt du im Editor.",
+                "titleEn": "Titel (Englisch)",
+                "titleSq": "Titel (Albanisch)",
+                "category": "Kategorie (optional)",
+                "noCategory": "Keine Kategorie",
+                "create": "Anlegen und weiter",
+                "saving": "Wird angelegt…"
+            },
+            "categories": {
+                "title": "Blog-Kategorien",
+                "subtitle": "Gruppiere Beiträge nach Thema. Namen sind in beiden Sprachen erforderlich; der Slug wird aus dem englischen Namen erzeugt.",
+                "new": "Neue Kategorie",
+                "edit": "Kategorie bearbeiten",
+                "loading": "Kategorien werden geladen…",
+                "empty": "Noch keine Kategorien.",
+                "active": "Aktiv",
+                "inactive": "Inaktiv",
+                "col": {
+                    "nameEn": "Name (EN)",
+                    "nameSq": "Name (SQ)",
+                    "slug": "Slug",
+                    "order": "Reihenfolge",
+                    "active": "Zustand",
+                    "actions": "Aktionen"
+                },
+                "actions": {
+                    "edit": "Kategorie bearbeiten",
+                    "delete": "Kategorie löschen"
+                },
+                "form": {
+                    "nameEn": "Name (Englisch)",
+                    "nameSq": "Name (Albanisch)",
+                    "descriptionEn": "Beschreibung (Englisch)",
+                    "descriptionSq": "Beschreibung (Albanisch)",
+                    "sortOrder": "Sortierreihenfolge",
+                    "active": "Für Leser sichtbar",
+                    "save": "Speichern",
+                    "saving": "Wird gespeichert…"
+                }
+            },
+            "tags": {
+                "title": "Blog-Tags",
+                "subtitle": "Freie Schlagwörter für Beiträge. Namen sind in beiden Sprachen erforderlich; der Slug wird aus dem englischen Namen erzeugt.",
+                "new": "Neuer Tag",
+                "edit": "Tag bearbeiten",
+                "loading": "Tags werden geladen…",
+                "empty": "Noch keine Tags.",
+                "col": {
+                    "nameEn": "Name (EN)",
+                    "nameSq": "Name (SQ)",
+                    "slug": "Slug",
+                    "actions": "Aktionen"
+                },
+                "actions": {
+                    "edit": "Tag bearbeiten",
+                    "delete": "Tag löschen"
+                },
+                "form": {
+                    "nameEn": "Name (Englisch)",
+                    "nameSq": "Name (Albanisch)",
+                    "save": "Speichern",
+                    "saving": "Wird gespeichert…"
+                }
+            },
+            "comments": {
+                "title": "Blog-Kommentare",
+                "subtitle": "Gib Leserkommentare frei, lehne sie ab oder entferne sie, bevor sie unter einem Beitrag erscheinen.",
+                "loading": "Kommentare werden geladen…",
+                "empty": "Keine Kommentare passen zu diesem Filter.",
+                "deleteConfirm": "Diesen Kommentar löschen? Das kann nicht rückgängig gemacht werden.",
+                "filters": {
+                    "pending": "Ausstehend",
+                    "all": "Alle",
+                    "approved": "Freigegeben",
+                    "rejected": "Abgelehnt"
+                },
+                "status": {
+                    "PENDING": "Ausstehend",
+                    "APPROVED": "Freigegeben",
+                    "REJECTED": "Abgelehnt"
+                },
+                "actions": {
+                    "approve": "Freigeben",
+                    "reject": "Ablehnen",
+                    "delete": "Löschen"
+                }
+            },
+            "detail": {
+                "back": "Zurück zu den Blogbeiträgen",
+                "loading": "Beitrag wird geladen…",
+                "notFound": "Beitrag nicht gefunden.",
+                "saved": "Gespeichert",
+                "save": "Speichern",
+                "saving": "Wird gespeichert…",
+                "tabs": {
+                    "overview": "Übersicht",
+                    "seo": "SEO",
+                    "sections": "Abschnitte",
+                    "links": "Links",
+                    "related": "Passende Produkte",
+                    "danger": "Gefahrenzone"
+                },
+                "publish": {
+                    "title": "Bereit zur Veröffentlichung",
+                    "helpReady": "Alles bereit – dieser Beitrag kann veröffentlicht werden.",
+                    "helpNotReady": "Erledige die Checkliste unten vor der Veröffentlichung.",
+                    "button": "Veröffentlichen",
+                    "unpublishButton": "Zurückziehen",
+                    "publishing": "Wird veröffentlicht…"
+                },
+                "overview": {
+                    "titleEn": "Titel (Englisch)",
+                    "titleSq": "Titel (Albanisch)",
+                    "excerptEn": "Auszug (Englisch)",
+                    "excerptSq": "Auszug (Albanisch)",
+                    "summaryEn": "Zusammenfassung (Englisch)",
+                    "summarySq": "Zusammenfassung (Albanisch)",
+                    "coverImage": "URL des Titelbilds",
+                    "ogImage": "Bild für Social Media (OG)",
+                    "readingMinutes": "Lesezeit in Minuten",
+                    "category": "Kategorie",
+                    "noCategory": "Keine Kategorie",
+                    "featured": "Auf der Blog-Startseite hervorheben",
+                    "tags": "Tags",
+                    "noTags": "Noch keine Tags"
+                },
+                "seo": {
+                    "help": "Optional. Bleibt das Feld leer, verwenden wir Titel und Auszug des Beitrags.",
+                    "metaTitleEn": "Meta-Titel (Englisch)",
+                    "metaTitleSq": "Meta-Titel (Albanisch)",
+                    "metaDescriptionEn": "Meta-Beschreibung (Englisch)",
+                    "metaDescriptionSq": "Meta-Beschreibung (Albanisch)"
+                },
+                "sections": {
+                    "add": "Abschnitt hinzufügen",
+                    "empty": "Noch keine Abschnitte – füge den ersten hinzu.",
+                    "types": {
+                        "HEADING": "Überschrift",
+                        "PARAGRAPH": "Absatz",
+                        "IMAGE": "Bild",
+                        "QUOTE": "Zitat",
+                        "CALLOUT": "Hinweisbox",
+                        "LIST": "Liste",
+                        "KEY_TAKEAWAYS": "Das Wichtigste",
+                        "VIDEO": "Video"
+                    },
+                    "bodyEn": "Text (Englisch)",
+                    "bodySq": "Text (Albanisch)",
+                    "imageUrl": "Bild-URL",
+                    "altEn": "Alternativtext (Englisch)",
+                    "altSq": "Alternativtext (Albanisch)",
+                    "attribution": "Quelle",
+                    "tone": "Ton",
+                    "toneInfo": "Info",
+                    "toneWarning": "Warnung",
+                    "toneSuccess": "Erfolg",
+                    "itemsEn": "Punkte (Englisch) – einer pro Zeile",
+                    "itemsSq": "Punkte (Albanisch) – einer pro Zeile",
+                    "videoUrl": "Video-URL",
+                    "videoUrlHint": "YouTube- oder Vimeo-URL",
+                    "moveUp": "Nach oben",
+                    "moveDown": "Nach unten",
+                    "delete": "Abschnitt löschen",
+                    "deleteConfirm": "Diesen Abschnitt löschen?"
+                },
+                "links": {
+                    "help": "Externe Links neben dem Artikel – Datenblätter, Herstellerseiten, passende Anleitungen.",
+                    "add": "Link hinzufügen",
+                    "edit": "Link bearbeiten",
+                    "empty": "Noch keine Links.",
+                    "delete": "Link löschen",
+                    "deleteConfirm": "Diesen Link löschen?",
+                    "label": "Bezeichnung (optional)",
+                    "url": "URL",
+                    "displayOrder": "Anzeigereihenfolge",
+                    "save": "Speichern",
+                    "saving": "Wird gespeichert…"
+                },
+                "related": {
+                    "help": "Wähle Produkte, die zu diesem Artikel passen – sie erscheinen in der Seitenleiste.",
+                    "searchPlaceholder": "Produkte suchen…",
+                    "save": "Passende Produkte speichern",
+                    "saving": "Wird gespeichert…",
+                    "empty": "Keine Produkte passen zu deiner Suche."
+                },
+                "danger": {
+                    "title": "Gefahrenzone",
+                    "help": "Gelöschte Beiträge sind für Leser ausgeblendet, können aber in der Listenansicht wiederhergestellt werden.",
+                    "delete": "Beitrag löschen",
+                    "deleteConfirm": "Diesen Beitrag löschen? Er kann in der Listenansicht wiederhergestellt werden.",
+                    "restore": "Beitrag wiederherstellen"
+                }
+            }
+        }
+    },
+    "mobileCta": {
+        "getQuote": "Kostenloses Angebot",
+        "call": "Anrufen",
+        "phone": "+383 44 000 000"
+    },
+    "footer": {
+        "tagline": "Premium-Solartechnik, professionelle Installation und ein Team, das dranbleibt. Für Haushalte, die Energie ernst nehmen.",
+        "getQuote": "Angebot anfordern",
+        "callUs": "Ruf uns an",
+        "cols": {
+            "shop": "Shop",
+            "learn": "Wissen",
+            "account": "Konto",
+            "contact": "Kontakt"
+        },
+        "links": {
+            "allProducts": "Alle Produkte",
+            "panels": "Module",
+            "inverters": "Wechselrichter",
+            "batteries": "Batterien",
+            "howItWorks": "So funktioniert es",
+            "calculator": "Sparrechner",
+            "blog": "Blog",
+            "whyUs": "Warum SolarX",
+            "faq": "FAQ",
+            "signIn": "Anmelden",
+            "createAccount": "Konto erstellen",
+            "cart": "Warenkorb"
+        },
+        "location": "Prishtina, Kosovo",
+        "openContact": "Kontakt öffnen",
+        "rights": "Alle Rechte vorbehalten.",
+        "legal": {
+            "privacy": "Datenschutz",
+            "terms": "AGB",
+            "cookies": "Cookies"
+        },
+        "poweredBySun": "Von der Sonne angetrieben"
+    },
+    "legal": {
+        "eyebrow": "Rechtliches",
+        "title": "Rechtliches & Richtlinien",
+        "lastUpdated": "Zuletzt aktualisiert: Juni 2026",
+        "tabs": {
+            "privacy": "Datenschutzerklärung",
+            "terms": "Nutzungsbedingungen",
+            "cookies": "Cookie-Richtlinie"
+        },
+        "reviewNote": "Dies ist eine verständliche Zusammenfassung zur Transparenz. Bevor du dich bei einem Kauf oder Streitfall darauf stützt, lass die vollständige Richtlinie bitte von einer qualifizierten Rechtsberatung für deine Rechtsordnung prüfen."
+    },
+    "calculatorPage": {
+        "eyebrow": "Sparrechner",
+        "title": "Sieh, wie viel du mit Solar sparen könntest",
+        "subtitle": "Gib deine monatliche Stromrechnung und deinen Dachtyp ein und erhalte sofort eine Schätzung zu Anlagengröße, Kosten und Amortisation. Ohne Anmeldung, unverbindlich."
+    },
+    "howItWorks": {
+        "eyebrow": "So funktioniert es",
+        "title": "In vier Schritten vom Angebot zur Ersparnis",
+        "subtitle": "Mit SolarX auf Solar umzusteigen ist einfach. Hier siehst du genau, was passiert – und wie lange jeder Schritt dauert.",
+        "includedTitle": "Was enthalten ist",
+        "ctaTitle": "Bereit loszulegen?",
+        "ctaSubtitle": "Erhalte innerhalb von 24 Stunden ein kostenloses, unverbindliches Angebot.",
+        "ctaQuote": "Kostenloses Angebot",
+        "ctaCalculator": "Rechner ausprobieren"
+    },
+    "whyUs": {
+        "eyebrow": "Warum SolarX",
+        "title": "Solar, richtig gemacht",
+        "subtitle": "Ein Modul verkaufen kann jeder. Wir planen, installieren und stehen hinter einer kompletten Anlage – mit hochwertiger Hardware, ehrlichen Preisen und einem Team, das du wirklich erreichst.",
+        "ctaTitle": "Lass uns deine Anlage dimensionieren",
+        "ctaSubtitle": "Nenne uns deine Rechnung und dein Dach, und wir melden uns mit einem klaren Angebot – kein Druck, kein Fachchinesisch.",
+        "ctaQuote": "Kostenloses Angebot",
+        "ctaShop": "Produkte ansehen"
+    },
+    "faq": {
+        "eyebrow": "FAQ",
+        "title": "Fragen und Antworten",
+        "subtitle": "Was uns die Leute am häufigsten fragen, bevor sie auf Solar umsteigen.",
+        "stillQuestions": "Noch eine Frage?",
+        "contactCta": "Sprich mit uns"
+    },
+    "cookieConsent": {
+        "message": "Wir verwenden notwendige Cookies, damit du angemeldet bleibst, dein Warenkorb erhalten bleibt und deine Sprache gespeichert wird.",
+        "learnMore": "Cookie-Richtlinie",
+        "accept": "Verstanden"
+    },
+    "cart": {
+        "titlePrefix": "DEIN",
+        "titleSuffix": "WARENKORB",
+        "title": "DEIN",
+        "highlight": "WARENKORB",
+        "empty": "Dein Warenkorb ist leer.",
+        "loadError": "Wir konnten deinen Warenkorb nicht laden. Bitte versuche es erneut.",
+        "retry": "Erneut versuchen",
+        "summary": "Bestellübersicht",
+        "subtotal": "Zwischensumme",
+        "shipping": "Versand",
+        "shippingValue": "KOSTENLOS",
+        "transport": "Transport",
+        "installation": "Installation",
+        "dealDiscount": "Ersparnis durch Angebote",
+        "stockIssues": {
+            "title": "Einige Artikel in deinem Warenkorb brauchen deine Aufmerksamkeit",
+            "insufficient": "{{name}} – du hast {{requested}} im Warenkorb, aber nur noch {{available}} auf Lager.",
+            "insufficientNoCount": "{{name}} – für die Menge in deinem Warenkorb ist nicht genug auf Lager.",
+            "unavailable": "{{name}} ist nicht mehr verfügbar.",
+            "checkoutBlocked": "Passe deinen Warenkorb an, um fortzufahren"
+        },
+        "total": "Gesamt",
+        "checkout": "Zur Kasse",
+        "continue": "Weiter einkaufen",
+        "goShopping": "Jetzt einkaufen",
+        "saveForLater": "Für später merken",
+        "increase": "Menge erhöhen",
+        "priceChanged": "Der Preis hat sich seit dem Hinzufügen von {{from}} auf {{to}} geändert.",
+        "maxStock": "Nur noch {{count}} auf Lager",
+        "savedTitle": "Für später gemerkt",
+        "savedSubtitle": "Artikel, die du dir für später gemerkt hast. Lege sie in den Warenkorb, sobald du bereit bist.",
+        "savedEmpty": "Noch nichts für später gemerkt.",
+        "moveToCart": "In den Warenkorb",
+        "removeSaved": "Entfernen",
+        "savedSignInPrompt": "Melde dich an, um Artikel für später zu merken.",
+        "quoteError": "Wir konnten deine Preise nicht aktualisieren. Die Summen unten sind eventuell nicht aktuell.",
+        "quoteRetry": "Erneut versuchen"
+    },
+    "checkout": {
+        "stockIssues": {
+            "fixInCart": "Zurück zum Warenkorb, um das zu beheben"
+        },
+        "quote": {
+            "retry": "Erneut versuchen"
+        },
+        "titlePrefix": "SICHERE",
+        "titleSuffix": "KASSE",
+        "title": "SICHERE",
+        "highlight": "KASSE",
+        "shippingAddress": "Lieferadresse",
+        "back": "Zurück",
+        "steps": {
+            "address": "Adresse",
+            "review": "Prüfen",
+            "payment": "Zahlung"
+        },
+        "payment": {
+            "title": "Zahlungsart",
+            "stripe": "Sichere Kartenzahlung über Stripe",
+            "secure": "Deine Transaktion ist sicher und verschlüsselt",
+            "methodTitle": "Wie möchtest du bezahlen?",
+            "methods": {
+                "stripe": "Kartenzahlung",
+                "cash_on_delivery": "Nachnahme (bar)",
+                "bank_transfer": "Banküberweisung"
+            },
+            "methodHints": {
+                "stripe": "Jetzt sicher mit Karte bezahlen.",
+                "cash_on_delivery": "Bar bezahlen, wenn deine Bestellung ankommt.",
+                "bank_transfer": "Auf unser Bankkonto überweisen – wir bestätigen, sobald das Geld eingeht."
+            },
+            "offline": {
+                "codIntro": "Du zahlst bar, wenn deine Bestellung geliefert wird. Gib die Bestellung auf, um sie zu bestätigen.",
+                "bankIntro": "Überweise den Gesamtbetrag auf das unten stehende Konto und gib deine Bestellnummer als Verwendungszweck an. Wir bestätigen deine Bestellung, sobald die Zahlung eingeht.",
+                "place": "Bestellung aufgeben"
+            },
+            "confirming": "Zahlung wird bestätigt...",
+            "pay": "{{amount}} bezahlen",
+            "devBypass": {
+                "title": "Demo-Modus – keine echte Karte nötig",
+                "body": "Dies ist eine Vorführversion, es wird keine echte Zahlung ausgeführt. Klicke unten, um eine erfolgreiche Kartenzahlung zu simulieren und zu sehen, wie die Bestellung nach der Bezahlung aussieht.",
+                "pay": "Demo-Zahlung bestätigen ({{amount}})"
+            }
+        },
+        "choice": {
+            "title": "BESTELLART WÄHLEN",
+            "subtitle": "Wähle, wie du mit deiner Bestellung fortfahren möchtest",
+            "guest": "ALS GAST BESTELLEN",
+            "login": "MIT KONTO ANMELDEN",
+            "register": "KONTO ERSTELLEN"
+        },
+        "shippingInfo": "Lieferinformationen",
+        "form": {
+            "name": "Vollständiger Name",
+            "email": "E-Mail-Adresse",
+            "address": "Lieferadresse",
+            "nameRequired": "Bitte gib deinen vollständigen Namen ein.",
+            "addressRequired": "Bitte gib deine Lieferadresse ein.",
+            "emailUnavailable": "Wir konnten die E-Mail-Adresse deines Kontos nicht lesen. Lade die Seite neu oder melde dich erneut an.",
+            "installation": "INSTALLATIONSWUNSCH",
+            "installationPlaceholder": "Wunschtermin oder Hinweise eingeben...",
+            "installationToggle": "Professionelle Installation hinzufügen",
+            "installationHelp": "Unser Team übernimmt Lieferung und Installation vor Ort. Häkchen entfernen, um selbst zu installieren.",
+            "installationNoFee": "Inklusive",
+            "installationNoSchedule": "(kein Wunsch)",
+            "continue": "Weiter"
+        },
+        "review": {
+            "title": "Bestellung prüfen",
+            "subtitle": "Bitte prüfe die Angaben unten vor der Zahlung.",
+            "continue": "Weiter zur Zahlung",
+            "creating": "Deine Bestellung wird vorbereitet...",
+            "continueToPayment": "Weiter zur Zahlung"
+        },
+        "verify": {
+            "refreshing": "Dein Kontostatus wird geprüft…",
+            "title": "Bestätige deine E-Mail vor dem Kauf",
+            "subtitle": "Zur Sicherheit deines Kontos sind Käufe erst möglich, nachdem du deine E-Mail-Adresse bestätigt hast.",
+            "resend": "Bestätigungs-E-Mail erneut senden",
+            "sending": "Bestätigungs-E-Mail wird gesendet…",
+            "sent": "Bestätigungs-E-Mail gesendet. Prüfe deinen Posteingang und Spam-Ordner.",
+            "error": "Wir konnten gerade keine weitere Bestätigungs-E-Mail senden. Bitte versuche es erneut.",
+            "backToCart": "Zurück zum Warenkorb"
+        },
+        "summary": {
+            "title": "Kaufübersicht",
+            "qty": "Menge",
+            "taxes": "Geschätzte Steuern",
+            "vatIncluded": "Davon MwSt. ({{rate}} %)",
+            "total": "Endbetrag",
+            "installationFee": "Installation",
+            "processing": "BESTELLUNG WIRD BEARBEITET...",
+            "complete": "KAUF ABSCHLIESSEN"
+        },
+        "error": {
+            "create": "Wir konnten deine Bestellung nicht starten. Bitte versuche es erneut.",
+            "confirm": "Die Zahlung konnte nicht bestätigt werden. Bitte versuche es erneut.",
+            "stripeNotReady": "Die Zahlung ist noch nicht bereit. Lade die Seite neu und versuche es erneut.",
+            "replaceFailed": "Wir konnten deinen vorherigen Versuch nicht aktualisieren. Bitte lade die Seite neu und versuche es erneut.",
+            "methodUnavailable": "Diese Zahlungsart wurde gerade deaktiviert. Bitte wähle eine andere.",
+            "quoteFailed": "Wir konnten deine Preise nicht aktualisieren. Die Summen unten sind eventuell nicht aktuell.",
+            "stripeNotConfigured": "Zahlungen sind in dieser Umgebung nicht eingerichtet. Kontaktiere den Support."
+        },
+        "coupon": {
+            "label": "Hast du einen Gutscheincode?",
+            "placeholder": "CODE EINGEBEN",
+            "apply": "Einlösen",
+            "applying": "Wird geprüft…",
+            "applied": "Gutschein eingelöst",
+            "remove": "Gutschein entfernen",
+            "failed": "Wir konnten diesen Code nicht einlösen."
+        },
+        "placeOrder": "Bestellung aufgeben",
+        "success": "Bestellung erfolgreich aufgegeben!"
+    },
+    "product": {
+        "breadcrumb": {
+            "home": "Startseite",
+            "shop": "Shop"
+        },
+        "status": {
+            "inStock": "AUF LAGER",
+            "outOfStock": "NICHT VORRÄTIG",
+            "stockCount": "{{count}} auf Lager"
+        },
+        "specs": {
+            "title": "Technische Daten",
+            "wattage": "Leistung",
+            "efficiency": "Wirkungsgrad",
+            "dimensions": "Abmessungen",
+            "weight": "Gewicht",
+            "warranty": "Garantie",
+            "years": "Jahre",
+            "brand": "Marke",
+            "model": "Modell",
+            "sku": "Artikelnr.",
+            "type": "Typ"
+        },
+        "onFire": {
+            "HOT_DEAL": "Top-Angebot",
+            "CLEARANCE": "Abverkauf",
+            "NEW_ARRIVAL": "Neu eingetroffen",
+            "until": "Endet am {{date}}"
+        },
+        "deal": {
+            "endsOn": "endet"
+        },
+        "description": {
+            "title": "Über dieses Produkt",
+            "empty": "Noch keine Beschreibung."
+        },
+        "details": {
+            "title": "Produktdetails"
+        },
+        "fees": {
+            "transport": "Transport",
+            "installation": "Installation"
+        },
+        "links": {
+            "title": "Downloads & Links"
+        },
+        "payments": {
+            "title": "Zahlungsarten",
+            "secure": "Sichere Zahlung",
+            "cash": "Nachnahme (bar)",
+            "online": "Online bezahlen",
+            "bankTransfer": "Per Banküberweisung bezahlen"
+        },
+        "reviews": {
+            "title": "Bewertungen",
+            "count": "{{count}} Bewertungen",
+            "empty": "Noch keine Bewertungen. Sei der Erste.",
+            "form": {
+                "title": "Bewertung schreiben",
+                "rating": "Bewertung",
+                "titleLabel": "Titel (optional)",
+                "titlePlaceholder": "Fasse deine Erfahrung zusammen",
+                "bodyLabel": "Deine Bewertung",
+                "bodyPlaceholder": "Teile deine Erfahrung mit diesem Produkt…",
+                "submit": "Bewertung senden",
+                "submitting": "Wird gesendet…",
+                "success": "Danke – deine Bewertung wurde gesendet und erscheint nach der Prüfung.",
+                "invalid": "Bitte wähle eine Bewertung und schreib einen kurzen Text.",
+                "error": "Deine Bewertung konnte nicht gesendet werden. Bitte versuche es erneut.",
+                "loginPrompt": "Du musst angemeldet sein, um eine Bewertung zu schreiben.",
+                "loginCta": "Anmelden"
+            }
+        },
+        "installation": {
+            "title": "Installationsservice",
+            "subtitle": "Professionelle Einrichtung durch ein zertifiziertes Team",
+            "fee": "+ 1.500,00 € Pauschale"
+        },
+        "quantity": "Menge",
+        "addToCart": "In den Warenkorb",
+        "backToShop": "Zurück zum Shop",
+        "notFound": {
+            "title": "Produkt nicht gefunden",
+            "subtitle": "Dieses Produkt wurde möglicherweise entfernt oder ist nicht mehr veröffentlicht.",
+            "cta": "Alle Produkte ansehen"
+        },
+        "loading": "Produkt wird geladen…",
+        "shippingNotice": "Versandkosten werden an der Kasse berechnet",
+        "returnPolicy": "30 Tage Rückgaberecht"
+    },
+    "auth": {
+        "login": {
+            "eyebrow": "Willkommen zurück",
+            "title": "Melde dich an in",
+            "titleEmph": "deinem Konto.",
+            "subtitle": "Zugang zu deinem Solar-Ökosystem",
+            "emailLabel": "E-Mail-Adresse",
+            "emailPlaceholder": "name@firma.de",
+            "passwordLabel": "Passwort",
+            "passwordPlaceholder": "••••••••",
+            "forgotPassword": "Vergessen?",
+            "rememberMe": "30 Tage angemeldet bleiben",
+            "submit": "Anmelden",
+            "newcomer": "Neu hier?",
+            "registerLink": "Konto erstellen",
+            "errorInvalid": "E-Mail oder Passwort ist falsch.",
+            "errorLocked": "Dieses Konto ist vorübergehend gesperrt. Versuche es später erneut oder kontaktiere einen Administrator.",
+            "errorTooMany": "Zu viele Versuche. Bitte warte einen Moment und versuche es erneut."
+        },
+        "register": {
+            "eyebrow": "Konto erstellen",
+            "title": "Werde Teil von",
+            "titleEmph": "SolarX.",
+            "subtitle": "Erstelle dein Konto in wenigen Schritten",
+            "firstName": "Vorname",
+            "lastName": "Nachname",
+            "emailLabel": "E-Mail-Adresse",
+            "emailPlaceholder": "name@firma.de",
+            "passwordLabel": "Sicheres Passwort",
+            "passwordPlaceholder": "••••••••",
+            "submit": "Konto erstellen",
+            "alreadyMember": "Schon ein Konto?",
+            "loginLink": "Anmelden",
+            "missingFields": "Bitte gib deine E-Mail und ein Passwort ein.",
+            "passwordTooShortClient": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+            "genericError": "Dein Konto konnte nicht erstellt werden. Bitte versuche es erneut.",
+            "strength": {
+                "0": "Sehr schwach",
+                "1": "Schwach",
+                "2": "Mittel",
+                "3": "Stark",
+                "4": "Sehr stark"
+            }
+        },
+        "panel": {
+            "titleA": "Energie, die dir",
+            "titleB": "gehört.",
+            "body": "Erstelle ein kostenloses Konto für persönliche Sparberechnungen, Sendungsverfolgung und den Live-Status deiner Installation.",
+            "benefit1": "Persönliche Sparberechnungen",
+            "benefit2": "25 Jahre dokumentierte Garantie",
+            "benefit3": "Exklusive Angebote für Mitglieder"
+        },
+        "errors": {
+            "EMAIL_REQUIRED": "E-Mail ist erforderlich.",
+            "EMAIL_EXISTS": "Es gibt bereits ein Konto mit dieser E-Mail.",
+            "PASSWORD_REQUIRED": "Passwort ist erforderlich.",
+            "PASSWORD_TOO_SHORT": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+            "PASSWORD_TOO_LONG": "Das Passwort ist zu lang (max. 128 Zeichen).",
+            "PASSWORD_CONTAINS_EMAIL": "Das Passwort darf deine E-Mail-Adresse nicht enthalten.",
+            "PASSWORD_CONTAINS_FIRST_NAME": "Das Passwort darf deinen Vornamen nicht enthalten.",
+            "PASSWORD_CONTAINS_LAST_NAME": "Das Passwort darf deinen Nachnamen nicht enthalten.",
+            "PASSWORD_TOO_COMMON": "Dieses Passwort ist zu verbreitet. Bitte wähle ein anderes.",
+            "PASSWORD_BREACHED": "Dieses Passwort ist in einem bekannten Datenleck aufgetaucht. Bitte wähle ein anderes.",
+            "VERIFY_TOKEN_MISSING": "Bestätigungstoken fehlt.",
+            "VERIFY_TOKEN_INVALID": "Ungültiger oder abgelaufener Bestätigungslink.",
+            "VERIFY_TOKEN_USED": "Dieser Link wurde bereits verwendet.",
+            "VERIFY_TOKEN_EXPIRED": "Dieser Link ist abgelaufen – fordere einen neuen an.",
+            "RESET_TOKEN_MISSING": "Token zum Zurücksetzen fehlt.",
+            "RESET_TOKEN_INVALID": "Ungültiger oder abgelaufener Link zum Zurücksetzen.",
+            "RESET_TOKEN_USED": "Dieser Link wurde bereits verwendet.",
+            "RESET_TOKEN_EXPIRED": "Dieser Link ist abgelaufen – fordere einen neuen an.",
+            "ACCOUNT_GONE": "Das Konto existiert nicht mehr.",
+            "CURRENT_PASSWORD_WRONG": "Dein aktuelles Passwort ist falsch.",
+            "PASSWORD_UNCHANGED": "Wähle ein anderes Passwort als dein aktuelles."
+        },
+        "forgot": {
+            "title": "Passwort zurücksetzen",
+            "subtitle": "Gib deine E-Mail ein und wir senden dir einen Link, um ein neues Passwort festzulegen.",
+            "back": "Zurück zur Anmeldung",
+            "emailLabel": "E-Mail-Adresse",
+            "emailPlaceholder": "du@beispiel.de",
+            "submit": "Link senden",
+            "submittedMessage": "Wenn ein Konto zu dieser E-Mail existiert, ist ein Link unterwegs. Prüfe deinen Posteingang (und den Spam-Ordner)."
+        },
+        "reset": {
+            "title": "Neues Passwort festlegen",
+            "subtitle": "Wähle ein starkes Passwort – mindestens 12 Zeichen.",
+            "passwordLabel": "Neues Passwort",
+            "passwordHint": "Verwende mindestens 12 Zeichen. Kombiniere Buchstaben, Zahlen und Symbole.",
+            "confirmLabel": "Neues Passwort bestätigen",
+            "submit": "Passwort aktualisieren",
+            "doneMessage": "Dein Passwort wurde aktualisiert.",
+            "loginCta": "Jetzt anmelden",
+            "errorMissingToken": "Dieser Link fehlt oder ist ungültig. Beginne erneut auf der Seite „Passwort vergessen“.",
+            "errorMismatch": "Die beiden Passwörter stimmen nicht überein."
+        },
+        "verify": {
+            "verifying": "Deine E-Mail wird bestätigt…",
+            "successTitle": "E-Mail bestätigt",
+            "successMessage": "Deine E-Mail ist bestätigt. Du kannst dich jetzt in deinem Konto anmelden.",
+            "continueCta": "Weiter zur Anmeldung",
+            "errorTitle": "Bestätigung fehlgeschlagen",
+            "errorMessage": "Dieser Bestätigungslink ist ungültig oder abgelaufen.",
+            "backToLogin": "Zurück zur Anmeldung"
+        }
+    },
+    "15% OFF": "15 % RABATT",
+    "Get 15% off all solar panels this spring!": "Spare diesen Frühling 15 % auf alle Solarmodule!",
+    "$500 OFF": "500 € RABATT",
+    "Save $500 on any complete solar bundle.": "Spare 500 € auf jedes komplette Solarpaket.",
+    "$300 OFF": "300 € RABATT",
+    "Save $300 on our new Eco Bundle!": "Spare 300 € auf unser neues Eco-Paket!",
+    "SAVE $300 ON OUR NEW ECO BUNDLE!": "SPARE 300 € AUF UNSER NEUES ECO-PAKET!",
+    "Bundle Discount": "Paketrabatt",
+    "toast": {
+        "saved": "Gespeichert",
+        "deleted": "Gelöscht",
+        "orderStatusUpdated": "Bestellstatus aktualisiert",
+        "trackingSaved": "Sendungsverfolgung gespeichert",
+        "trackingCleared": "Sendungsverfolgung entfernt",
+        "carrierSaved": "Versanddienst gespeichert",
+        "carrierDeleted": "Versanddienst gelöscht",
+        "reviewUpdated": "Bewertung aktualisiert",
+        "commentUpdated": "Kommentar aktualisiert",
+        "enhanceQueued": "Optimierung gestartet",
+        "enhanceApplied": "Optimiertes Foto übernommen",
+        "error": "Etwas ist schiefgelaufen"
+    },
+    "common": {
+        "save": "Speichern",
+        "saving": "Wird gespeichert…",
+        "cancel": "Abbrechen",
+        "delete": "Löschen",
+        "edit": "Bearbeiten",
+        "refresh": "Aktualisieren"
+    }
+}
