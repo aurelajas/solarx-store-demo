@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Private / transactional areas — no SEO value, keep out of the index.
+Disallow: /admin/
+Disallow: /account/
+Disallow: /checkout
+Disallow: /cart
+
+# Replace the host below with your real production domain at deploy time.
+Sitemap: https://smartsolarkits.com/sitemap.xml

@@ -1,0 +1,2344 @@
+{
+    "shared": {
+        "dateInput": {
+            "pickDate": "Pick a date",
+            "pickDateTime": "Pick a date & time",
+            "clearDate": "Clear date"
+        }
+    },
+    "header": {
+        "shop": "SHOP",
+        "trending": "TRENDING",
+        "blog": "BLOG",
+        "contact": "CONTACT",
+        "myOrders": "MY ORDERS",
+        "settings": "Settings",
+        "logout": "LOG OUT",
+        "login": "LOG IN"
+    },
+    "trending": {
+        "back": "Back to home",
+        "eyebrow": "TRENDING NOW",
+        "title": "What our customers are picking this week",
+        "subtitle": "A short list our team curates every week — popular for a reason. Tap through to see the details.",
+        "itemOne": "product",
+        "itemMany": "products",
+        "empty": {
+            "title": "Nothing trending right now",
+            "body": "We rotate this list every week. Check the full shop in the meantime.",
+            "cta": "Browse the shop"
+        }
+    },
+    "account": {
+        "settings": {
+            "back": "Back to my orders",
+            "title": "Account settings",
+            "subtitle": "Manage your account and password.",
+            "profile": "Profile",
+            "email": "Email",
+            "verified": "Verified",
+            "unverified": "Not verified",
+            "changePassword": "Change password",
+            "current": "Current password",
+            "newPassword": "New password",
+            "confirm": "Confirm new password",
+            "hint": "At least 12 characters.",
+            "submit": "Update password",
+            "saving": "Updating…",
+            "changed": "Your password has been updated.",
+            "mismatch": "The new passwords don't match.",
+            "error": "We couldn't update your password."
+        },
+        "orders": {
+            "title": "My orders",
+            "subtitle": "Track payment, fulfilment and delivery for everything you've bought.",
+            "empty": {
+                "title": "No orders yet",
+                "subtitle": "Once you check out, your orders will show up here.",
+                "cta": "Start shopping"
+            },
+            "loading": "Loading orders…",
+            "loadError": "We couldn't load your orders. Please try again.",
+            "retry": "Try again",
+            "col": {
+                "orderNumber": "Order",
+                "placed": "Placed",
+                "total": "Total",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "view": "View",
+            "page": "Page {{page}} of {{total}}",
+            "previous": "Previous",
+            "next": "Next",
+            "status": {
+                "PENDING": "Awaiting payment",
+                "PAID": "Paid",
+                "ON_HOLD": "On hold",
+                "PROCESSING": "Processing",
+                "SHIPPED": "Shipped",
+                "DELIVERED": "Delivered",
+                "CANCELLED": "Cancelled",
+                "FAILED": "Payment failed",
+                "REFUNDED": "Refunded",
+                "RETURNED": "Returned"
+            }
+        },
+        "order": {
+            "confirming": {
+                "title": "We're confirming your payment",
+                "body": "This usually takes a few seconds. You don't need to do anything. This page will update on its own.",
+                "slow": "Your payment is taking longer than usual to confirm. Don't pay again. Refresh in a minute to see the latest status.",
+                "refresh": "Refresh"
+            },
+            "paymentMethod": "Payment method",
+            "howToPay": {
+                "codTitle": "Pay on delivery",
+                "codBody": "You'll pay {{amount}} in cash when your order is delivered.",
+                "bankTitle": "Waiting for your bank transfer",
+                "bankBody": "Transfer {{amount}} to the account below and use {{ref}} as the payment reference. We'll confirm your order as soon as the money arrives.",
+                "bankNoDetails": "We're updating our bank details. Please contact us to finish the payment."
+            },
+            "back": "Back to my orders",
+            "loading": "Loading order…",
+            "loadError": "We couldn't load this order. Please try again.",
+            "retry": "Try again",
+            "notFound": {
+                "title": "Order not found",
+                "subtitle": "This order doesn't exist or doesn't belong to your account.",
+                "cta": "Back to my orders"
+            },
+            "summary": "Order summary",
+            "placedOn": "Placed on",
+            "paidOn": "Paid on",
+            "shippedOn": "Shipped on",
+            "deliveredOn": "Delivered on",
+            "cancelledOn": "Cancelled on",
+            "cancellationReason": "Cancellation reason",
+            "shipping": "Shipping address",
+            "items": "Items",
+            "itemColumn": {
+                "product": "Product",
+                "quantity": "Qty",
+                "unitPrice": "Unit price",
+                "lineTotal": "Line total"
+            },
+            "total": "Total",
+            "subtotalExclTax": "Subtotal (excl. VAT)",
+            "vat": "VAT",
+            "breakdown": {
+                "subtotal": "Subtotal",
+                "transport": "Transport",
+                "installation": "Installation",
+                "coupon": "Coupon",
+                "vatIncluded": "Of which VAT ({{rate}}%)"
+            },
+            "tracking": {
+                "title": "Shipment tracking",
+                "carrier": "Carrier",
+                "number": "Tracking number",
+                "open": "Track package"
+            },
+            "invoice": {
+                "download": "Download invoice (PDF)",
+                "downloading": "Preparing your invoice…",
+                "error": "We couldn't prepare your invoice. Please try again."
+            },
+            "cancel": {
+                "button": "Cancel order",
+                "title": "Cancel this order",
+                "help": "You can only cancel orders that haven't been paid yet. Tell us why if you'd like — it's optional.",
+                "reasonLabel": "Reason (optional)",
+                "reasonPlaceholder": "Changed my mind, found it cheaper, etc.",
+                "submit": "Cancel order",
+                "submitting": "Cancelling…",
+                "close": "Keep order",
+                "errorGeneric": "We couldn't cancel this order. Please try again."
+            }
+        }
+    },
+    "home": {
+        "trust": {
+            "headline": "Trusted by 12,400+ homes"
+        },
+        "howItWorks": {
+            "eyebrow": "How it works",
+            "title": "From quote to savings —",
+            "titleEmph": "just three steps.",
+            "subtitle": "No long forms, no endless calls. End-to-end in under a week.",
+            "steps": {
+                "quote": {
+                    "title": "Get your free quote",
+                    "body": "Tell us your monthly bill and roof type. Within one business day we return system size, cost and payback time.",
+                    "timeframe": "Within 24h"
+                },
+                "install": {
+                    "title": "We install everything",
+                    "body": "Our certified team handles permits, mounting, wiring and grid connection. You do nothing — we hand it over ready to run.",
+                    "timeframe": "48h on site"
+                },
+                "save": {
+                    "title": "Savings start instantly",
+                    "body": "The meter starts turning back day one. Most customers cover 60–90% of their bill from the first month.",
+                    "timeframe": "From day one"
+                }
+            }
+        },
+        "calculator": {
+            "eyebrow": "Calculate savings · live",
+            "title": "How much can you save with",
+            "titleEmph": "solar panels?",
+            "subtitle": "Drag the slider. Pick your roof. Every number on the right updates instantly — no email, no long forms.",
+            "liveTag": "Updates in real time",
+            "liveBadge": "Live · updates instantly",
+            "validity": "Valid 14 days",
+            "bill": "Monthly electricity bill",
+            "billHelp": "Your 12-month average gives the most accurate estimate.",
+            "perMonth": "/ month",
+            "roofLabel": "Roof type",
+            "roofTypes": {
+                "TILTED": "Pitched",
+                "FLAT": "Flat",
+                "UNKNOWN": "Not sure"
+            },
+            "city": "City",
+            "cityPlaceholder": "e.g. Prishtina",
+            "recommended": "Recommended system",
+            "annualSavings": "Annual savings",
+            "value25": "25-year value",
+            "tiles": {
+                "size": "System size",
+                "panels": "panels",
+                "cost": "Cost",
+                "turnkey": "turnkey",
+                "payback": "Payback",
+                "years": "yrs",
+                "thenPure": "then pure savings",
+                "onSite": "On site",
+                "teamGrid": "team + grid hookup"
+            },
+            "chartTitle": "Your bill, year 1",
+            "chartBefore": "Before",
+            "chartAfter": "After SolarX",
+            "ctaQuote": "Book a visit — €0",
+            "ctaShop": "Browse products",
+            "disclaimer": "Non-binding estimate. Final quote after the free site visit.",
+            "empty": {
+                "title": "Results appear here",
+                "body": "Drag the bill slider and see your savings instantly."
+            }
+        },
+        "trending": {
+            "eyebrow": "Trending",
+            "title": "This week's most wanted",
+            "viewAll": "View all",
+            "badge": "Trending"
+        },
+        "energyStar": "ENERGY STAR PARTNER",
+        "tuvCertified": "TÜV RHEINLAND CERTIFIED",
+        "fastInstall": "48H RAPID INSTALLATION",
+        "solarAlliance": "GLOBAL SOLAR ALLIANCE MEMBER",
+        "bestSellers": "BEST SELLERS",
+        "bestSellersTitle": "Hardware built to last",
+        "viewAllProducts": "VIEW ALL PRODUCTS",
+        "onSale": "SALE",
+        "bundle": "BUNDLE",
+        "exclInstallation": "EXCL. INSTALLATION",
+        "latestInsights": "LATEST INSIGHTS",
+        "blogTitle": "Learn about",
+        "blogTitleEmph": "solar.",
+        "openBlog": "OPEN BLOG",
+        "readArticle": "READ ARTICLE",
+        "featuredBadge": "READY TO SWITCH TO",
+        "cta": "GET A QUOTE",
+        "addToCart": "Add to cart",
+        "hotNow": "HOT RIGHT NOW",
+        "hotTitle": "DEALS THAT WON'T LAST",
+        "hotSubtitle": "Spotlighted picks our team is highlighting this week — limited stock and time-bound offers.",
+        "fireReason": {
+            "HOT_DEAL": "HOT DEAL",
+            "CLEARANCE": "CLEARANCE",
+            "NEW_ARRIVAL": "NEW"
+        },
+        "browse": "BROWSE",
+        "categoriesTitle": "SHOP BY CATEGORY",
+        "allCategories": "ALL CATEGORIES",
+        "products": "products",
+        "why": "WHY SOLARX",
+        "whyTitle": "Built",
+        "whyTitleEmph": "to last.",
+        "value": {
+            "quality": {
+                "title": "Premium hardware",
+                "body": "Tier-1 panels, inverters and batteries — all certified, all backed by the manufacturer."
+            },
+            "install": {
+                "title": "Turn-key installation",
+                "body": "Trained crews handle survey, mounting and commissioning so you only flip the switch."
+            },
+            "warranty": {
+                "title": "Long warranty",
+                "body": "25-year performance, 12-year product, 10-year storage — written into the contract."
+            },
+            "support": {
+                "title": "Local support",
+                "body": "One team from quote to after-sales. Real people, real numbers, fast replies."
+            }
+        },
+        "help": "WE'RE HERE",
+        "contactTitle": "QUESTIONS? TALK TO US.",
+        "contactBody": "Tell us about your roof, your bills, or your project — we'll size a system and quote it. No pressure, no jargon.",
+        "contactCta": "Get in touch",
+        "exploreShop": "Explore shop"
+    },
+    "nav": {
+        "shop": "Shop",
+        "trending": "Trending",
+        "blog": "Blog",
+        "contact": "Contact",
+        "getQuote": "Get a quote",
+        "menu": "Menu",
+        "account": "Account",
+        "signIn": "Sign in",
+        "createAccount": "Create an account",
+        "cart": "Cart"
+    },
+    "hero": {
+        "eyebrow": "POWERED BY THE SUN",
+        "shopCta": "Browse the shop",
+        "calcSavings": "Calculate my savings",
+        "aria": {
+            "label": "Featured products and offers",
+            "prev": "Previous slide",
+            "next": "Next slide",
+            "dots": "Slide selector",
+            "goTo": "Go to slide"
+        },
+        "slide1": {
+            "title": "HARVEST THE",
+            "highlight": "FUTURE",
+            "subtext": "Premium monocrystalline solar technology designed for maximum photon acquisition and long-term energy independence.",
+            "ctaText": "SHOP PANELS"
+        },
+        "slide2": {
+            "title": "POWER YOUR",
+            "highlight": "ESTATE",
+            "subtext": "Next-generation solar bundles engineered for residential excellence. Complete systems from inverters to mounting gear.",
+            "ctaText": "VIEW BUNDLES"
+        },
+        "slide3": {
+            "title": "SECURE YOUR",
+            "highlight": "ENERGY",
+            "subtext": "High-density battery storage solutions to keep your home running when the grid goes dark. Reliable, safe, and futuristic.",
+            "ctaText": "GO OFF-GRID"
+        },
+        "hud": {
+            "output": "Live output",
+            "saved": "Projected savings",
+            "co2": "CO₂ per year",
+            "yr": "yr"
+        },
+        "p1": {
+            "eyebrow": "Powered by the sun",
+            "title": "Harvest the",
+            "emph": "future.",
+            "body": "Premium monocrystalline panels that capture more energy from the sun — built to last for decades.",
+            "cta": "Open the shop",
+            "ctaAlt": "Calculate savings"
+        },
+        "p2": {
+            "eyebrow": "Off-grid freedom",
+            "title": "Energy you",
+            "emph": "own.",
+            "body": "Generate, store and use your own power. Independent from electricity prices that climb every year.",
+            "cta": "Browse hardware",
+            "ctaAlt": "Why SolarX"
+        },
+        "p3": {
+            "eyebrow": "48 hours on site",
+            "title": "Turnkey",
+            "emph": "installation.",
+            "body": "Our team handles permits, mounting and grid connection. You just flip the switch.",
+            "cta": "Book a visit",
+            "ctaAlt": "How it works"
+        }
+    },
+    "shop": {
+        "title": "SOLAR",
+        "highlight": "HARDWARE",
+        "subtitle": "Browse our selection of premium solar technology.",
+        "searchPlaceholder": "Search products...",
+        "filters": "Filters",
+        "categories": {
+            "title": "Category"
+        },
+        "allCategories": "All categories",
+        "allProducts": "All products",
+        "showing": "Showing",
+        "clear": "Clear",
+        "expand": "Expand",
+        "noCategories": "No categories yet.",
+        "empty": {
+            "title": "No products match this selection.",
+            "subtitle": "Try a different category or clear the filter to see everything.",
+            "viewAll": "View all products"
+        },
+        "sortBy": "Sort by",
+        "sort": {
+            "featured": "Featured",
+            "priceAsc": "Price: Low to High",
+            "priceDesc": "Price: High to Low",
+            "nameAsc": "Name: A–Z"
+        },
+        "showingCount": "Showing {{visible}} of {{total}} products",
+        "viewDetails": "View details",
+        "loadError": "We couldn't load the products right now.",
+        "loadErrorBody": "Something went wrong reaching the store. Please try again.",
+        "retry": "Try again",
+        "priceRange": "Price Range",
+        "allIn": "All in",
+        "clearSearch": "Clear search",
+        "openFilters": "Open filters",
+        "closeFilters": "Close filters",
+        "minPrice": "Min",
+        "maxPrice": "Max",
+        "emptySearch": {
+            "title": "No results for \"{{term}}\"",
+            "subtitle": "Try a different search term or clear the search.",
+            "cta": "Clear search"
+        },
+        "onFireTitle": "On fire right now",
+        "onFireSubtitle": "Limited-time deals, fresh arrivals and clearance picks.",
+        "onFireBadge": {
+            "HOT_DEAL": "Hot deal",
+            "CLEARANCE": "Clearance",
+            "NEW_ARRIVAL": "New"
+        }
+    },
+    "blog": {
+        "title": "PHOTON",
+        "highlight": "KNOWLEDGE",
+        "subtitle": "Latest insights from the world of solar energy.",
+        "loadError": "We couldn't load the articles right now.",
+        "loadErrorBody": "Something went wrong reaching the blog. Please try again.",
+        "retry": "Try again",
+        "readMore": "Read Article",
+        "readFull": "Read Full Article",
+        "featured": "FEATURED",
+        "featuredTitle": "Featured posts",
+        "backToList": "Back to Blog",
+        "publishedOn": "Published on",
+        "loading": "Loading…",
+        "minRead": "{{count}} min read",
+        "byline": "By",
+        "editorialTeam": "Editorial team",
+        "share": "Share",
+        "shareCopied": "Copied",
+        "like": "Like",
+        "unlike": "Unlike",
+        "likeLoginPrompt": "Sign in to like this post",
+        "keyTakeaways": "Key takeaways",
+        "linksTitle": "Useful links",
+        "relatedProducts": "Related products",
+        "viewProduct": "View product",
+        "tagsTitle": "Tags",
+        "categoriesTitle": "Categories",
+        "noCategories": "No categories yet",
+        "noTags": "No tags yet",
+        "allPosts": "All posts",
+        "filters": "Filters",
+        "openFilters": "Open filters",
+        "closeFilters": "Close filters",
+        "searchPlaceholder": "Search articles…",
+        "clearSearch": "Clear search",
+        "sortBy": "Sort by",
+        "sort": {
+            "newest": "Newest",
+            "oldest": "Oldest",
+            "mostViewed": "Most viewed",
+            "mostLiked": "Most liked"
+        },
+        "showing": "Showing",
+        "clear": "Clear",
+        "empty": {
+            "title": "No posts match this selection",
+            "subtitle": "Try a different category or tag.",
+            "viewAll": "View all posts"
+        },
+        "emptySearch": {
+            "title": "No results for \"{{term}}\"",
+            "subtitle": "Try a different search term.",
+            "cta": "Clear search"
+        },
+        "notFound": {
+            "title": "Post not found",
+            "subtitle": "This article may have been moved or unpublished.",
+            "cta": "Browse all posts"
+        },
+        "commentsTitle": "Comments",
+        "commentGuest": "Guest",
+        "commentsEmpty": "No comments yet — be the first to weigh in.",
+        "commentForm": {
+            "title": "Leave a comment",
+            "bodyLabel": "Your comment",
+            "bodyPlaceholder": "Share your thoughts…",
+            "submit": "Post comment",
+            "submitting": "Posting…",
+            "success": "Thanks — your comment is awaiting moderation.",
+            "loginPrompt": "Sign in to leave a comment.",
+            "loginCta": "Sign in",
+            "invalid": "Please write a comment before submitting.",
+            "error": "Could not submit your comment. Please try again."
+        },
+        "cta": {
+            "title": "Ready to power",
+            "highlight": "your future?",
+            "subtitle": "Browse our solar catalogue and find the right system for your home.",
+            "button": "Visit the shop"
+        }
+    },
+    "contact": {
+        "eyebrow": "Get in touch",
+        "titlePrefix": "GET IN",
+        "titleSuffix": "TOUCH",
+        "subtitle": "Have questions? Our solar experts are ready to help.",
+        "emailUs": "Email Us",
+        "emailResponse": "Response within 2 hours",
+        "callUs": "Call Us",
+        "callHours": "Mon-Fri, 9am - 6pm EST",
+        "hq": "Global HQ",
+        "hqAddress": "123 Solar Way<br>Tech District, NY 10001",
+        "form": {
+            "name": "Full Name",
+            "namePlaceholder": "Your Name",
+            "email": "Email Address",
+            "emailPlaceholder": "email@example.com",
+            "subject": "Subject (optional)",
+            "subjectPlaceholder": "What's it about?",
+            "message": "Message",
+            "messagePlaceholder": "How can we help you?",
+            "submit": "Send Message",
+            "submitting": "Sending…",
+            "sentTitle": "Thanks — message received",
+            "sentBody": "We'll get back to you at the email you provided. Most replies land within a few hours.",
+            "sendAnother": "Send another message"
+        },
+        "info": {
+            "title": "Contact Information",
+            "address": "HQ: New York, Tech District",
+            "email": "contact@solarx.com",
+            "phone": "+1 (555) SOLAR-X"
+        }
+    },
+    "admin": {
+        "readOnly": {
+            "note": "You have view-only access here. Ask a Super Admin if you need to make changes."
+        },
+        "noAccess": {
+            "title": "You don't have access to anything yet",
+            "body": "Your admin account has been created, but it hasn't been given any permissions. Ask a Super Admin to grant you access to the areas you need."
+        },
+        "console": "SolarX Management Console",
+        "search": {
+            "placeholder": "Search orders, customers, products…",
+            "searching": "Searching…",
+            "noResults": "No matches",
+            "orders": "Orders",
+            "customers": "Customers",
+            "products": "Products"
+        },
+        "nav": {
+            "section": {
+                "catalog": "CATALOG",
+                "sales": "SALES",
+                "content": "CONTENT",
+                "system": "SYSTEM"
+            },
+            "dashboard": "Dashboard",
+            "needsAttention": "Needs attention",
+            "products": "Products",
+            "reviews": "Reviews",
+            "taxonomy": "Categories",
+            "deals": "Deals",
+            "coupons": "Coupons",
+            "orders": "Orders",
+            "customers": "Customers",
+            "carriers": "Carriers",
+            "installation": "Installation",
+            "blog": "Blog Posts",
+            "blogCategories": "Blog Categories",
+            "blogTags": "Blog Tags",
+            "blogComments": "Blog Comments",
+            "settings": "Settings",
+            "calculator": "Calculator config",
+            "imageEnhancement": "Image enhancement",
+            "payments": "Payment methods",
+            "users": "Users & Permissions",
+            "audit": "Audit Log",
+            "logging": "Logging",
+            "emails": "Emails",
+            "contact": "Contact messages",
+            "signOut": "Sign Out"
+        },
+        "dashboard": {
+            "eyebrow": "Operations snapshot",
+            "title": "Dashboard",
+            "subtitle": "Live counts from orders, deals, and leads — no placeholder data.",
+            "openOrdersCta": "Open orders",
+            "needsAttention": {
+                "title": "Needs attention",
+                "ordersOnHold": "Orders on hold",
+                "ordersShippedNoTracking": "Shipped, no tracking yet",
+                "ordersFailed": "Failed payments",
+                "lockedCustomers": "Locked accounts",
+                "pendingReviews": "Reviews to moderate",
+                "pendingBlogComments": "Comments to moderate",
+                "newContactMessages": "New messages"
+            },
+            "loading": "Loading dashboard…",
+            "loadError": "We couldn't load the dashboard right now.",
+            "cards": {
+                "totalSales": "Recognized sales",
+                "totalSalesHelp": "All paid, processing, shipped, and delivered revenue kept on the books.",
+                "totalOrders": "Orders",
+                "totalOrdersHelp": "{{count}} placed this month.",
+                "salesThisMonth": "This month",
+                "salesThisMonthHelp": "{{count}} orders placed this month.",
+                "openOrders": "Orders in flight",
+                "openOrdersHelp": "Awaiting payment, packing, or delivery.",
+                "deliveredOrders": "Delivered orders",
+                "deliveredOrdersHelp": "Completed orders that reached the customer.",
+                "totalLeads": "Leads",
+                "totalLeadsHelp": "{{count}} new leads arrived this month.",
+                "activeDeals": "Active deals",
+                "activeDealsHelp": "Discounts running right now."
+            },
+            "revenue": {
+                "title": "Sales over the last 7 days",
+                "subtitle": "Actual order totals grouped by day.",
+                "orders": "{{count}} orders"
+            },
+            "status": {
+                "title": "Order pipeline",
+                "subtitle": "Where the order book is sitting right now."
+            },
+            "recent": {
+                "title": "Recent orders",
+                "subtitle": "Newest orders across every status.",
+                "cta": "Open full queue",
+                "empty": "No orders yet.",
+                "customerFallback": "Unknown customer"
+            }
+        },
+        "deals": {
+            "title": "Deals",
+            "subtitle": "Put one or more products on sale at either a percent (e.g. 10%, 50%) or a fixed amount off, within an optional time window.",
+            "new": "New deal",
+            "edit": "Edit deal",
+            "searchPlaceholder": "Search by title",
+            "allStatuses": "All statuses",
+            "loading": "Loading deals…",
+            "empty": "No deals yet. Create one to put products on sale.",
+            "productOne": "product",
+            "productMany": "products",
+            "deleteConfirm": "Delete deal \"{{title}}\"? This cannot be undone.",
+            "col": {
+                "title": "Title",
+                "value": "Discount",
+                "products": "Products",
+                "window": "Active window",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "status": {
+                "ACTIVE": "Active",
+                "SCHEDULED": "Scheduled",
+                "EXPIRED": "Expired",
+                "INACTIVE": "Inactive"
+            },
+            "typeLabel": {
+                "PERCENT": "Percent off",
+                "FIXED": "Fixed amount off"
+            },
+            "actions": {
+                "edit": "Edit deal",
+                "delete": "Delete deal"
+            },
+            "form": {
+                "title": "Title",
+                "type": "Discount type",
+                "percent": "Percent (0–100)",
+                "fixed": "Amount off (€)",
+                "startAt": "Starts at (optional)",
+                "endAt": "Ends at (optional)",
+                "badgeText": "Badge",
+                "badgeHint": "Short label shown on product cards, e.g. \"10% OFF\"",
+                "bannerText": "Banner",
+                "active": "Active",
+                "activeHelp": "Inactive deals never apply, even inside the window.",
+                "products": "Products on sale",
+                "productSearch": "Search products…",
+                "noProducts": "No products match your search.",
+                "cancel": "Cancel",
+                "save": "Save",
+                "saving": "Saving…"
+            },
+            "errors": {
+                "titleRequired": "Title is required.",
+                "valueRequired": "Value must be greater than zero.",
+                "percentMax": "Percent value cannot exceed 100.",
+                "endBeforeStart": "End date must be after start date.",
+                "deleteFailed": "Delete failed."
+            }
+        },
+        "coupons": {
+            "title": "Coupons",
+            "subtitle": "Customer-entered discount codes. Distinct from auto-applied deals — customers type these at checkout.",
+            "new": "New coupon",
+            "createTitle": "New coupon",
+            "editTitle": "Edit coupon",
+            "modalHelp": "Codes are case-insensitive and uppercased automatically. Caps + windows are optional.",
+            "searchPlaceholder": "Search by code or description",
+            "allStatuses": "All statuses",
+            "loading": "Loading coupons…",
+            "saving": "Saving…",
+            "save": "Save",
+            "cancel": "Cancel",
+            "empty": "No coupons yet. Create one to launch a campaign.",
+            "notStackable": "Cannot stack with deals",
+            "minOrder": "Min order",
+            "perUser": "Per user",
+            "deleteConfirm": "Delete coupon \"{{code}}\"? Existing redemptions stay in the audit log.",
+            "col": {
+                "code": "Code",
+                "value": "Value",
+                "usage": "Usage",
+                "window": "Active window",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "status": {
+                "ACTIVE": "Active",
+                "SCHEDULED": "Scheduled",
+                "EXPIRED": "Expired",
+                "EXHAUSTED": "Exhausted",
+                "INACTIVE": "Inactive"
+            },
+            "actions": {
+                "edit": "Edit coupon",
+                "delete": "Delete coupon"
+            },
+            "form": {
+                "code": "Code",
+                "description": "Description",
+                "descriptionPlaceholder": "Optional internal note (e.g. \"Black Friday — newsletter\")",
+                "type": "Type",
+                "typePercent": "Percent off",
+                "typeFixed": "Fixed amount off",
+                "valuePercent": "Percent (1–100)",
+                "valueFixed": "Amount off (€)",
+                "minOrder": "Min order subtotal (€)",
+                "maxRedemptions": "Total redemption cap",
+                "maxPerUser": "Per-customer cap",
+                "validFrom": "Valid from",
+                "validUntil": "Valid until",
+                "active": "Active",
+                "stackable": "Can stack with auto-applied deals",
+                "optional": "Optional"
+            },
+            "errors": {
+                "codeRequired": "Code is required.",
+                "valueRequired": "Value must be greater than zero.",
+                "percentRange": "Percent value cannot exceed 100.",
+                "invalidWindow": "Valid-until must be after Valid-from.",
+                "saveFailed": "Save failed."
+            }
+        },
+        "taxonomy": {
+            "title": "Categories",
+            "subtitle": "Organise the shop with top-level categories and their subcategories. Names are required in English and Albanian.",
+            "addCategory": "Add category",
+            "addSubcategory": "Add subcategory",
+            "noSubcategories": "No subcategories yet.",
+            "under": "Under",
+            "parent": "Parent",
+            "noParent": "None (top-level category)",
+            "addTitle": "Add new",
+            "editTitle": "Edit",
+            "slug": "Slug",
+            "nameEn": "Name (EN)",
+            "nameSq": "Name (SQ)",
+            "descriptionEn": "Description (EN)",
+            "descriptionSq": "Description (SQ)",
+            "order": "Order",
+            "status": "Status",
+            "active": "Active",
+            "inactive": "Hidden",
+            "actions": "Actions",
+            "empty": "Nothing here yet — add your first entry."
+        },
+        "users": {
+            "title": "Users & Permissions",
+            "subtitle": "Create admin users and decide which parts of the site they can reach.",
+            "addUser": "Add admin user",
+            "editPermissions": "Edit permissions",
+            "email": "Email",
+            "password": "Password",
+            "firstName": "First name",
+            "lastName": "Last name",
+            "name": "Name",
+            "role": "Role",
+            "permissions": "Permissions",
+            "actions": "Actions",
+            "superAdmin": "Super Admin",
+            "admin": "Admin",
+            "customer": "Customer",
+            "allAccess": "All access",
+            "assigned": "assigned",
+            "edit": "Edit permissions",
+            "delete": "Delete user",
+            "empty": "No admin users yet.",
+            "status": "Status",
+            "locked": "Locked",
+            "unverified": "Unverified",
+            "unlock": "Unlock account",
+            "filterAll": "All",
+            "filterLocked": "Locked"
+        },
+        "carriers": {
+            "title": "Carriers",
+            "subtitle": "Manage your couriers — the dropdown when you add tracking to an order, and the link customers click to track it.",
+            "add": "Add carrier",
+            "loadError": "We couldn't load carriers right now.",
+            "retry": "Retry",
+            "empty": "No carriers yet — add your first one.",
+            "edit": "Edit",
+            "delete": "Delete",
+            "deleteConfirm": "Delete carrier \"{{name}}\"?",
+            "col": {
+                "name": "Name",
+                "link": "Tracking link template",
+                "active": "Active",
+                "sort": "Order",
+                "actions": "Actions"
+            },
+            "active": {
+                "yes": "Active",
+                "no": "Hidden"
+            },
+            "modal": {
+                "titleNew": "Add carrier",
+                "titleEdit": "Edit carrier",
+                "name": "Name",
+                "namePlaceholder": "e.g. Posta e Kosovës",
+                "link": "Tracking link (optional)",
+                "linkPlaceholder": "https://courier.com/track/{tracking}",
+                "linkHelp": "Use {tracking} where the tracking number goes. Leave blank for no clickable link.",
+                "active": "Active",
+                "sort": "Order",
+                "save": "Save",
+                "saving": "Saving…",
+                "cancel": "Cancel"
+            }
+        },
+        "customers": {
+            "title": "Customers",
+            "subtitle": "Find a customer and see their full history — what they bought, any problems, and a complete activity trail.",
+            "loadError": "We couldn't load customers right now.",
+            "retry": "Retry",
+            "empty": "No customers match this filter.",
+            "view": "View",
+            "pageOf": "Page {{page}} of {{total}}",
+            "previous": "Previous",
+            "next": "Next",
+            "filters": {
+                "email": "Email",
+                "emailPlaceholder": "Search by email",
+                "name": "Name",
+                "namePlaceholder": "Search by name",
+                "from": "Joined from",
+                "to": "Joined to",
+                "apply": "Apply",
+                "reset": "Reset"
+            },
+            "col": {
+                "name": "Name",
+                "email": "Email",
+                "orders": "Orders",
+                "totalSpent": "Total spent",
+                "joined": "Joined",
+                "actions": "Actions"
+            },
+            "flag": {
+                "locked": "Locked",
+                "unverified": "Unverified"
+            },
+            "detail": {
+                "back": "Back to customers",
+                "loading": "Loading customer…",
+                "loadError": "We couldn't load this customer right now.",
+                "never": "Never",
+                "verified": "Verified",
+                "joined": "Joined",
+                "lastLogin": "Last login",
+                "totalSpent": "Total spent",
+                "paidOrders": "Paid orders",
+                "avgOrder": "Average order",
+                "lastOrder": "Last order",
+                "notFound": {
+                    "title": "Customer not found",
+                    "subtitle": "This customer doesn't exist, or you don't have access.",
+                    "cta": "Back to customers"
+                },
+                "problems": {
+                    "title": "Problems",
+                    "none": "No problems on record — no failed payments, cancellations, refunds or account issues.",
+                    "failed": "{{n}} failed payment(s)",
+                    "cancelled": "{{n}} cancelled",
+                    "refunded": "{{n}} refunded",
+                    "returned": "{{n}} returned",
+                    "loginFailures": "{{n}} failed login(s)",
+                    "locked": "Account locked",
+                    "unverified": "Email not verified"
+                },
+                "orders": {
+                    "title": "Orders",
+                    "number": "Order",
+                    "status": "Status",
+                    "total": "Total",
+                    "placed": "Placed",
+                    "empty": "This customer has no orders yet."
+                },
+                "timeline": {
+                    "title": "Activity timeline",
+                    "from": "From",
+                    "to": "To",
+                    "apply": "Apply",
+                    "empty": "No activity in this window.",
+                    "error": "We couldn't load the activity.",
+                    "loadMore": "Load more"
+                }
+            }
+        },
+        "audit": {
+            "title": "Audit Log",
+            "subtitle": "Every action on products, cart and payments. Newest first.",
+            "category": "Category",
+            "severity": "Severity",
+            "from": "From",
+            "to": "To",
+            "time": "Time",
+            "event": "Event",
+            "summary": "Summary",
+            "actor": "Actor",
+            "actorEmail": "Customer email",
+            "actorEmailPlaceholder": "Filter by email",
+            "allCategories": "All categories",
+            "allSeverities": "All severities",
+            "empty": "No entries match these filters.",
+            "page": "Page",
+            "showing": "Showing",
+            "pageNumber": "Page",
+            "previous": "Previous",
+            "next": "Next"
+        },
+        "imageEnhancement": {
+            "eyebrow": "AI PHOTO ENHANCEMENT",
+            "title": "Image enhancement",
+            "subtitle": "Set the OpenAI token used by the paid \"Enhance\" action. Free background removal works without any token.",
+            "loading": "Loading…",
+            "configured": "OpenAI token configured",
+            "notConfigured": "No OpenAI token set",
+            "tokenLabel": "OpenAI API token",
+            "tokenPlaceholder": "sk-…",
+            "tokenHelp": "Pasted once and stored encrypted. It's never shown again — only the last 4 characters.",
+            "save": "Save token",
+            "saving": "Saving…",
+            "saved": "Saved",
+            "clear": "Remove token",
+            "clearing": "Removing…",
+            "clearConfirm": "Remove the saved OpenAI token? The \"Enhance\" action will stop working until you add one again.",
+            "explainer": {
+                "paid": "\"Enhance\" uses OpenAI to relight and clean up a photo while keeping the product itself unchanged. Each run costs a few cents on your OpenAI account.",
+                "free": "\"Clean background\" removes the background with a free, self-hosted model — no token or cost. Enable the rembg service to use it."
+            },
+            "errors": {
+                "loadFailed": "Couldn't load the image-enhancement settings.",
+                "saveFailed": "Couldn't save. Please try again."
+            }
+        },
+        "payments": {
+            "eyebrow": "PAYMENT METHODS",
+            "title": "Payment methods",
+            "subtitle": "Choose how customers can pay. Turn a method on or off anytime — at least one must stay on.",
+            "loading": "Loading…",
+            "retry": "Try again",
+            "save": "Save changes",
+            "saving": "Saving…",
+            "card": "Card payment (Stripe)",
+            "cardHelp": "Pay by card online. Confirmed automatically. Requires Stripe keys.",
+            "cod": "Cash on delivery",
+            "codHelp": "The customer pays in hand when the order arrives. You mark it paid once cash is collected.",
+            "bankTransfer": "Bank transfer",
+            "bankTransferHelp": "The customer transfers to your account and you mark the order paid once it lands.",
+            "bankDetails": "Bank account details (shown to the customer)",
+            "bankDetailsPlaceholder": "Bank name, account holder, IBAN (XK05…), and ask the customer to use their order number as the reference.",
+            "defaultMethod": "Preselected method at checkout",
+            "explainer": "Cash on delivery and bank transfer are settled by hand — the order is placed and waits for you to mark it paid from the Orders screen. Card payments confirm on their own.",
+            "errors": {
+                "loadFailed": "Couldn't load the payment settings.",
+                "saveFailed": "Couldn't save. Please try again.",
+                "invalid": "These settings couldn't be saved. Reload the page and check them again.",
+                "noneEnabled": "Turn on at least one payment method.",
+                "bankDetailsRequired": "Add the bank account details customers should transfer to."
+            }
+        },
+        "calculator": {
+            "eyebrow": "HOMEPAGE CALCULATOR",
+            "title": "Solar payback constants",
+            "subtitle": "These five numbers + the disclaimer drive the homepage savings calculator. Each input is range-clamped server-side; the live preview shows what a sample €100/month bill returns under your changes before you save.",
+            "loading": "Loading current settings…",
+            "save": "Save changes",
+            "saving": "Saving…",
+            "discard": "Discard changes",
+            "savedFeedback": "Saved. New values are live on the homepage.",
+            "field": {
+                "visible": "Show the calculator on the website",
+                "visibleHelp": "Off by default. When on, customers see the savings calculator on the homepage and the /calculator page. When off, it stays hidden everywhere.",
+                "tariff": "Electricity tariff (€/kWh)",
+                "tariffHelp": "Blended residential rate. Range 0.02 – 0.50. Kosovo 2026 ≈ 0.08.",
+                "irradiance": "Irradiance (kWh/kWp/year)",
+                "irradianceHelp": "Annual yield per installed kWp. Range 800 – 2200. PVGIS Prishtina ≈ 1400.",
+                "derating": "System derating (0–1)",
+                "deratingHelp": "Real-world losses (inverter, soiling, temperature). Range 0.60 – 0.95. Industry standard ≈ 0.80.",
+                "cost": "Install cost (€/kWp)",
+                "costHelp": "Turn-key residential mid. Range 500 – 3000. Kosovo 2026 ≈ 1000.",
+                "variance": "Cost variance (± fraction)",
+                "varianceHelp": "Width of the cost range bracket. Range 0 – 0.50. 0.10 = ±10%.",
+                "disclaimerEn": "Disclaimer (English)",
+                "disclaimerSq": "Disclaimer (Albanian)"
+            },
+            "preview": {
+                "title": "Preview · €100/month, tilted roof",
+                "help": "Computed live with your current values, using the same formula the backend runs.",
+                "systemSize": "System size",
+                "installCost": "Install cost (range)",
+                "payback": "Payback in",
+                "years": "years",
+                "empty": "Enter all five numeric values to see the preview."
+            },
+            "errors": {
+                "saveFailed": "Save failed. Check the values are within range and try again."
+            },
+            "explainer": {
+                "toggle": "How does this calculation work?",
+                "fields": {
+                    "title": "What each field controls",
+                    "intro": "Every input above feeds a specific part of the formula. Here's what each one does and why it matters.",
+                    "tariff": {
+                        "title": "Tariff (€/kWh)",
+                        "body": "The price the customer currently pays for one kilowatt-hour of grid electricity. Used to convert their monthly bill back into kWh of consumption — the starting point of the whole calculation. If this is wrong, every downstream number is wrong."
+                    },
+                    "irradiance": {
+                        "title": "Irradiance (kWh/kWp/year)",
+                        "body": "How much energy a 1 kWp system actually produces per year in your country, on a south-facing tilted roof. Comes from the EU's PVGIS database. Bigger number = smaller system needed for the same bill."
+                    },
+                    "derating": {
+                        "title": "System derating",
+                        "body": "Real-world losses: inverter inefficiency (~3%), panel soiling (~2%), high-temperature de-rating in summer, wiring losses, etc. The 0.80 default means the system delivers 80% of its theoretical output. Higher derating = smaller (cheaper) system."
+                    },
+                    "cost": {
+                        "title": "Cost per kWp (€)",
+                        "body": "Turn-key install cost — panels, inverter, mounting, labour, permits — for one kWp of system. €1,000/kWp is the Kosovo residential mid; bumps when global panel prices rise."
+                    },
+                    "variance": {
+                        "title": "Cost variance",
+                        "body": "How wide the cost-range bracket is around the mid estimate. 0.10 = ±10%, so a €13,500 mid renders as €12,150–€14,850. Wider = more honest about uncertainty; narrower = looks more confident but risks under-quoting."
+                    },
+                    "disclaimer": {
+                        "title": "Disclaimer (EN + SQ)",
+                        "body": "Shown directly under the result on the homepage so customers know this is an estimate, not a binding quote. If you change the tariff or irradiance, also update the disclaimer's reference year — keeping math + legalese in sync is why they live in the same row."
+                    }
+                },
+                "roof": {
+                    "title": "Roof factor (not editable)",
+                    "body": "The customer picks one of three roof types. Each modifies the irradiance to reflect real-world performance vs. the south-facing-tilted reference.",
+                    "colType": "Roof type",
+                    "colFactor": "Multiplier",
+                    "colNote": "Reasoning",
+                    "tilted": "South-facing pitched roof — baseline.",
+                    "flat": "Flat roof; ballast or low-tilt mounting rarely hits optimal angle, ~5% loss.",
+                    "unknown": "Customer hasn't told us — we err on the side of slightly bigger system."
+                },
+                "formula": {
+                    "title": "The formula, step by step",
+                    "intro": "Five steps from monthly bill to payback years. Every customer estimate runs exactly this on the server.",
+                    "steps": {
+                        "monthlyKwh": {
+                            "title": "1. Bill → energy consumed",
+                            "body": "Divide the monthly bill by the tariff to get kWh consumed per month, then multiply by 12 for a yearly figure.",
+                            "expr": "annual_kWh = (monthly_bill ÷ tariff) × 12"
+                        },
+                        "requiredKwp": {
+                            "title": "2. How big a system covers that?",
+                            "body": "Divide the annual consumption by what 1 kWp of solar actually produces in real-world conditions on this roof.",
+                            "expr": "required_kWp = annual_kWh ÷ (irradiance × derating × roof_factor)"
+                        },
+                        "roundQuarter": {
+                            "title": "3. Round up to the nearest 0.25",
+                            "body": "Real systems come in whole-panel increments. We round up so we never undersize — better to overshoot a hair than leave the customer short.",
+                            "expr": "system_kWp = ⌈required_kWp × 4⌉ ÷ 4"
+                        },
+                        "cost": {
+                            "title": "4. Install cost (with a range)",
+                            "body": "Multiply the system size by your cost-per-kWp to get the mid estimate, then bracket it by the variance for a low/high range.",
+                            "expr": "mid = system_kWp × cost_per_kWp;  range = mid × (1 ± variance)"
+                        },
+                        "payback": {
+                            "title": "5. Payback period",
+                            "body": "How many years of saved electricity pay back the install. Uses the mid cost — the customer sees one number, not a range.",
+                            "expr": "payback_years = mid ÷ (monthly_bill × 12)"
+                        }
+                    }
+                },
+                "example": {
+                    "title": "Worked example with your current values",
+                    "intro": "Sample customer: €100/month bill, tilted roof, Prishtina. The numbers below recompute as you edit the inputs above — that's how you sanity-check a change before clicking Save.",
+                    "input": "Inputs:",
+                    "step1": "Step 1 — Bill → kWh",
+                    "step2": "Step 2 — Required system size",
+                    "step3": "Step 3 — Round up to next 0.25 kWp",
+                    "step4": "Step 4 — Install cost",
+                    "step5": "Step 5 — Annual savings + payback"
+                },
+                "safetyNote": "Tip: small changes have big impact. Bumping tariff from 0.08 → 0.10 alone cuts payback from ~11.3 to ~9.0 years for the same bill. Always glance at the live preview before saving."
+            }
+        },
+        "logging": {
+            "title": "Logging",
+            "subtitle": "Control how much detail the backend logs.",
+            "verboseMode": "Verbose mode",
+            "verboseExplanation": "Turn this on to see detailed logs (SQL, internal calls, Spring security). Turn off to keep logs quiet and only show essentials and errors.",
+            "current": "Currently",
+            "on": "On",
+            "off": "Off",
+            "ephemeralNote": "Note: this setting resets to the configured default when the server restarts.",
+            "tail": {
+                "title": "Live log tail",
+                "subtitle": "Last lines from the server log file. Only available when the file appender is enabled (prod profile, or set logging.file.name).",
+                "refresh": "Refresh",
+                "loading": "Loading…",
+                "autoRefresh": "Auto-refresh every 5s",
+                "empty": "No log lines yet."
+            }
+        },
+        "products": {
+            "categoriesError": "We couldn't load the categories. The list above may be incomplete.",
+            "categoriesRetry": "Try again",
+            "title": "Products",
+            "subtitle": "Manage the catalogue — drafts, published items, and retired ones.",
+            "new": "Add product",
+            "edit": "Edit product",
+            "searchPlaceholder": "Search by name or slug…",
+            "allStatuses": "All statuses",
+            "showDeleted": "Show deleted",
+            "loading": "Loading…",
+            "empty": "No products match these filters.",
+            "statusDeleted": "Deleted",
+            "statuses": {
+                "DRAFT": "Draft",
+                "PUBLISHED": "Published",
+                "ARCHIVED": "Archived"
+            },
+            "reasons": {
+                "HOT_DEAL": "Hot deal",
+                "CLEARANCE": "Clearance",
+                "NEW_ARRIVAL": "New arrival"
+            },
+            "col": {
+                "product": "Product",
+                "category": "Category",
+                "price": "Price",
+                "stock": "Stock",
+                "status": "Status",
+                "spotlight": "Spotlight",
+                "actions": "Actions"
+            },
+            "actions": {
+                "edit": "Edit",
+                "delete": "Delete",
+                "restore": "Restore",
+                "spotlight": "Spotlight"
+            },
+            "form": {
+                "name": "Name",
+                "type": "Type",
+                "status": "Status",
+                "price": "Price (€)",
+                "salePrice": "Sale price (€)",
+                "stock": "Stock",
+                "brand": "Brand",
+                "model": "Model",
+                "sku": "SKU",
+                "category": "Category",
+                "noCategory": "No category",
+                "description": "Description",
+                "featured": "Featured on the home page",
+                "save": "Save",
+                "saving": "Saving…",
+                "cancel": "Cancel"
+            },
+            "spotlight": {
+                "title": "Spotlight product",
+                "help": "Pick a reason to put this product on the On Fire shelf. Leave the expiry empty for a permanent spotlight — it'll keep running until you remove it.",
+                "reason": "Reason",
+                "none": "No spotlight",
+                "until": "Until",
+                "permanent": "Leave empty for a permanent spotlight."
+            },
+            "quickCreate": {
+                "title": "Add a new product",
+                "help": "Start with just the basics — you can fill in pricing, specs, images, and publish it from the editor.",
+                "name": "Product name",
+                "namePlaceholder": "e.g. SolarX 450W Panel",
+                "type": "Product type",
+                "brandOptional": "Brand (optional)",
+                "categoryOptional": "Category (optional)",
+                "noCategory": "No category",
+                "createAndContinue": "Create and continue"
+            },
+            "detail": {
+                "back": "Back to products",
+                "tabs": {
+                    "overview": "Overview",
+                    "pricing": "Pricing & stock",
+                    "specs": "Specifications",
+                    "details": "Details",
+                    "links": "Links",
+                    "images": "Images",
+                    "spotlight": "Spotlight",
+                    "danger": "Danger zone"
+                },
+                "overview": {
+                    "nameEn": "Name (English)",
+                    "nameSq": "Name (Albanian)",
+                    "descriptionEn": "Description (English)",
+                    "descriptionSq": "Description (Albanian)",
+                    "brand": "Brand",
+                    "model": "Model",
+                    "sku": "SKU",
+                    "type": "Type",
+                    "category": "Category",
+                    "featured": "Featured on the home page"
+                },
+                "pricing": {
+                    "price": "Price (€)",
+                    "salePrice": "Sale price (€)",
+                    "transport": "Transport price (€, optional)",
+                    "installation": "Installation price (€, optional)",
+                    "feesHelp": "Leave transport or installation empty if they don't apply — customers only see the lines you fill in.",
+                    "stock": "Stock",
+                    "stockHelp": "Live count, decremented on each paid order. Set to 0 to mark out of stock.",
+                    "showStock": "Show the live stock count to customers",
+                    "showStockHelp": "Off hides the number on the public page; customers still see In stock / Out of stock.",
+                    "transportHelp": "Optional fee shown separately when this product needs delivery support.",
+                    "installationHelp": "Optional service fee shown only when professional installation is offered."
+                },
+                "details": {
+                    "title": "Product details",
+                    "subtitle": "Long-form information customers see on the product page — specs, compatibility, what's in the box. Supports plain text with line breaks.",
+                    "detailsEn": "Details (English)",
+                    "detailsSq": "Details (Albanian)",
+                    "placeholder": "e.g. What's in the box, compatibility, certifications, cable lengths…",
+                    "help": "Long-form information customers see on the product page — specs, compatibility, and what's in the box."
+                },
+                "links": {
+                    "title": "External links",
+                    "subtitle": "Add links to documentation, datasheets, install guides, or videos. Customers see them on the product page.",
+                    "add": "Add link",
+                    "addTitle": "Add link",
+                    "editTitle": "Edit link",
+                    "label": "Label (optional)",
+                    "labelPlaceholder": "e.g. Installation guide",
+                    "url": "URL",
+                    "urlPlaceholder": "https://…",
+                    "save": "Save link",
+                    "saving": "Saving…",
+                    "empty": "No links yet. Add your first one above.",
+                    "edit": "Edit",
+                    "delete": "Remove",
+                    "deleteConfirm": "Delete link \"{{label}}\"?",
+                    "help": "Add links to documentation, datasheets, install guides, or videos.",
+                    "cancel": "Cancel",
+                    "noLabel": "Untitled link"
+                },
+                "specs": {
+                    "wattage": "Wattage (W)",
+                    "efficiency": "Efficiency (%)",
+                    "dimensions": "Dimensions",
+                    "weight": "Weight (kg)",
+                    "warranty": "Warranty (years)"
+                },
+                "danger": {
+                    "title": "Danger zone",
+                    "unpublish": "Unpublish this product",
+                    "unpublishHelp": "Move it back to draft so customers can't see it while you make changes.",
+                    "softDelete": "Delete this product",
+                    "softDeleteConfirm": "Delete this product? It will be archived and hidden from the shop.",
+                    "softDeleteHelp": "Archives the product and hides it from the shop. You can restore it later.",
+                    "restore": "Restore this product",
+                    "restoreHelp": "Brings the product back as a draft. You'll need to publish it again to make it live."
+                }
+            },
+            "publish": {
+                "title": "Publish readiness",
+                "helpReady": "Everything checks out. You can publish this product now.",
+                "helpNotReady": "Fix the items below before this product can go live.",
+                "button": "Publish",
+                "unpublishButton": "Unpublish",
+                "publishing": "Publishing…",
+                "saved": "Saved."
+            },
+            "images": {
+                "title": "Product images",
+                "subtitle": "Upload photos, mark one as primary, and reorder them. The primary image is shown first on the shop.",
+                "upload": "Upload image",
+                "uploading": "Uploading…",
+                "searchPlaceholder": "Search by filename…",
+                "dropHint": "Pick any JPG, PNG, WEBP or GIF. Files are saved by name so they're easy to find later.",
+                "empty": "No images yet. Upload your first one to get started.",
+                "primary": "Primary",
+                "makePrimary": "Make primary",
+                "isMain": "Main image",
+                "delete": "Delete image",
+                "deleteConfirm": "Delete image \"{{filename}}\"?",
+                "moveUp": "Move up",
+                "moveDown": "Move down",
+                "altText": "Alt text",
+                "previewUnavailable": "Preview unavailable"
+            },
+            "enhance": {
+                "cleanBackground": "Clean background (free)",
+                "enhance": "Enhance with AI",
+                "needsToken": "Add an OpenAI token in Settings to use Enhance",
+                "processing": "Enhancing…",
+                "reviewTitle": "Review the enhanced photo",
+                "reviewHint": "Compare the original with the AI result. Apply it to replace the live photo, or discard it — the original is always kept on disk.",
+                "original": "Original",
+                "enhanced": "Enhanced",
+                "apply": "Apply",
+                "applying": "Applying…",
+                "discard": "Discard"
+            }
+        },
+        "reviews": {
+            "title": "Review moderation",
+            "subtitle": "Approve, reject, or remove customer reviews. Only approved reviews appear on the shop.",
+            "loading": "Loading…",
+            "empty": "No reviews match these filters.",
+            "loadError": "We couldn't load reviews right now.",
+            "deleteConfirm": "Delete this review? This cannot be undone.",
+            "filters": {
+                "all": "All",
+                "pending": "Pending",
+                "approved": "Approved",
+                "rejected": "Rejected"
+            },
+            "status": {
+                "PENDING": "Pending",
+                "APPROVED": "Approved",
+                "REJECTED": "Rejected"
+            },
+            "actions": {
+                "approve": "Approve",
+                "reject": "Reject",
+                "delete": "Delete"
+            }
+        },
+        "emails": {
+            "title": "Email outbox",
+            "subtitle": "Every transactional email the system has queued, sent or failed to deliver. Newest first.",
+            "recipient": "Recipient",
+            "subject": "Subject",
+            "template": "Template",
+            "status": "Status",
+            "attempts": "Attempts",
+            "createdAt": "Created",
+            "empty": "No emails match this filter.",
+            "loadError": "We couldn't load the email outbox. Please try again.",
+            "pageOf": "Page {{page}} of {{total}}",
+            "filterAll": "All",
+            "filterPending": "Pending",
+            "filterSent": "Sent",
+            "filterFailed": "Failed"
+        },
+        "contact": {
+            "title": "Contact messages",
+            "subtitle": "Customer messages from the public /contact form. Newest first.",
+            "empty": "No messages match this filter.",
+            "loadError": "We couldn't load the contact messages. Please try again.",
+            "pageOf": "Page {{page}} of {{total}}",
+            "deleteConfirm": "Delete the message from {{name}}?",
+            "filters": {
+                "all": "All",
+                "new": "New",
+                "inProgress": "In progress",
+                "resolved": "Resolved",
+                "spam": "Spam"
+            },
+            "col": {
+                "from": "From",
+                "subject": "Subject",
+                "message": "Message",
+                "status": "Status",
+                "received": "Received",
+                "actions": "Actions"
+            },
+            "status": {
+                "NEW": "New",
+                "IN_PROGRESS": "In progress",
+                "RESOLVED": "Resolved",
+                "SPAM": "Spam"
+            },
+            "actions": {
+                "view": "View message",
+                "reply": "Reply by email",
+                "delete": "Delete"
+            },
+            "detail": {
+                "noSubject": "(no subject)",
+                "reply": "Reply by email"
+            }
+        },
+        "installation": {
+            "title": "Installation projects",
+            "subtitle": "Track every installation job — who, where, what's installed, and where it is in the process. Service models drive default pricing on the storefront.",
+            "tabs": {
+                "jobs": "Jobs",
+                "models": "Service models"
+            },
+            "jobs": {
+                "title": "Installation jobs",
+                "subtitle": "Newest first. Filter by status, search by customer email.",
+                "new": "New job",
+                "edit": "Edit job",
+                "searchPlaceholder": "Search by customer email",
+                "refresh": "Refresh",
+                "loading": "Loading jobs…",
+                "empty": "No installation jobs match this filter.",
+                "deleteConfirm": "Delete the installation job for {{name}}? This cannot be undone.",
+                "cancelReason": "Reason for cancellation (optional, but helpful)",
+                "move": "Move to…",
+                "filterAll": "All",
+                "status": {
+                    "REQUESTED": "Requested",
+                    "SCHEDULED": "Scheduled",
+                    "IN_PROGRESS": "In progress",
+                    "ON_HOLD": "On hold",
+                    "COMPLETED": "Completed",
+                    "CANCELLED": "Cancelled"
+                },
+                "col": {
+                    "customer": "Customer",
+                    "site": "Site",
+                    "products": "Products",
+                    "installer": "Installer",
+                    "scheduled": "Scheduled",
+                    "status": "Status",
+                    "actions": "Actions"
+                },
+                "actions": {
+                    "edit": "Edit",
+                    "delete": "Delete"
+                },
+                "form": {
+                    "customerName": "Customer name",
+                    "customerEmail": "Customer email",
+                    "customerPhone": "Phone (optional)",
+                    "installer": "Assigned installer",
+                    "installerHint": "Name of the technician or crew",
+                    "siteStreet": "Street address",
+                    "siteCity": "City",
+                    "sitePostal": "Postal code",
+                    "siteCountry": "Country",
+                    "option": "Service model",
+                    "optionNone": "None — custom job",
+                    "scheduledAt": "Scheduled for",
+                    "basePrice": "Base price (€)",
+                    "finalCost": "Final cost (€)",
+                    "notes": "Notes",
+                    "products": "Products to install",
+                    "addItem": "Add product",
+                    "itemPickProduct": "Pick a product…",
+                    "itemUnit": "Unit price",
+                    "noItems": "No products yet — add one if this job covers specific gear.",
+                    "cancel": "Cancel",
+                    "save": "Save job",
+                    "saving": "Saving…"
+                },
+                "errors": {
+                    "customerNameRequired": "Customer name is required.",
+                    "customerEmailRequired": "Customer email is required.",
+                    "itemProductRequired": "Pick a product for every line.",
+                    "itemQtyInvalid": "Quantity must be at least 1."
+                }
+            },
+            "models": {
+                "title": "Service models",
+                "new": "New model",
+                "edit": "Edit",
+                "delete": "Delete",
+                "defaultBadge": "DEFAULT",
+                "basePrice": "Base price",
+                "empty": "No service models yet — create one to set the default installation price at checkout.",
+                "loading": "Loading models…",
+                "deleteConfirm": "Delete the service model \"{{name}}\"? Existing jobs will keep the price they were created with.",
+                "pricing": {
+                    "FIXED": "Fixed fee",
+                    "PER_KW": "Per kW",
+                    "REGION": "Region-based"
+                },
+                "form": {
+                    "name": "Name",
+                    "pricingModel": "Pricing model",
+                    "basePrice": "Base price (€)",
+                    "perKwPrice": "Price per kW (€, optional)",
+                    "description": "Description",
+                    "isDefault": "Default model (used at checkout)",
+                    "isActive": "Active (visible to customers)",
+                    "cancel": "Cancel",
+                    "save": "Save model",
+                    "saving": "Saving…"
+                },
+                "errors": {
+                    "nameRequired": "Name is required.",
+                    "basePriceRequired": "Base price is required and must be ≥ 0."
+                }
+            }
+        },
+        "orders": {
+            "eyebrow": "Fulfilment",
+            "title": "Orders",
+            "subtitle": "Review each order, inspect line items, and move it through the state machine.",
+            "loading": "Loading orders…",
+            "loadError": "We couldn't load the orders right now.",
+            "updateError": "We couldn't update the order right now.",
+            "empty": "No orders match this filter.",
+            "emptyHint": "Try clearing the date range or status filter — your match is probably on an earlier page.",
+            "bulk": {
+                "selectAll": "Select all",
+                "selected": "{{n}} selected",
+                "pickStatus": "Change status to…",
+                "apply": "Apply",
+                "applying": "Applying…",
+                "clear": "Clear",
+                "applied": "Updated {{updated}} · skipped {{skipped}}",
+                "confirm": "Move {{n}} orders to {{status}}? This is hard to undo.",
+                "confirmApply": "Yes, move them"
+            },
+            "view": "View",
+            "previous": "Previous",
+            "next": "Next",
+            "pageOf": "Page {{page}} of {{total}}",
+            "itemCount": "{{count}} items",
+            "totalOne": "1 order",
+            "totalMany": "{{count}} orders",
+            "filters": {
+                "customerEmail": "Customer email",
+                "customerEmailPlaceholder": "Search by customer email",
+                "status": "Status",
+                "allStatuses": "All",
+                "from": "From",
+                "to": "To",
+                "apply": "Apply",
+                "reset": "Reset",
+                "dateRange": "Date range",
+                "today": "Today",
+                "last7": "Last 7 days",
+                "last30": "Last 30 days",
+                "custom": "Custom range",
+                "all": "All time"
+            },
+            "col": {
+                "order": "Order",
+                "customer": "Customer",
+                "placed": "Placed",
+                "total": "Total",
+                "status": "Status",
+                "items": "Items",
+                "actions": "Actions"
+            },
+            "status": {
+                "PENDING": "Pending",
+                "PAID": "Paid",
+                "ON_HOLD": "On hold",
+                "PROCESSING": "Processing",
+                "SHIPPED": "Shipped",
+                "DELIVERED": "Delivered",
+                "CANCELLED": "Cancelled",
+                "FAILED": "Failed",
+                "REFUNDED": "Refunded",
+                "RETURNED": "Returned"
+            },
+            "detail": {
+                "title": "Selected order",
+                "emptyTitle": "Pick an order",
+                "empty": "Select a row to inspect the customer, items, payment trail, and next legal status.",
+                "customer": "Customer",
+                "customerFallback": "Unknown customer",
+                "shipping": "Shipping address",
+                "paymentIntent": "Stripe payment intent",
+                "payment": "Payment",
+                "paymentDev": "Test mode",
+                "copyId": "Copy ID",
+                "copied": "Copied!",
+                "installation": "Installation job",
+                "installationLinked": "Linked",
+                "installationOpen": "Open job",
+                "noInstallation": "No linked installation job.",
+                "items": "Items",
+                "noItems": "This order has no line items.",
+                "noProductName": "Product removed",
+                "quantity": "Qty: {{count}}",
+                "timeline": "Timeline",
+                "created": "Created",
+                "updated": "Updated",
+                "paid": "Paid",
+                "shipped": "Shipped",
+                "delivered": "Delivered",
+                "cancelled": "Cancelled",
+                "reason": "Reason",
+                "moveTitle": "Move order",
+                "holdBack": "Pause / step back",
+                "moveHelp": "Only legal next states are offered here. Optional notes are stored for cancellations, failures, and refunds.",
+                "noTransitions": "This order is already in a terminal state.",
+                "nextStatus": "Next status",
+                "nextStatusPlaceholder": "Choose the next status",
+                "reasonHelp": "Optional, but useful when the state change needs context.",
+                "confirmTitle": "Move this order to {{status}}?",
+                "confirmHelp": "This is hard to undo. You can add a note about why.",
+                "confirmApply": "Yes, move it",
+                "confirmCancel": "Keep it as it is",
+                "apply": "Apply transition",
+                "applying": "Saving…",
+                "priceBreakdown": {
+                    "subtotal": "Goods subtotal",
+                    "transport": "Transport",
+                    "installation": "Installation",
+                    "coupon": "Coupon",
+                    "vatIncluded": "Of which VAT ({{rate}}%)",
+                    "total": "Total charged"
+                },
+                "trackingTitle": "Shipment tracking",
+                "trackingHelp": "Set the carrier + tracking number when the box leaves. The customer sees this on their order detail page.",
+                "trackingActive": "Currently set",
+                "trackingNumber": "Tracking number",
+                "trackingOpen": "Open tracking page →",
+                "carrier": "Carrier",
+                "carrierPick": "Pick a carrier…",
+                "saveTracking": "Save tracking",
+                "savingTracking": "Saving…",
+                "clearTracking": "Clear tracking"
+            }
+        },
+        "blog": {
+            "list": {
+                "title": "Blog posts",
+                "subtitle": "Write, edit and publish bilingual blog posts. Quick-create with the bare minimum, then fill in the rest in the editor.",
+                "new": "New post",
+                "searchPlaceholder": "Search by title or slug",
+                "allStatuses": "All statuses",
+                "showDeleted": "Show deleted",
+                "loading": "Loading posts…",
+                "empty": "No posts match this filter.",
+                "col": {
+                    "post": "Post",
+                    "category": "Category",
+                    "status": "Status",
+                    "published": "Published",
+                    "views": "Views",
+                    "likes": "Likes",
+                    "actions": "Actions"
+                },
+                "neverPublished": "—",
+                "deleteConfirm": "Delete \"{{title}}\"? It can be restored from the danger zone.",
+                "restoreConfirm": "Restore \"{{title}}\" to draft?",
+                "deleteFailed": "Delete failed."
+            },
+            "statusDeleted": "Deleted",
+            "statuses": {
+                "DRAFT": "Draft",
+                "PUBLISHED": "Published",
+                "ARCHIVED": "Archived"
+            },
+            "actions": {
+                "edit": "Edit post",
+                "delete": "Delete post",
+                "restore": "Restore post"
+            },
+            "quickCreate": {
+                "title": "New blog post",
+                "help": "Just the basics — you can fill in everything else from the editor.",
+                "titleEn": "Title (English)",
+                "titleSq": "Title (Albanian)",
+                "category": "Category (optional)",
+                "noCategory": "No category",
+                "create": "Create and continue",
+                "saving": "Creating…"
+            },
+            "categories": {
+                "title": "Blog categories",
+                "subtitle": "Group posts by topic. Names are required in both languages; the slug is generated from English.",
+                "new": "New category",
+                "edit": "Edit category",
+                "loading": "Loading categories…",
+                "empty": "No categories yet.",
+                "active": "Active",
+                "inactive": "Inactive",
+                "col": {
+                    "nameEn": "Name (EN)",
+                    "nameSq": "Name (SQ)",
+                    "slug": "Slug",
+                    "order": "Order",
+                    "active": "State",
+                    "actions": "Actions"
+                },
+                "actions": {
+                    "edit": "Edit category",
+                    "delete": "Delete category"
+                },
+                "form": {
+                    "nameEn": "Name (English)",
+                    "nameSq": "Name (Albanian)",
+                    "descriptionEn": "Description (English)",
+                    "descriptionSq": "Description (Albanian)",
+                    "sortOrder": "Sort order",
+                    "active": "Visible to readers",
+                    "save": "Save",
+                    "saving": "Saving…"
+                }
+            },
+            "tags": {
+                "title": "Blog tags",
+                "subtitle": "Free-form tags for posts. Names are required in both languages; the slug is generated from English.",
+                "new": "New tag",
+                "edit": "Edit tag",
+                "loading": "Loading tags…",
+                "empty": "No tags yet.",
+                "col": {
+                    "nameEn": "Name (EN)",
+                    "nameSq": "Name (SQ)",
+                    "slug": "Slug",
+                    "actions": "Actions"
+                },
+                "actions": {
+                    "edit": "Edit tag",
+                    "delete": "Delete tag"
+                },
+                "form": {
+                    "nameEn": "Name (English)",
+                    "nameSq": "Name (Albanian)",
+                    "save": "Save",
+                    "saving": "Saving…"
+                }
+            },
+            "comments": {
+                "title": "Blog comments",
+                "subtitle": "Approve, reject or remove reader comments before they appear on a post.",
+                "loading": "Loading comments…",
+                "empty": "No comments match this filter.",
+                "deleteConfirm": "Delete this comment? This cannot be undone.",
+                "filters": {
+                    "pending": "Pending",
+                    "all": "All",
+                    "approved": "Approved",
+                    "rejected": "Rejected"
+                },
+                "status": {
+                    "PENDING": "Pending",
+                    "APPROVED": "Approved",
+                    "REJECTED": "Rejected"
+                },
+                "actions": {
+                    "approve": "Approve",
+                    "reject": "Reject",
+                    "delete": "Delete"
+                }
+            },
+            "detail": {
+                "back": "Back to blog posts",
+                "loading": "Loading post…",
+                "notFound": "Post not found.",
+                "saved": "Saved",
+                "save": "Save",
+                "saving": "Saving…",
+                "tabs": {
+                    "overview": "Overview",
+                    "seo": "SEO",
+                    "sections": "Sections",
+                    "links": "Links",
+                    "related": "Related products",
+                    "danger": "Danger zone"
+                },
+                "publish": {
+                    "title": "Publish readiness",
+                    "helpReady": "Everything's good — this post is ready to publish.",
+                    "helpNotReady": "Fix the checklist below before publishing.",
+                    "button": "Publish",
+                    "unpublishButton": "Unpublish",
+                    "publishing": "Publishing…"
+                },
+                "overview": {
+                    "titleEn": "Title (English)",
+                    "titleSq": "Title (Albanian)",
+                    "excerptEn": "Excerpt (English)",
+                    "excerptSq": "Excerpt (Albanian)",
+                    "summaryEn": "Summary (English)",
+                    "summarySq": "Summary (Albanian)",
+                    "coverImage": "Cover image URL",
+                    "ogImage": "Social share image (OG)",
+                    "readingMinutes": "Reading minutes",
+                    "category": "Category",
+                    "noCategory": "No category",
+                    "featured": "Featured on the blog homepage",
+                    "tags": "Tags",
+                    "noTags": "No tags yet"
+                },
+                "seo": {
+                    "help": "Optional. If left blank we fall back to the post title and excerpt.",
+                    "metaTitleEn": "Meta title (English)",
+                    "metaTitleSq": "Meta title (Albanian)",
+                    "metaDescriptionEn": "Meta description (English)",
+                    "metaDescriptionSq": "Meta description (Albanian)"
+                },
+                "sections": {
+                    "add": "Add section",
+                    "empty": "No sections yet — add the first one.",
+                    "types": {
+                        "HEADING": "Heading",
+                        "PARAGRAPH": "Paragraph",
+                        "IMAGE": "Image",
+                        "QUOTE": "Quote",
+                        "CALLOUT": "Callout",
+                        "LIST": "List",
+                        "KEY_TAKEAWAYS": "Key takeaways",
+                        "VIDEO": "Video"
+                    },
+                    "bodyEn": "Body (English)",
+                    "bodySq": "Body (Albanian)",
+                    "imageUrl": "Image URL",
+                    "altEn": "Alt text (English)",
+                    "altSq": "Alt text (Albanian)",
+                    "attribution": "Attribution",
+                    "tone": "Tone",
+                    "toneInfo": "Info",
+                    "toneWarning": "Warning",
+                    "toneSuccess": "Success",
+                    "itemsEn": "Items (English) — one per line",
+                    "itemsSq": "Items (Albanian) — one per line",
+                    "videoUrl": "Video URL",
+                    "videoUrlHint": "YouTube or Vimeo URL",
+                    "moveUp": "Move up",
+                    "moveDown": "Move down",
+                    "delete": "Delete section",
+                    "deleteConfirm": "Delete this section?"
+                },
+                "links": {
+                    "help": "Outbound links shown next to the article — datasheets, manufacturer pages, related guides.",
+                    "add": "Add link",
+                    "edit": "Edit link",
+                    "empty": "No links yet.",
+                    "delete": "Delete link",
+                    "deleteConfirm": "Delete this link?",
+                    "label": "Label (optional)",
+                    "url": "URL",
+                    "displayOrder": "Display order",
+                    "save": "Save",
+                    "saving": "Saving…"
+                },
+                "related": {
+                    "help": "Pick products related to this article — they appear in the sidebar.",
+                    "searchPlaceholder": "Search products…",
+                    "save": "Save related",
+                    "saving": "Saving…",
+                    "empty": "No products match your search."
+                },
+                "danger": {
+                    "title": "Danger zone",
+                    "help": "Soft-deleted posts are hidden from readers but can be restored from the list view.",
+                    "delete": "Soft delete post",
+                    "deleteConfirm": "Soft delete this post? It can be restored from the list view.",
+                    "restore": "Restore post"
+                }
+            }
+        }
+    },
+    "mobileCta": {
+        "getQuote": "Get a free quote",
+        "call": "Call",
+        "phone": "+383 44 000 000"
+    },
+    "footer": {
+        "tagline": "Premium solar hardware, professional installation, and a team that follows through. Built for homes that take energy seriously.",
+        "getQuote": "Get a quote",
+        "callUs": "Call us",
+        "cols": {
+            "shop": "Shop",
+            "learn": "Learn",
+            "account": "Account",
+            "contact": "Contact"
+        },
+        "links": {
+            "allProducts": "All products",
+            "panels": "Panels",
+            "inverters": "Inverters",
+            "batteries": "Batteries",
+            "howItWorks": "How it works",
+            "calculator": "Savings calculator",
+            "blog": "Blog",
+            "whyUs": "Why SolarX",
+            "faq": "FAQ",
+            "signIn": "Sign in",
+            "createAccount": "Create an account",
+            "cart": "Cart"
+        },
+        "location": "Prishtina, Kosovo",
+        "openContact": "Open contact",
+        "rights": "All rights reserved.",
+        "legal": {
+            "privacy": "Privacy",
+            "terms": "Terms",
+            "cookies": "Cookies"
+        },
+        "poweredBySun": "Powered by the sun"
+    },
+    "legal": {
+        "eyebrow": "Legal",
+        "title": "Legal & policies",
+        "lastUpdated": "Last updated: June 2026",
+        "tabs": {
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "cookies": "Cookie Policy"
+        },
+        "reviewNote": "This is a plain-language summary provided for transparency. Before relying on it for a purchase or dispute, please review the full policy with qualified legal counsel for your jurisdiction."
+    },
+    "calculatorPage": {
+        "eyebrow": "Savings calculator",
+        "title": "See what solar could save you",
+        "subtitle": "Enter your monthly electricity bill and roof type for an instant estimate of system size, cost and payback. No sign-up, no obligation."
+    },
+    "howItWorks": {
+        "eyebrow": "How it works",
+        "title": "From quote to savings in four steps",
+        "subtitle": "Going solar with SolarX is simple. Here's exactly what happens — and how long each part takes.",
+        "includedTitle": "What's included",
+        "ctaTitle": "Ready to start?",
+        "ctaSubtitle": "Get a free, no-obligation quote within 24 hours.",
+        "ctaQuote": "Get a free quote",
+        "ctaCalculator": "Try the calculator"
+    },
+    "whyUs": {
+        "eyebrow": "Why SolarX",
+        "title": "Solar done properly",
+        "subtitle": "Anyone can sell you a panel. We design, install and stand behind a complete system — with quality hardware, honest pricing and a team you can actually reach.",
+        "ctaTitle": "Let's size your system",
+        "ctaSubtitle": "Tell us your bill and roof, and we'll come back with a clear quote — no pressure, no jargon.",
+        "ctaQuote": "Get a free quote",
+        "ctaShop": "Browse products"
+    },
+    "faq": {
+        "eyebrow": "FAQ",
+        "title": "Questions, answered",
+        "subtitle": "The things people ask us most before going solar.",
+        "stillQuestions": "Still have a question?",
+        "contactCta": "Talk to us"
+    },
+    "cookieConsent": {
+        "message": "We use essential cookies to keep you signed in, hold your cart and remember your language.",
+        "learnMore": "Cookie policy",
+        "accept": "Got it"
+    },
+    "cart": {
+        "titlePrefix": "YOUR",
+        "titleSuffix": "CART",
+        "title": "YOUR",
+        "highlight": "CART",
+        "empty": "Your cart is empty.",
+        "loadError": "We couldn't load your cart. Please try again.",
+        "retry": "Try again",
+        "summary": "Order Summary",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "shippingValue": "FREE",
+        "transport": "Transport",
+        "installation": "Installation",
+        "dealDiscount": "Deal savings",
+        "stockIssues": {
+            "title": "Some items in your cart need attention",
+            "insufficient": "{{name}} — you have {{requested}} in cart but only {{available}} left in stock.",
+            "insufficientNoCount": "{{name}} — there isn't enough stock for the quantity in your cart.",
+            "unavailable": "{{name}} is no longer available.",
+            "checkoutBlocked": "Adjust your cart to continue"
+        },
+        "total": "Total",
+        "checkout": "Proceed to Checkout",
+        "continue": "Continue Shopping",
+        "goShopping": "Go Shopping",
+        "saveForLater": "Save for later",
+        "increase": "Increase quantity",
+        "priceChanged": "Price changed from {{from}} to {{to}} since you added it.",
+        "maxStock": "Only {{count}} in stock",
+        "savedTitle": "Saved for later",
+        "savedSubtitle": "Items you've parked for later. Move them back into the cart whenever you're ready.",
+        "savedEmpty": "Nothing saved for later yet.",
+        "moveToCart": "Move to cart",
+        "removeSaved": "Remove",
+        "savedSignInPrompt": "Sign in to save items for later.",
+        "quoteError": "We couldn't refresh your prices. The totals below may be out of date.",
+        "quoteRetry": "Try again"
+    },
+    "checkout": {
+        "stockIssues": {
+            "fixInCart": "Go back to your cart to fix this"
+        },
+        "quote": {
+            "retry": "Try again"
+        },
+        "titlePrefix": "SECURE",
+        "titleSuffix": "CHECKOUT",
+        "title": "SECURE",
+        "highlight": "CHECKOUT",
+        "shippingAddress": "Shipping Address",
+        "back": "Back",
+        "steps": {
+            "address": "Address",
+            "review": "Review",
+            "payment": "Payment"
+        },
+        "payment": {
+            "title": "Payment Method",
+            "stripe": "Secure Card Payment via Stripe",
+            "secure": "Your transaction is secure and encrypted",
+            "methodTitle": "How would you like to pay?",
+            "methods": {
+                "stripe": "Card payment",
+                "cash_on_delivery": "Cash on delivery",
+                "bank_transfer": "Bank transfer"
+            },
+            "methodHints": {
+                "stripe": "Pay securely by card now.",
+                "cash_on_delivery": "Pay in cash when your order arrives.",
+                "bank_transfer": "Transfer to our bank account — we'll confirm once it arrives."
+            },
+            "offline": {
+                "codIntro": "You'll pay in cash when your order is delivered. Place the order to confirm it.",
+                "bankIntro": "Transfer the total to the account below, using your order number as the reference. We'll confirm your order once the payment arrives.",
+                "place": "Place order"
+            },
+            "confirming": "Confirming payment...",
+            "pay": "Pay {{amount}}",
+            "devBypass": {
+                "title": "Demo mode — no real card needed",
+                "body": "This is a showcase, so no real payment is taken. Click the button below to simulate a successful card payment and see how the order looks once it's paid.",
+                "pay": "Confirm demo payment ({{amount}})"
+            }
+        },
+        "choice": {
+            "title": "CHOOSE CHECKOUT METHOD",
+            "subtitle": "Select how you would like to proceed with your order",
+            "guest": "GUEST CHECKOUT",
+            "login": "ACCOUNT LOGIN",
+            "register": "CREATE ACCOUNT"
+        },
+        "shippingInfo": "Shipping Information",
+        "form": {
+            "name": "Full Name",
+            "email": "Email Address",
+            "address": "Shipping Address",
+            "nameRequired": "Please enter your full name.",
+            "addressRequired": "Please enter your shipping address.",
+            "emailUnavailable": "We couldn't read your account email. Refresh the page or sign in again.",
+            "installation": "INSTALLATION PREFERENCE",
+            "installationPlaceholder": "Enter preferred date or notes...",
+            "installationToggle": "Include professional installation",
+            "installationHelp": "Our team handles delivery + on-site installation. Untick to install yourself.",
+            "installationNoFee": "Included",
+            "installationNoSchedule": "(no preference)",
+            "continue": "Continue"
+        },
+        "review": {
+            "title": "Review your order",
+            "subtitle": "Please double-check the details below before payment.",
+            "continue": "Continue to payment",
+            "creating": "Preparing your order...",
+            "continueToPayment": "Continue to payment"
+        },
+        "verify": {
+            "refreshing": "Checking your account status…",
+            "title": "Verify your email before checkout",
+            "subtitle": "For account security, purchases are only enabled after you confirm your email address.",
+            "resend": "Resend verification email",
+            "sending": "Sending verification email…",
+            "sent": "Verification email sent. Check your inbox and spam folder.",
+            "error": "We couldn't send another verification email right now. Please try again.",
+            "backToCart": "Back to cart"
+        },
+        "summary": {
+            "title": "Purchase Summary",
+            "qty": "Qty",
+            "taxes": "Estimated Taxes",
+            "vatIncluded": "Of which VAT ({{rate}}%)",
+            "total": "Final Total",
+            "installationFee": "Installation",
+            "processing": "PROCESSING ORDER...",
+            "complete": "COMPLETE PURCHASE"
+        },
+        "error": {
+            "create": "We couldn't start your order. Please try again.",
+            "confirm": "Payment couldn't be confirmed. Please try again.",
+            "stripeNotReady": "Payment isn't ready yet. Refresh the page and try again.",
+            "replaceFailed": "We couldn't update your earlier attempt. Please refresh the page and try again.",
+            "methodUnavailable": "That payment method was just switched off. Please choose another one.",
+            "quoteFailed": "We couldn't refresh your prices. The totals below may be out of date.",
+            "stripeNotConfigured": "Payments aren't configured for this environment. Contact support."
+        },
+        "coupon": {
+            "label": "Have a coupon code?",
+            "placeholder": "ENTER CODE",
+            "apply": "Apply",
+            "applying": "Checking…",
+            "applied": "Coupon applied",
+            "remove": "Remove coupon",
+            "failed": "We couldn't apply that code."
+        },
+        "placeOrder": "Place Order",
+        "success": "Order placed successfully!"
+    },
+    "product": {
+        "breadcrumb": {
+            "home": "Home",
+            "shop": "Shop"
+        },
+        "status": {
+            "inStock": "IN STOCK",
+            "outOfStock": "OUT OF STOCK",
+            "stockCount": "{{count}} in stock"
+        },
+        "specs": {
+            "title": "Specifications",
+            "wattage": "Wattage",
+            "efficiency": "Efficiency",
+            "dimensions": "Dimensions",
+            "weight": "Weight",
+            "warranty": "Warranty",
+            "years": "years",
+            "brand": "Brand",
+            "model": "Model",
+            "sku": "SKU",
+            "type": "Type"
+        },
+        "onFire": {
+            "HOT_DEAL": "Hot deal",
+            "CLEARANCE": "Clearance",
+            "NEW_ARRIVAL": "New arrival",
+            "until": "Ends {{date}}"
+        },
+        "deal": {
+            "endsOn": "ends"
+        },
+        "description": {
+            "title": "About this product",
+            "empty": "No description yet."
+        },
+        "details": {
+            "title": "Product details"
+        },
+        "fees": {
+            "transport": "Transport",
+            "installation": "Installation"
+        },
+        "links": {
+            "title": "Resources"
+        },
+        "payments": {
+            "title": "Payment methods",
+            "secure": "Secure payments",
+            "cash": "Cash on delivery",
+            "online": "Pay online",
+            "bankTransfer": "Pay by bank transfer"
+        },
+        "reviews": {
+            "title": "Reviews",
+            "count": "{{count}} reviews",
+            "empty": "No reviews yet. Be the first to review.",
+            "form": {
+                "title": "Write a review",
+                "rating": "Rating",
+                "titleLabel": "Title (optional)",
+                "titlePlaceholder": "Summarise your experience",
+                "bodyLabel": "Your review",
+                "bodyPlaceholder": "Share your experience with this product…",
+                "submit": "Submit review",
+                "submitting": "Submitting…",
+                "success": "Thanks — your review was submitted and will appear after moderation.",
+                "invalid": "Please pick a rating and write a short review.",
+                "error": "Could not submit your review. Please try again.",
+                "loginPrompt": "You need to be signed in to write a review.",
+                "loginCta": "Sign in"
+            }
+        },
+        "installation": {
+            "title": "Installation Service",
+            "subtitle": "Professional setup by certified team",
+            "fee": "+ $1,500.00 Fixed Fee"
+        },
+        "quantity": "Quantity",
+        "addToCart": "Add to cart",
+        "backToShop": "Back to shop",
+        "notFound": {
+            "title": "Product not found",
+            "subtitle": "This product may have been removed or is no longer published.",
+            "cta": "Browse all products"
+        },
+        "loading": "Loading product…",
+        "shippingNotice": "Shipping estimated at checkout",
+        "returnPolicy": "30-day return policy applies"
+    },
+    "auth": {
+        "login": {
+            "eyebrow": "Welcome back",
+            "title": "Sign in to",
+            "titleEmph": "your account.",
+            "subtitle": "Access your solar ecosystem",
+            "emailLabel": "Email Address",
+            "emailPlaceholder": "name@company.com",
+            "passwordLabel": "Password",
+            "passwordPlaceholder": "••••••••",
+            "forgotPassword": "Forgot?",
+            "rememberMe": "Keep me signed in for 30 days",
+            "submit": "Sign in",
+            "newcomer": "New here?",
+            "registerLink": "Create account",
+            "errorInvalid": "Email or password is incorrect.",
+            "errorLocked": "This account is temporarily locked. Try again later or contact an administrator.",
+            "errorTooMany": "Too many attempts. Please wait a moment and try again."
+        },
+        "register": {
+            "eyebrow": "Create an account",
+            "title": "Join",
+            "titleEmph": "SolarX.",
+            "subtitle": "Create your account in a few steps",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "emailLabel": "Email Address",
+            "emailPlaceholder": "name@company.com",
+            "passwordLabel": "Secure Password",
+            "passwordPlaceholder": "••••••••",
+            "submit": "Create Account",
+            "alreadyMember": "Already have an account?",
+            "loginLink": "Sign in",
+            "missingFields": "Please enter your email and a password.",
+            "passwordTooShortClient": "Password must be at least 8 characters.",
+            "genericError": "Could not create your account. Please try again.",
+            "strength": {
+                "0": "Very weak",
+                "1": "Weak",
+                "2": "Fair",
+                "3": "Strong",
+                "4": "Very strong"
+            }
+        },
+        "panel": {
+            "titleA": "Energy you",
+            "titleB": "own.",
+            "body": "Create a free account for personalised savings, order tracking and live installation status.",
+            "benefit1": "Personal savings calculations",
+            "benefit2": "25-year documented warranty",
+            "benefit3": "Early member-only deals"
+        },
+        "errors": {
+            "EMAIL_REQUIRED": "Email is required.",
+            "EMAIL_EXISTS": "An account with this email already exists.",
+            "PASSWORD_REQUIRED": "Password is required.",
+            "PASSWORD_TOO_SHORT": "Password must be at least 8 characters.",
+            "PASSWORD_TOO_LONG": "Password is too long (max 128 characters).",
+            "PASSWORD_CONTAINS_EMAIL": "Password must not contain your email address.",
+            "PASSWORD_CONTAINS_FIRST_NAME": "Password must not contain your first name.",
+            "PASSWORD_CONTAINS_LAST_NAME": "Password must not contain your last name.",
+            "PASSWORD_TOO_COMMON": "This password is too common. Please choose a different one.",
+            "PASSWORD_BREACHED": "This password has appeared in a known data breach. Please choose a different one.",
+            "VERIFY_TOKEN_MISSING": "Missing verification token.",
+            "VERIFY_TOKEN_INVALID": "Invalid or expired verification link.",
+            "VERIFY_TOKEN_USED": "This link has already been used.",
+            "VERIFY_TOKEN_EXPIRED": "This link has expired — request a new one.",
+            "RESET_TOKEN_MISSING": "Missing reset token.",
+            "RESET_TOKEN_INVALID": "Invalid or expired reset link.",
+            "RESET_TOKEN_USED": "This link has already been used.",
+            "RESET_TOKEN_EXPIRED": "This link has expired — request a new one.",
+            "ACCOUNT_GONE": "Account no longer exists.",
+            "CURRENT_PASSWORD_WRONG": "Your current password is incorrect.",
+            "PASSWORD_UNCHANGED": "Choose a password different from your current one."
+        },
+        "forgot": {
+            "title": "Reset your password",
+            "subtitle": "Enter your email and we'll send you a link to set a new password.",
+            "back": "Back to login",
+            "emailLabel": "Email address",
+            "emailPlaceholder": "you@example.com",
+            "submit": "Send reset link",
+            "submittedMessage": "If an account matches that email, a reset link is on its way. Check your inbox (and spam folder)."
+        },
+        "reset": {
+            "title": "Set a new password",
+            "subtitle": "Pick a strong password — at least 12 characters.",
+            "passwordLabel": "New password",
+            "passwordHint": "Use at least 12 characters. Mix in letters, numbers and symbols.",
+            "confirmLabel": "Confirm new password",
+            "submit": "Update password",
+            "doneMessage": "Your password has been updated.",
+            "loginCta": "Log in now",
+            "errorMissingToken": "This reset link is missing or invalid. Start again from the forgot-password page.",
+            "errorMismatch": "The two passwords don't match."
+        },
+        "verify": {
+            "verifying": "Verifying your email…",
+            "successTitle": "Email verified",
+            "successMessage": "Your email is confirmed. You can now sign in to your account.",
+            "continueCta": "Continue to login",
+            "errorTitle": "Verification failed",
+            "errorMessage": "This verification link is invalid or has expired.",
+            "backToLogin": "Back to login"
+        }
+    },
+    "15% OFF": "15% OFF",
+    "Get 15% off all solar panels this spring!": "Get 15% off all solar panels this spring!",
+    "$500 OFF": "$500 OFF",
+    "Save $500 on any complete solar bundle.": "Save $500 on any complete solar bundle.",
+    "$300 OFF": "$300 OFF",
+    "Save $300 on our new Eco Bundle!": "Save $300 on our new Eco Bundle!",
+    "SAVE $300 ON OUR NEW ECO BUNDLE!": "SAVE $300 ON OUR NEW ECO BUNDLE!",
+    "Bundle Discount": "Bundle Discount",
+    "toast": {
+        "saved": "Saved",
+        "deleted": "Deleted",
+        "orderStatusUpdated": "Order status updated",
+        "trackingSaved": "Tracking saved",
+        "trackingCleared": "Tracking cleared",
+        "carrierSaved": "Carrier saved",
+        "carrierDeleted": "Carrier deleted",
+        "reviewUpdated": "Review updated",
+        "commentUpdated": "Comment updated",
+        "enhanceQueued": "Enhancement started",
+        "enhanceApplied": "Enhanced photo applied",
+        "error": "Something went wrong"
+    },
+    "common": {
+        "save": "Save",
+        "saving": "Saving…",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "refresh": "Refresh"
+    }
+}

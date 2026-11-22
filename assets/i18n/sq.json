@@ -1,0 +1,2344 @@
+{
+    "shared": {
+        "dateInput": {
+            "pickDate": "Zgjidh datën",
+            "pickDateTime": "Zgjidh datën dhe orën",
+            "clearDate": "Pastro datën"
+        }
+    },
+    "header": {
+        "shop": "DYQANI",
+        "trending": "NË TREND",
+        "blog": "BLOGU",
+        "contact": "KONTAKTI",
+        "myOrders": "POROSITË E MIA",
+        "settings": "Konfigurimet",
+        "logout": "DIL",
+        "login": "HYR"
+    },
+    "trending": {
+        "back": "Kthehu te ballina",
+        "eyebrow": "NË TREND",
+        "title": "Çka po zgjedhin klientët këtë javë",
+        "subtitle": "Një listë që e zgjedh ekipi ynë çdo javë — produkte që po lëvizin më shpejt sesa të tjerët. Hap për detaje.",
+        "itemOne": "produkt",
+        "itemMany": "produkte",
+        "empty": {
+            "title": "Asgjë në trend tani",
+            "body": "Listën e ndërrojmë çdo javë. Ndërkohë, hap dyqanin për të parë çdo gjë.",
+            "cta": "Hap dyqanin"
+        }
+    },
+    "account": {
+        "settings": {
+            "back": "Kthehu te porositë e mia",
+            "title": "Cilësimet e llogarisë",
+            "subtitle": "Menaxho llogarinë dhe fjalëkalimin tënd.",
+            "profile": "Profili",
+            "email": "Email",
+            "verified": "I verifikuar",
+            "unverified": "Pa verifikim",
+            "changePassword": "Ndrysho fjalëkalimin",
+            "current": "Fjalëkalimi aktual",
+            "newPassword": "Fjalëkalimi i ri",
+            "confirm": "Konfirmo fjalëkalimin e ri",
+            "hint": "Të paktën 12 karaktere.",
+            "submit": "Përditëso fjalëkalimin",
+            "saving": "Po përditësohet…",
+            "changed": "Fjalëkalimi u përditësua.",
+            "mismatch": "Fjalëkalimet e reja nuk përputhen.",
+            "error": "Nuk arritëm ta përditësojmë fjalëkalimin."
+        },
+        "orders": {
+            "title": "Porositë e mia",
+            "subtitle": "Ndiq pagesën, përgatitjen dhe dërgesën për çdo gjë që ke blerë.",
+            "empty": {
+                "title": "Ende nuk ke porosi",
+                "subtitle": "Sapo të blesh diçka, porositë do të shfaqen këtu.",
+                "cta": "Hap dyqanin"
+            },
+            "loading": "Po ngarkohen porositë…",
+            "loadError": "Nuk arritëm t'i ngarkojmë porositë. Provo përsëri.",
+            "retry": "Provo përsëri",
+            "col": {
+                "orderNumber": "Porosia",
+                "placed": "Krijuar më",
+                "total": "Totali",
+                "status": "Statusi",
+                "actions": "Veprime"
+            },
+            "view": "Shiko",
+            "page": "Faqja {{page}} nga {{total}}",
+            "previous": "Mbrapa",
+            "next": "Përpara",
+            "status": {
+                "PENDING": "Në pritje të pagesës",
+                "PAID": "E paguar",
+                "ON_HOLD": "Pezulluar",
+                "PROCESSING": "Po përgatitet",
+                "SHIPPED": "E dërguar",
+                "DELIVERED": "E dorëzuar",
+                "CANCELLED": "E anuluar",
+                "FAILED": "Pagesa dështoi",
+                "REFUNDED": "E rimbursuar",
+                "RETURNED": "E kthyer"
+            }
+        },
+        "order": {
+            "confirming": {
+                "title": "Po e konfirmojmë pagesën tënde",
+                "body": "Zakonisht merr disa sekonda. S'ke nevojë të bësh asgjë. Kjo faqe do të përditësohet vetë.",
+                "slow": "Konfirmimi i pagesës po vonon më shumë se zakonisht. Mos paguaj sërish. Rifresko pas një minute për të parë gjendjen e fundit.",
+                "refresh": "Rifresko"
+            },
+            "paymentMethod": "Mënyra e pagesës",
+            "howToPay": {
+                "codTitle": "Paguaj në dorëzim",
+                "codBody": "Do të paguash {{amount}} me para në dorë kur të dorëzohet porosia.",
+                "bankTitle": "Në pritje të transfertës tënde bankare",
+                "bankBody": "Transfero {{amount}} në llogarinë më poshtë dhe përdor {{ref}} si referencë pagese. E konfirmojmë porosinë sapo të vijnë paratë.",
+                "bankNoDetails": "Po i përditësojmë të dhënat bankare. Të lutem na kontakto për ta përfunduar pagesën."
+            },
+            "back": "Kthehu te porositë e mia",
+            "loading": "Po ngarkohet porosia…",
+            "loadError": "Nuk arritëm ta ngarkojmë këtë porosi. Ju lutemi provoni përsëri.",
+            "retry": "Provo përsëri",
+            "notFound": {
+                "title": "Porosia nuk u gjet",
+                "subtitle": "Kjo porosi nuk ekziston ose nuk i përket llogarisë tënde.",
+                "cta": "Kthehu te porositë e mia"
+            },
+            "summary": "Përmbledhja e porosisë",
+            "placedOn": "Krijuar më",
+            "paidOn": "Paguar më",
+            "shippedOn": "Dërguar më",
+            "deliveredOn": "Dorëzuar më",
+            "cancelledOn": "Anuluar më",
+            "cancellationReason": "Arsyeja e anulimit",
+            "shipping": "Adresa e dërgesës",
+            "items": "Artikujt",
+            "itemColumn": {
+                "product": "Produkti",
+                "quantity": "Sasia",
+                "unitPrice": "Çmimi",
+                "lineTotal": "Shuma"
+            },
+            "total": "Totali",
+            "subtotalExclTax": "Nëntotali (pa TVSH)",
+            "vat": "TVSH",
+            "breakdown": {
+                "subtotal": "Nëntotali",
+                "transport": "Transporti",
+                "installation": "Instalimi",
+                "coupon": "Kuponi",
+                "vatIncluded": "Përfshirë TVSH ({{rate}}%)"
+            },
+            "tracking": {
+                "title": "Gjurmimi i dërgesës",
+                "carrier": "Transportuesi",
+                "number": "Numri i gjurmimit",
+                "open": "Gjurmo paketën"
+            },
+            "invoice": {
+                "download": "Shkarko faturën (PDF)",
+                "downloading": "Po përgatitet fatura…",
+                "error": "Nuk arritëm ta përgatisim faturën. Ju lutemi provoni përsëri."
+            },
+            "cancel": {
+                "button": "Anulo porosinë",
+                "title": "Anulo këtë porosi",
+                "help": "Mund të anulosh vetëm porositë që ende nuk janë paguar. Na trego arsyen nëse do — është opsionale.",
+                "reasonLabel": "Arsyeja (opsionale)",
+                "reasonPlaceholder": "Ndërrova mendje, e gjeta më lirë, etj.",
+                "submit": "Anulo porosinë",
+                "submitting": "Po anulohet…",
+                "close": "Mbaje porosinë",
+                "errorGeneric": "Nuk arritëm ta anulojmë porosinë. Provo përsëri."
+            }
+        }
+    },
+    "home": {
+        "trust": {
+            "headline": "Besuar nga 12,400+ shtëpi"
+        },
+        "howItWorks": {
+            "eyebrow": "Si funksionon",
+            "title": "Nga oferta te kursimet —",
+            "titleEmph": "vetëm tre hapa.",
+            "subtitle": "Pa formularë të gjatë, pa thirrje pa fund. End-to-end në më pak se një javë.",
+            "steps": {
+                "quote": {
+                    "title": "Merr ofertën falas",
+                    "body": "Na trego faturën mujore dhe llojin e çatisë. Brenda një dite pune ta kthejmë madhësinë e sistemit, koston dhe kohën e kthimit të investimit.",
+                    "timeframe": "Brenda 24h"
+                },
+                "install": {
+                    "title": "Ne instalojmë gjithçka",
+                    "body": "Ekipi ynë i certifikuar merret me lejet, montimin, kabllimin dhe lidhjen me rrjetin. Ti nuk bën asgjë — ta dorëzojmë gati për punë.",
+                    "timeframe": "48h në vend"
+                },
+                "save": {
+                    "title": "Kursimi nis menjëherë",
+                    "body": "Ora fillon të kthehet që ditën e parë. Shumica e klientëve mbulojnë 60–90% të faturës që nga muaji i parë.",
+                    "timeframe": "Që ditën e parë"
+                }
+            }
+        },
+        "calculator": {
+            "eyebrow": "Llogarit kursimet · live",
+            "title": "Sa mund të kursesh me",
+            "titleEmph": "panele diellore?",
+            "subtitle": "Lëviz rrëshqitësin. Zgjedh çatinë. Çdo numër në të djathtë përditësohet menjëherë — pa email, pa formularë të gjatë.",
+            "liveTag": "Përditësohet në kohë reale",
+            "liveBadge": "Live · përditësohet menjëherë",
+            "validity": "Vlen 14 ditë",
+            "bill": "Fatura mujore e rrymës",
+            "billHelp": "Mesatarja e 12 muajve të fundit jep llogaritjen më të saktë.",
+            "perMonth": "/ muaj",
+            "roofLabel": "Lloji i çatisë",
+            "roofTypes": {
+                "TILTED": "Me pjerrësi",
+                "FLAT": "E rrafshët",
+                "UNKNOWN": "Nuk e di"
+            },
+            "city": "Qyteti",
+            "cityPlaceholder": "p.sh. Prishtinë",
+            "recommended": "Sistemi i rekomanduar",
+            "annualSavings": "Kursimi vjetor",
+            "value25": "Vlera 25 vjet",
+            "tiles": {
+                "size": "Madhësia",
+                "panels": "panele",
+                "cost": "Kosto",
+                "turnkey": "çelësa në dorë",
+                "payback": "Kthimi",
+                "years": "vjet",
+                "thenPure": "pastaj kursim i pastër",
+                "onSite": "Në vend",
+                "teamGrid": "ekipi + lidhja"
+            },
+            "chartTitle": "Fatura, viti 1",
+            "chartBefore": "Para",
+            "chartAfter": "Pas SolarX",
+            "ctaQuote": "Cakto vizitën — €0",
+            "ctaShop": "Shfleto produktet",
+            "disclaimer": "Vlerësim jo-detyrues. Oferta përfundimtare pas vizitës falas.",
+            "empty": {
+                "title": "Rezultatet shfaqen këtu",
+                "body": "Lëviz rrëshqitësin e faturës dhe shih kursimet menjëherë."
+            }
+        },
+        "trending": {
+            "eyebrow": "Në trend",
+            "title": "Të kërkuarat e javës",
+            "viewAll": "Shih të gjitha",
+            "badge": "Në trend"
+        },
+        "energyStar": "PARTNER ENERGY STAR",
+        "tuvCertified": "CERTIFIKUAR NGA TÜV RHEINLAND",
+        "fastInstall": "INSTALIM 48H",
+        "solarAlliance": "ANËTAR I ALEANCËS GLOBALE TË DIELLIT",
+        "bestSellers": "MË TË SHITURAT",
+        "bestSellersTitle": "Pajisje që zgjasin",
+        "viewAllProducts": "SHIKO TË GJITHA",
+        "onSale": "ZBRITJE",
+        "bundle": "PAKO",
+        "exclInstallation": "PA INSTALIM",
+        "latestInsights": "ARTIKUJT E FUNDIT",
+        "blogTitle": "Mëso për",
+        "blogTitleEmph": "diellore.",
+        "openBlog": "HAP BLOGUN",
+        "readArticle": "LEXO ARTIKULLIN",
+        "featuredBadge": "GATI PËR",
+        "cta": "MERR OFERTË",
+        "addToCart": "Shto në shportë",
+        "hotNow": "NË TREND",
+        "hotTitle": "OFERTA QË NUK ZGJASIN",
+        "hotSubtitle": "Produkte që po lëvizin shpejt këtë javë — sasi e kufizuar dhe oferta me afat.",
+        "fireReason": {
+            "HOT_DEAL": "OFERTË",
+            "CLEARANCE": "STOK I FUNDIT",
+            "NEW_ARRIVAL": "I RI"
+        },
+        "browse": "SHFLETO",
+        "categoriesTitle": "BLI SIPAS KATEGORISË",
+        "allCategories": "TË GJITHA KATEGORITË",
+        "products": "produkte",
+        "why": "PSE SOLARX",
+        "whyTitle": "I ndërtuar",
+        "whyTitleEmph": "për të zgjatur.",
+        "value": {
+            "quality": {
+                "title": "Pajisje premium",
+                "body": "Panele, invertorë dhe bateri Tier-1 — të certifikuara dhe me garanci nga prodhuesi."
+            },
+            "install": {
+                "title": "Instalim çelësa në dorë",
+                "body": "Ne merremi me të gjitha — vizitën, montimin, lidhjen me rrjetin."
+            },
+            "warranty": {
+                "title": "Garanci e gjatë",
+                "body": "25 vjet performancë, 12 vjet produkti, 10 vjet bateri — të shkruara në kontratë."
+            },
+            "support": {
+                "title": "Mbështetje lokale",
+                "body": "Një ekip që të ndjek nga oferta deri pas instalimit. Njerëz realë, përgjigje të shpejta."
+            }
+        },
+        "help": "JEMI KËTU",
+        "contactTitle": "KE PYETJE? NA SHKRUAJ.",
+        "contactBody": "Na trego për çatinë, faturën ose projektin — ne ta llogarisim sistemin dhe ta kthejmë ofertën. Pa presion, pa fjalë të mëdha.",
+        "contactCta": "Na shkruaj",
+        "exploreShop": "Hap dyqanin"
+    },
+    "nav": {
+        "shop": "Dyqani",
+        "trending": "Në Trend",
+        "blog": "Blogu",
+        "contact": "Kontakti",
+        "getQuote": "Merr ofertën",
+        "menu": "Menyja",
+        "account": "Llogaria",
+        "signIn": "Hyr",
+        "createAccount": "Krijo një llogari",
+        "cart": "Shporta"
+    },
+    "hero": {
+        "eyebrow": "ME FUQINË E DIELLIT",
+        "shopCta": "Hap dyqanin",
+        "calcSavings": "Llogarit kursimet",
+        "aria": {
+            "label": "Produkte dhe oferta të zgjedhura",
+            "prev": "Sllajdi i mëparshëm",
+            "next": "Sllajdi tjetër",
+            "dots": "Zgjedh sllajdin",
+            "goTo": "Shko te sllajdi"
+        },
+        "slide1": {
+            "title": "KORR TË",
+            "highlight": "ARDHMEN",
+            "subtext": "Panele monokristaline premium që marrin më shumë energji nga dielli — të bëra për të zgjatur dekada.",
+            "ctaText": "BLI PANELE"
+        },
+        "slide2": {
+            "title": "FUQIZO",
+            "highlight": "SHTËPINË",
+            "subtext": "Pako të plota për shtëpinë tënde — panele, inverter, montim. Vetëm një porosi nga drita në dorë.",
+            "ctaText": "SHIKO PAKOT"
+        },
+        "slide3": {
+            "title": "MBAJ DRITAT",
+            "highlight": "TË NDEZURA",
+            "subtext": "Bateri me kapacitet të lartë që e mbajnë shtëpinë në punë edhe kur rrjeti fiket. Të sigurta, të qeta, të besueshme.",
+            "ctaText": "RUAJ ENERGJINË"
+        },
+        "hud": {
+            "output": "Prodhim live",
+            "saved": "Kursim i parashikuar",
+            "co2": "CO₂ në vit",
+            "yr": "vit"
+        },
+        "p1": {
+            "eyebrow": "Me fuqinë e diellit",
+            "title": "Korr të",
+            "emph": "ardhmen.",
+            "body": "Panele monokristaline premium që mbledhin më shumë energji nga dielli — të bëra për të zgjatur dekada.",
+            "cta": "Hap dyqanin",
+            "ctaAlt": "Llogarit kursimet"
+        },
+        "p2": {
+            "eyebrow": "Pavarësi nga rrjeti",
+            "title": "Energji që",
+            "emph": "e zotëron ti.",
+            "body": "Prodho, ruaj dhe përdor energjinë tënde. Pavarësi nga çmimet e rrymës që rriten çdo vit.",
+            "cta": "Shfleto pajisjet",
+            "ctaAlt": "Pse SolarX"
+        },
+        "p3": {
+            "eyebrow": "48 orë në vend",
+            "title": "Instalim",
+            "emph": "çelësa në dorë.",
+            "body": "Ekipi ynë merret me lejet, montimin dhe lidhjen me rrjetin. Ti vetëm ndizesh çelësin.",
+            "cta": "Cakto vizitën",
+            "ctaAlt": "Si funksionon"
+        }
+    },
+    "shop": {
+        "title": "PAJISJET",
+        "highlight": "DIELLORE",
+        "subtitle": "Shfleto përzgjedhjen tonë të paneleve, invertorëve, baterive dhe pakove komplete.",
+        "searchPlaceholder": "Kërko produkte...",
+        "filters": "Filtrat",
+        "categories": {
+            "title": "Kategoria"
+        },
+        "allCategories": "Të gjitha kategoritë",
+        "allProducts": "Të gjitha produktet",
+        "showing": "Po shfaqen",
+        "clear": "Pastro",
+        "expand": "Zgjero",
+        "noCategories": "Ende nuk ka kategori.",
+        "empty": {
+            "title": "Asnjë produkt nuk përputhet me filtrat.",
+            "subtitle": "Provo një kategori tjetër ose pastro filtrat për t'i parë të gjitha.",
+            "viewAll": "Shiko të gjitha produktet"
+        },
+        "sortBy": "Rendit sipas",
+        "sort": {
+            "featured": "Të rekomanduara",
+            "priceAsc": "Çmimi: më i lirë",
+            "priceDesc": "Çmimi: më i shtrenjtë",
+            "nameAsc": "Emri: A–Z"
+        },
+        "showingCount": "Po shfaqen {{visible}} nga {{total}} produkte",
+        "viewDetails": "Shiko detajet",
+        "loadError": "Nuk arritëm t'i ngarkojmë produktet për momentin.",
+        "loadErrorBody": "Diçka shkoi keq gjatë lidhjes me dyqanin. Ju lutemi provoni përsëri.",
+        "retry": "Provo përsëri",
+        "priceRange": "Diapazoni i çmimit",
+        "allIn": "Të gjitha në",
+        "clearSearch": "Pastro kërkimin",
+        "openFilters": "Hap filtrat",
+        "closeFilters": "Mbyll filtrat",
+        "minPrice": "Min",
+        "maxPrice": "Maks",
+        "emptySearch": {
+            "title": "Asnjë rezultat për \"{{term}}\"",
+            "subtitle": "Provo një term tjetër ose pastro kërkimin.",
+            "cta": "Pastro kërkimin"
+        },
+        "onFireTitle": "Më të kërkuarat tani",
+        "onFireSubtitle": "Oferta me afat, produkte të reja dhe stok i fundit.",
+        "onFireBadge": {
+            "HOT_DEAL": "Ofertë",
+            "CLEARANCE": "Stok i fundit",
+            "NEW_ARRIVAL": "I ri"
+        }
+    },
+    "blog": {
+        "title": "MËSO PËR",
+        "highlight": "DIELLORE",
+        "subtitle": "Artikuj, udhëzues dhe lajme nga bota e energjisë diellore.",
+        "loadError": "Nuk arritëm t'i ngarkojmë artikujt për momentin.",
+        "loadErrorBody": "Diçka shkoi keq gjatë lidhjes me blogun. Ju lutemi provoni përsëri.",
+        "retry": "Provo përsëri",
+        "readMore": "Lexo artikullin",
+        "readFull": "Lexo të plotë",
+        "featured": "I REKOMANDUAR",
+        "featuredTitle": "Postimet e zgjedhura",
+        "backToList": "Kthehu te blogu",
+        "publishedOn": "Publikuar më",
+        "loading": "Po ngarkohet…",
+        "minRead": "{{count}} min lexim",
+        "byline": "Nga",
+        "editorialTeam": "Ekipi editorial",
+        "share": "Shpërnda",
+        "shareCopied": "U kopjua",
+        "like": "Pëlqe",
+        "unlike": "Hiq pëlqimin",
+        "likeLoginPrompt": "Identifikohu për të pëlqyer këtë postim",
+        "keyTakeaways": "Pikat kryesore",
+        "linksTitle": "Lidhje të dobishme",
+        "relatedProducts": "Produkte të ngjashme",
+        "viewProduct": "Shih produktin",
+        "tagsTitle": "Etiketa",
+        "categoriesTitle": "Kategoritë",
+        "noCategories": "Nuk ka ende kategori",
+        "noTags": "Nuk ka ende etiketa",
+        "allPosts": "Të gjitha postimet",
+        "filters": "Filtrat",
+        "openFilters": "Hap filtrat",
+        "closeFilters": "Mbyll filtrat",
+        "searchPlaceholder": "Kërko artikuj…",
+        "clearSearch": "Pastro kërkimin",
+        "sortBy": "Rendit sipas",
+        "sort": {
+            "newest": "Më të rinjtë",
+            "oldest": "Më të vjetrit",
+            "mostViewed": "Më të shikuarit",
+            "mostLiked": "Më të pëlqyerit"
+        },
+        "showing": "Po shfaqet",
+        "clear": "Pastro",
+        "empty": {
+            "title": "Asnjë postim nuk përputhet me këtë përzgjedhje",
+            "subtitle": "Provo një kategori ose etiketë tjetër.",
+            "viewAll": "Shih të gjitha postimet"
+        },
+        "emptySearch": {
+            "title": "Asnjë rezultat për \"{{term}}\"",
+            "subtitle": "Provo një term tjetër kërkimi.",
+            "cta": "Pastro kërkimin"
+        },
+        "notFound": {
+            "title": "Postimi nuk u gjet",
+            "subtitle": "Ky artikull mund të jetë zhvendosur ose çpublikuar.",
+            "cta": "Shfleto të gjitha postimet"
+        },
+        "commentsTitle": "Komente",
+        "commentGuest": "Mysafir",
+        "commentsEmpty": "Ende pa komente — bëhu i pari që shkruan.",
+        "commentForm": {
+            "title": "Lër një koment",
+            "bodyLabel": "Komenti yt",
+            "bodyPlaceholder": "Ndaj mendimet e tua…",
+            "submit": "Posto komentin",
+            "submitting": "Po postohet…",
+            "success": "Faleminderit — komenti yt po pret moderim.",
+            "loginPrompt": "Identifikohu për të lënë një koment.",
+            "loginCta": "Identifikohu",
+            "invalid": "Të lutem shkruaj një koment para se ta postosh.",
+            "error": "Komenti nuk u dërgua. Provo përsëri."
+        },
+        "cta": {
+            "title": "Gati për të nisur",
+            "highlight": "kursimet?",
+            "subtitle": "Shfleto produktet tona dhe gjej sistemin e duhur për shtëpinë.",
+            "button": "Hap dyqanin"
+        }
+    },
+    "contact": {
+        "eyebrow": "Na kontakto",
+        "titlePrefix": "NA",
+        "titleSuffix": "SHKRUAJ",
+        "subtitle": "Ke pyetje? Ekipi ynë është këtu për të të ndihmuar.",
+        "emailUs": "Na shkruaj",
+        "emailResponse": "Përgjigjemi brenda pak orëve",
+        "callUs": "Na telefono",
+        "callHours": "Hënë–Premte, 09:00–18:00",
+        "hq": "Zyra qendrore",
+        "hqAddress": "Rr. Eqrem Çabej, p.n.<br>10000 Prishtinë, Kosovë",
+        "form": {
+            "name": "Emri i plotë",
+            "namePlaceholder": "Emri yt",
+            "email": "Email",
+            "emailPlaceholder": "email@shembull.com",
+            "subject": "Tema (opsionale)",
+            "subjectPlaceholder": "Për çka po na shkruan?",
+            "message": "Mesazhi",
+            "messagePlaceholder": "Si mund të ndihmojmë?",
+            "submit": "Dërgo mesazhin",
+            "submitting": "Po dërgohet…",
+            "sentTitle": "Faleminderit — e morëm mesazhin",
+            "sentBody": "Do të kthehemi në email-in që na le. Përgjigjet zakonisht vijnë brenda pak orëve.",
+            "sendAnother": "Dërgo një tjetër"
+        },
+        "info": {
+            "title": "Informacionet e kontaktit",
+            "address": "Prishtinë, Kosovë",
+            "email": "contact@solarx.com",
+            "phone": "+383 44 000 000"
+        }
+    },
+    "admin": {
+        "readOnly": {
+            "note": "Këtu ke vetëm qasje shikimi. Kërkoji një Super Administratori nëse të duhet të bësh ndryshime."
+        },
+        "noAccess": {
+            "title": "Ende s'ke qasje në asgjë",
+            "body": "Llogaria jote e administratorit u krijua, por nuk i janë dhënë leje. Kërkoji një Super Administratori të të japë qasje në zonat që të duhen."
+        },
+        "console": "Konsola e Menaxhimit SolarX",
+        "search": {
+            "placeholder": "Kërko porosi, klientë, produkte…",
+            "searching": "Po kërkohet…",
+            "noResults": "Asnjë përputhje",
+            "orders": "Porositë",
+            "customers": "Klientët",
+            "products": "Produktet"
+        },
+        "nav": {
+            "section": {
+                "catalog": "KATALOGU",
+                "sales": "SHITJET",
+                "content": "PËRMBAJTJA",
+                "system": "SISTEMI"
+            },
+            "dashboard": "Paneli",
+            "needsAttention": "Kërkon vëmendje",
+            "products": "Produktet",
+            "reviews": "Vlerësimet",
+            "taxonomy": "Kategoritë",
+            "deals": "Oferta",
+            "coupons": "Kuponë",
+            "orders": "Porositë",
+            "customers": "Klientët",
+            "carriers": "Transportuesit",
+            "installation": "Instalimi",
+            "blog": "Postime në Blog",
+            "blogCategories": "Kategoritë e Blogut",
+            "blogTags": "Etiketat e Blogut",
+            "blogComments": "Komentet e Blogut",
+            "settings": "Cilësimet",
+            "calculator": "Konfigurimi i llogaritësit",
+            "imageEnhancement": "Përmirësimi i fotove",
+            "payments": "Mënyrat e pagesës",
+            "users": "Përdoruesit & Lejet",
+            "audit": "Regjistri i Aktivitetit",
+            "logging": "Logjet",
+            "emails": "Email-et",
+            "contact": "Mesazhet e kontaktit",
+            "signOut": "Dil"
+        },
+        "dashboard": {
+            "eyebrow": "Pamje operative",
+            "title": "Paneli",
+            "subtitle": "Numra realë nga porositë, ofertat dhe lead-et — pa të dhëna placeholder.",
+            "openOrdersCta": "Hap porositë",
+            "needsAttention": {
+                "title": "Kërkon vëmendje",
+                "ordersOnHold": "Porosi të pezulluara",
+                "ordersShippedNoTracking": "Të dërguara, pa gjurmim ende",
+                "ordersFailed": "Pagesa të dështuara",
+                "lockedCustomers": "Llogari të bllokuara",
+                "pendingReviews": "Vlerësime për moderim",
+                "pendingBlogComments": "Komente për moderim",
+                "newContactMessages": "Mesazhe të reja"
+            },
+            "loading": "Po ngarkohet paneli…",
+            "loadError": "Nuk mundëm ta ngarkonim panelin tani.",
+            "cards": {
+                "totalSales": "Shitjet e njohura",
+                "totalSalesHelp": "Të ardhurat nga porositë e paguara, në proces, të dërguara dhe të dorëzuara që mbeten në bilanc.",
+                "totalOrders": "Porositë",
+                "totalOrdersHelp": "{{count}} të vendosura këtë muaj.",
+                "salesThisMonth": "Ky muaj",
+                "salesThisMonthHelp": "{{count}} porosi të vendosura këtë muaj.",
+                "openOrders": "Porosi në lëvizje",
+                "openOrdersHelp": "Në pritje të pagesës, paketimit ose dorëzimit.",
+                "deliveredOrders": "Porosi të dorëzuara",
+                "deliveredOrdersHelp": "Porosi të përfunduara që mbërritën te klienti.",
+                "totalLeads": "Lead-e",
+                "totalLeadsHelp": "{{count}} lead-e të reja erdhën këtë muaj.",
+                "activeDeals": "Oferta aktive",
+                "activeDealsHelp": "Zbritje që po vrapojnë tani."
+            },
+            "revenue": {
+                "title": "Shitjet në 7 ditët e fundit",
+                "subtitle": "Totale reale të porosive të grupuara sipas ditës.",
+                "orders": "{{count}} porosi"
+            },
+            "status": {
+                "title": "Rrjedha e porosive",
+                "subtitle": "Ku ndodhet tani libri i porosive."
+            },
+            "recent": {
+                "title": "Porositë e fundit",
+                "subtitle": "Porositë më të reja në çdo status.",
+                "cta": "Hap listën e plotë",
+                "empty": "Ende nuk ka porosi.",
+                "customerFallback": "Klient i panjohur"
+            }
+        },
+        "deals": {
+            "title": "Ofertat",
+            "subtitle": "Vendosni një ose më shumë produkte në zbritje me përqindje (p.sh. 10%, 50%) ose me shumë fikse, brenda një afati të zgjedhur.",
+            "new": "Ofertë e re",
+            "edit": "Përditëso ofertën",
+            "searchPlaceholder": "Kërko sipas titullit",
+            "allStatuses": "Të gjitha statuset",
+            "loading": "Duke ngarkuar ofertat…",
+            "empty": "Nuk ka ende oferta. Krijoni një për të vendosur produkte në zbritje.",
+            "productOne": "produkt",
+            "productMany": "produkte",
+            "deleteConfirm": "Të fshihet oferta \"{{title}}\"? Ky veprim nuk mund të kthehet.",
+            "col": {
+                "title": "Titulli",
+                "value": "Zbritja",
+                "products": "Produktet",
+                "window": "Periudha aktive",
+                "status": "Statusi",
+                "actions": "Veprimet"
+            },
+            "status": {
+                "ACTIVE": "Aktive",
+                "SCHEDULED": "E planifikuar",
+                "EXPIRED": "E skaduar",
+                "INACTIVE": "Joaktive"
+            },
+            "typeLabel": {
+                "PERCENT": "Zbritje në përqindje",
+                "FIXED": "Shumë fikse zbritje"
+            },
+            "actions": {
+                "edit": "Përditëso ofertën",
+                "delete": "Fshij ofertën"
+            },
+            "form": {
+                "title": "Titulli",
+                "type": "Lloji i zbritjes",
+                "percent": "Përqindja (0–100)",
+                "fixed": "Shuma e zbritjes (€)",
+                "startAt": "Fillon më (opsionale)",
+                "endAt": "Përfundon më (opsionale)",
+                "badgeText": "Etiketa",
+                "badgeHint": "Etiketë e shkurtër mbi kartat e produkteve, p.sh. \"10% ZBRITJE\"",
+                "bannerText": "Banner",
+                "active": "Aktive",
+                "activeHelp": "Ofertat joaktive nuk zbatohen asnjëherë, as brenda afatit.",
+                "products": "Produktet në zbritje",
+                "productSearch": "Kërko produkte…",
+                "noProducts": "Asnjë produkt nuk përputhet me kërkimin.",
+                "cancel": "Anulo",
+                "save": "Ruaj",
+                "saving": "Duke ruajtur…"
+            },
+            "errors": {
+                "titleRequired": "Titulli është i detyrueshëm.",
+                "valueRequired": "Vlera duhet të jetë më e madhe se zero.",
+                "percentMax": "Përqindja nuk mund të jetë mbi 100.",
+                "endBeforeStart": "Data e përfundimit duhet të jetë pas datës së fillimit.",
+                "deleteFailed": "Fshirja dështoi."
+            }
+        },
+        "coupons": {
+            "title": "Kuponë",
+            "subtitle": "Kode zbritjeje që klientët i shkruajnë vetë. Të ndryshme nga ofertat automatike — klientët i shtypin këto në arkë.",
+            "new": "Kupon i ri",
+            "createTitle": "Kupon i ri",
+            "editTitle": "Modifiko kuponin",
+            "modalHelp": "Kodet janë të pandjeshme ndaj shkronjave të mëdha dhe shndërrohen në shkronja të mëdha automatikisht. Kufijtë + dritaret janë opsionale.",
+            "searchPlaceholder": "Kërko sipas kodit ose përshkrimit",
+            "allStatuses": "Të gjitha statuset",
+            "loading": "Duke ngarkuar kuponët…",
+            "saving": "Duke ruajtur…",
+            "save": "Ruaj",
+            "cancel": "Anulo",
+            "empty": "Ende pa kuponë. Krijo një për të nisur një fushatë.",
+            "notStackable": "Nuk kombinohet me ofertat",
+            "minOrder": "Porosia min",
+            "perUser": "Për klient",
+            "deleteConfirm": "Fshi kuponin \"{{code}}\"? Përdorimet ekzistuese mbeten në regjistrin e aktivitetit.",
+            "col": {
+                "code": "Kodi",
+                "value": "Vlera",
+                "usage": "Përdorimi",
+                "window": "Dritarja aktive",
+                "status": "Statusi",
+                "actions": "Veprimet"
+            },
+            "status": {
+                "ACTIVE": "Aktiv",
+                "SCHEDULED": "I planifikuar",
+                "EXPIRED": "I skaduar",
+                "EXHAUSTED": "I konsumuar",
+                "INACTIVE": "Joaktiv"
+            },
+            "actions": {
+                "edit": "Modifiko kuponin",
+                "delete": "Fshi kuponin"
+            },
+            "form": {
+                "code": "Kodi",
+                "description": "Përshkrimi",
+                "descriptionPlaceholder": "Shënim i brendshëm opsional (p.sh. \"Black Friday — newsletter\")",
+                "type": "Lloji",
+                "typePercent": "Përqindje zbritje",
+                "typeFixed": "Sasi fikse zbritje",
+                "valuePercent": "Përqindja (1–100)",
+                "valueFixed": "Sasia e zbritjes (€)",
+                "minOrder": "Nëntotali min i porosisë (€)",
+                "maxRedemptions": "Kufiri total i përdorimeve",
+                "maxPerUser": "Kufiri për klient",
+                "validFrom": "Vlen nga",
+                "validUntil": "Vlen deri",
+                "active": "Aktiv",
+                "stackable": "Mund të kombinohet me ofertat automatike",
+                "optional": "Opsionale"
+            },
+            "errors": {
+                "codeRequired": "Kodi kërkohet.",
+                "valueRequired": "Vlera duhet të jetë më e madhe se zero.",
+                "percentRange": "Vlera e përqindjes nuk mund të kalojë 100.",
+                "invalidWindow": "Vlen-deri duhet të jetë pas Vlen-nga.",
+                "saveFailed": "Ruajtja dështoi."
+            }
+        },
+        "taxonomy": {
+            "title": "Kategoritë",
+            "subtitle": "Organizoni dyqanin me kategori kryesore dhe nënkategoritë e tyre. Emrat kërkohen në anglisht dhe shqip.",
+            "addCategory": "Shto kategori",
+            "addSubcategory": "Shto nënkategori",
+            "noSubcategories": "Ende nuk ka nënkategori.",
+            "under": "Nën",
+            "parent": "Prindi",
+            "noParent": "Asnjë (kategori kryesore)",
+            "addTitle": "Shto të ri",
+            "editTitle": "Ndrysho",
+            "slug": "Slug",
+            "nameEn": "Emri (EN)",
+            "nameSq": "Emri (SQ)",
+            "descriptionEn": "Përshkrimi (EN)",
+            "descriptionSq": "Përshkrimi (SQ)",
+            "order": "Renditja",
+            "status": "Statusi",
+            "active": "Aktive",
+            "inactive": "Fshehur",
+            "actions": "Veprime",
+            "empty": "Ende asgjë — shto të parën."
+        },
+        "users": {
+            "title": "Përdoruesit & Lejet",
+            "subtitle": "Krijoni përdorues admin dhe vendosni cilat pjesë të faqes mund të hapin.",
+            "addUser": "Shto përdorues admin",
+            "editPermissions": "Ndrysho lejet",
+            "email": "Email",
+            "password": "Fjalëkalimi",
+            "firstName": "Emri",
+            "lastName": "Mbiemri",
+            "name": "Emri",
+            "role": "Roli",
+            "permissions": "Lejet",
+            "actions": "Veprimet",
+            "superAdmin": "Super Admin",
+            "admin": "Admin",
+            "customer": "Klient",
+            "allAccess": "Qasje e plotë",
+            "assigned": "të caktuara",
+            "edit": "Ndrysho lejet",
+            "delete": "Fshi përdoruesin",
+            "empty": "Ende nuk ka përdorues admin.",
+            "status": "Statusi",
+            "locked": "I bllokuar",
+            "unverified": "I paverifikuar",
+            "unlock": "Hiq bllokimin",
+            "filterAll": "Të gjithë",
+            "filterLocked": "Të bllokuar"
+        },
+        "carriers": {
+            "title": "Transportuesit",
+            "subtitle": "Menaxho transportuesit e tu — menyja kur shton gjurmimin në një porosi, dhe linku që klienti klikon për ta ndjekur.",
+            "add": "Shto transportues",
+            "loadError": "Nuk arritëm t'i ngarkojmë transportuesit tani.",
+            "retry": "Riprovo",
+            "empty": "Ende pa transportues — shto të parin.",
+            "edit": "Ndrysho",
+            "delete": "Fshi",
+            "deleteConfirm": "Të fshihet transportuesi \"{{name}}\"?",
+            "col": {
+                "name": "Emri",
+                "link": "Shablloni i linkut të gjurmimit",
+                "active": "Aktiv",
+                "sort": "Renditja",
+                "actions": "Veprime"
+            },
+            "active": {
+                "yes": "Aktiv",
+                "no": "I fshehur"
+            },
+            "modal": {
+                "titleNew": "Shto transportues",
+                "titleEdit": "Ndrysho transportuesin",
+                "name": "Emri",
+                "namePlaceholder": "p.sh. Posta e Kosovës",
+                "link": "Linku i gjurmimit (opsional)",
+                "linkPlaceholder": "https://transportuesi.com/gjurmo/{tracking}",
+                "linkHelp": "Përdor {tracking} aty ku vjen numri i gjurmimit. Lëre bosh për të mos pasur link.",
+                "active": "Aktiv",
+                "sort": "Renditja",
+                "save": "Ruaj",
+                "saving": "Po ruhet…",
+                "cancel": "Anulo"
+            }
+        },
+        "customers": {
+            "title": "Klientët",
+            "subtitle": "Gjej një klient dhe shih historikun e plotë — çfarë ka blerë, problemet e mundshme dhe gjurmën e plotë të aktivitetit.",
+            "loadError": "Nuk arritëm t'i ngarkojmë klientët tani.",
+            "retry": "Riprovo",
+            "empty": "Asnjë klient nuk përputhet me këtë filtër.",
+            "view": "Shiko",
+            "pageOf": "Faqja {{page}} nga {{total}}",
+            "previous": "Mbrapa",
+            "next": "Para",
+            "filters": {
+                "email": "Email",
+                "emailPlaceholder": "Kërko sipas email-it",
+                "name": "Emri",
+                "namePlaceholder": "Kërko sipas emrit",
+                "from": "Regjistruar nga",
+                "to": "Regjistruar deri",
+                "apply": "Apliko",
+                "reset": "Pastro"
+            },
+            "col": {
+                "name": "Emri",
+                "email": "Email",
+                "orders": "Porositë",
+                "totalSpent": "Shpenzuar gjithsej",
+                "joined": "Regjistruar",
+                "actions": "Veprime"
+            },
+            "flag": {
+                "locked": "E bllokuar",
+                "unverified": "Pa verifikim"
+            },
+            "detail": {
+                "back": "Kthehu te klientët",
+                "loading": "Po ngarkohet klienti…",
+                "loadError": "Nuk arritëm ta ngarkojmë këtë klient tani.",
+                "never": "Asnjëherë",
+                "verified": "I verifikuar",
+                "joined": "Regjistruar",
+                "lastLogin": "Hyrja e fundit",
+                "totalSpent": "Shpenzuar gjithsej",
+                "paidOrders": "Porosi të paguara",
+                "avgOrder": "Porosia mesatare",
+                "lastOrder": "Porosia e fundit",
+                "notFound": {
+                    "title": "Klienti nuk u gjet",
+                    "subtitle": "Ky klient nuk ekziston, ose nuk ke qasje.",
+                    "cta": "Kthehu te klientët"
+                },
+                "problems": {
+                    "title": "Problemet",
+                    "none": "Asnjë problem i regjistruar — pa pagesa të dështuara, anulime, rimbursime apo probleme me llogarinë.",
+                    "failed": "{{n}} pagesa të dështuara",
+                    "cancelled": "{{n}} të anuluara",
+                    "refunded": "{{n}} të rimbursuara",
+                    "returned": "{{n}} të kthyera",
+                    "loginFailures": "{{n}} hyrje të dështuara",
+                    "locked": "Llogaria e bllokuar",
+                    "unverified": "Email-i pa verifikim"
+                },
+                "orders": {
+                    "title": "Porositë",
+                    "number": "Porosia",
+                    "status": "Statusi",
+                    "total": "Totali",
+                    "placed": "Bërë më",
+                    "empty": "Ky klient ende nuk ka porosi."
+                },
+                "timeline": {
+                    "title": "Gjurma e aktivitetit",
+                    "from": "Nga",
+                    "to": "Deri",
+                    "apply": "Apliko",
+                    "empty": "Asnjë aktivitet në këtë periudhë.",
+                    "error": "Nuk arritëm ta ngarkojmë aktivitetin.",
+                    "loadMore": "Ngarko më shumë"
+                }
+            }
+        },
+        "audit": {
+            "title": "Regjistri i Aktivitetit",
+            "subtitle": "Çdo veprim mbi produktet, shportën dhe pagesat. Më të rejat sipër.",
+            "category": "Kategoria",
+            "severity": "Niveli",
+            "from": "Nga",
+            "to": "Deri",
+            "time": "Koha",
+            "event": "Ngjarja",
+            "summary": "Përmbledhje",
+            "actor": "Autori",
+            "actorEmail": "Email-i i klientit",
+            "actorEmailPlaceholder": "Filtro sipas email-it",
+            "allCategories": "Të gjitha kategoritë",
+            "allSeverities": "Të gjitha nivelet",
+            "empty": "Asnjë regjistrim nuk përputhet me këto filtra.",
+            "page": "Faqja",
+            "showing": "Duke shfaqur",
+            "pageNumber": "Faqja",
+            "previous": "Mbrapa",
+            "next": "Para"
+        },
+        "imageEnhancement": {
+            "eyebrow": "PËRMIRËSIMI I FOTOVE ME AI",
+            "title": "Përmirësimi i fotove",
+            "subtitle": "Vendos tokenin e OpenAI që përdoret nga veprimi me pagesë \"Përmirëso\". Heqja e sfondit falas punon pa asnjë token.",
+            "loading": "Duke ngarkuar…",
+            "configured": "Tokeni i OpenAI është i konfiguruar",
+            "notConfigured": "Nuk ka token OpenAI",
+            "tokenLabel": "Tokeni API i OpenAI",
+            "tokenPlaceholder": "sk-…",
+            "tokenHelp": "Vendoset një herë dhe ruhet i enkriptuar. Nuk shfaqet më kurrë — vetëm 4 shkronjat e fundit.",
+            "save": "Ruaj tokenin",
+            "saving": "Duke ruajtur…",
+            "saved": "U ruajt",
+            "clear": "Hiq tokenin",
+            "clearing": "Duke hequr…",
+            "clearConfirm": "Të heqim tokenin e ruajtur të OpenAI? Veprimi \"Përmirëso\" nuk do të punojë derisa të shtosh një tjetër.",
+            "explainer": {
+                "paid": "\"Përmirëso\" përdor OpenAI për të ndriçuar e pastruar foton, duke e mbajtur produktin të pandryshuar. Çdo përdorim kushton pak cent në llogarinë tënde të OpenAI.",
+                "free": "\"Pastro sfondin\" e heq sfondin me një model falas të vetë-strehuar — pa token e pa kosto. Aktivizo shërbimin rembg për ta përdorur."
+            },
+            "errors": {
+                "loadFailed": "S'u ngarkuan dot cilësimet e përmirësimit të fotove.",
+                "saveFailed": "S'u ruajt dot. Provo sërish."
+            }
+        },
+        "payments": {
+            "eyebrow": "MËNYRAT E PAGESËS",
+            "title": "Mënyrat e pagesës",
+            "subtitle": "Zgjidh si mund të paguajnë klientët. Ndize ose fike një mënyrë kur të duash — të paktën një duhet të mbetet e ndezur.",
+            "loading": "Duke ngarkuar…",
+            "retry": "Provo sërish",
+            "save": "Ruaj ndryshimet",
+            "saving": "Duke ruajtur…",
+            "card": "Pagesë me kartë (Stripe)",
+            "cardHelp": "Paguaj me kartë online. Konfirmohet vetë. Kërkon çelësat e Stripe.",
+            "cod": "Pagesë në dorë",
+            "codHelp": "Klienti paguan në dorë kur vjen porosia. Ti e shënon si të paguar sapo të marrësh paratë.",
+            "bankTransfer": "Transfertë bankare",
+            "bankTransferHelp": "Klienti transferon në llogarinë tënde dhe ti e shënon porosinë si të paguar sapo të vijnë paratë.",
+            "bankDetails": "Të dhënat e llogarisë bankare (që i shfaqen klientit)",
+            "bankDetailsPlaceholder": "Emri i bankës, mbajtësi i llogarisë, IBAN (XK05…), dhe kërkoji klientit të përdorë numrin e porosisë si referencë.",
+            "defaultMethod": "Mënyra e parazgjedhur te arka",
+            "explainer": "Pagesa në dorë dhe transferta bankare rregullohen me dorë — porosia bëhet dhe pret që ti ta shënosh si të paguar te ekrani i Porosive. Pagesat me kartë konfirmohen vetë.",
+            "errors": {
+                "loadFailed": "S'u ngarkuan dot cilësimet e pagesës.",
+                "saveFailed": "S'u ruajt dot. Provo sërish.",
+                "invalid": "Këto cilësime s'u ruajtën dot. Rifresko faqen dhe kontrolloji sërish.",
+                "noneEnabled": "Ndiz të paktën një mënyrë pagese.",
+                "bankDetailsRequired": "Shto të dhënat e llogarisë bankare ku klientët duhet të transferojnë."
+            }
+        },
+        "calculator": {
+            "eyebrow": "LLOGARITËSI I FAQES KRYESORE",
+            "title": "Konstantet e llogaritjes së kursimeve",
+            "subtitle": "Këto pesë numra dhe disclaimer-i ushqejnë llogaritësin në faqen kryesore. Çdo fushë ka kufij të vendosur në server; pamja paraprake majtas tregon çfarë do të kthejë llogaritësi për një faturë €100/muaj para se të ruash.",
+            "loading": "Po ngarkohen vlerat aktuale…",
+            "save": "Ruaj ndryshimet",
+            "saving": "Po ruhet…",
+            "discard": "Hiq ndryshimet",
+            "savedFeedback": "U ruajt. Vlerat e reja janë aktive në faqen kryesore.",
+            "field": {
+                "visible": "Shfaqe kalkulatorin në faqe",
+                "visibleHelp": "I fikur si parazgjedhje. Kur është i ndezur, klientët e shohin kalkulatorin e kursimeve në faqen kryesore dhe te /calculator. Kur është i fikur, qëndron i fshehur kudo.",
+                "tariff": "Tarifa e rrymës (€/kWh)",
+                "tariffHelp": "Tarifa mesatare rezidenciale. Diapazoni 0.02 – 0.50. Kosova 2026 ≈ 0.08.",
+                "irradiance": "Rrezatimi diellor (kWh/kWp/vit)",
+                "irradianceHelp": "Energjia vjetore për kWp të instaluar. Diapazoni 800 – 2200. PVGIS Prishtinë ≈ 1400.",
+                "derating": "Humbjet e sistemit (0–1)",
+                "deratingHelp": "Humbjet reale (invertor, pluhur, temperaturë). Diapazoni 0.60 – 0.95. Standardi ≈ 0.80.",
+                "cost": "Kostoja e instalimit (€/kWp)",
+                "costHelp": "Mesatarja për shtëpi (çelësa në dorë). Diapazoni 500 – 3000. Kosova 2026 ≈ 1000.",
+                "variance": "Variancë e kostos (± fraksion)",
+                "varianceHelp": "Sa i gjerë është intervali i kostos. Diapazoni 0 – 0.50. 0.10 = ±10%.",
+                "disclaimerEn": "Disclaimer (Anglisht)",
+                "disclaimerSq": "Disclaimer (Shqip)"
+            },
+            "preview": {
+                "title": "Pamja paraprake · €100/muaj, çati e pjerrët",
+                "help": "Llogaritet drejtpërdrejt me vlerat aktuale, duke përdorur të njëjtën formulë si serveri.",
+                "systemSize": "Madhësia e sistemit",
+                "installCost": "Kostoja e instalimit (interval)",
+                "payback": "Kthehet për",
+                "years": "vjet",
+                "empty": "Plotëso të pesë vlerat numerike për të parë pamjen paraprake."
+            },
+            "errors": {
+                "saveFailed": "Ruajtja dështoi. Kontrollo vlerat brenda intervalit dhe provo përsëri."
+            },
+            "explainer": {
+                "toggle": "Si funksionon llogaritja?",
+                "fields": {
+                    "title": "Çfarë kontrollon secila fushë",
+                    "intro": "Çdo vlerë më lart ushqen një pjesë të veçantë të formulës. Ja çfarë bën secila dhe pse ka rëndësi.",
+                    "tariff": {
+                        "title": "Tarifa (€/kWh)",
+                        "body": "Çmimi që klienti paguan aktualisht për një kilovat-orë të rrjetit. Përdoret për ta kthyer faturën mujore në kWh konsumi — pikënisja e gjithë llogaritjes. Nëse kjo është gabim, çdo numër pas saj është gabim."
+                    },
+                    "irradiance": {
+                        "title": "Rrezatimi (kWh/kWp/vit)",
+                        "body": "Sa energji prodhon në vit një sistem 1 kWp në vendin tonë, në një çati me pjerrësi nga jugu. Vjen nga baza e të dhënave PVGIS e BE-së. Numër më i madh = sistem më i vogël për të njëjtën faturë."
+                    },
+                    "derating": {
+                        "title": "Humbjet e sistemit",
+                        "body": "Humbjet reale: invertori (~3%), pluhuri në panele (~2%), temperaturat e larta në verë, kabllimi etj. Vlera 0.80 do të thotë që sistemi jep 80% të prodhimit teorik. Më e lartë = sistem më i vogël (më i lirë)."
+                    },
+                    "cost": {
+                        "title": "Kostoja për kWp (€)",
+                        "body": "Kostoja çelësa-në-dorë e instalimit — panele, invertor, montim, punë, leje — për 1 kWp sistemi. €1.000/kWp është mesatarja rezidenciale për Kosovën; rritet kur çmimet globale të paneleve ngjiten."
+                    },
+                    "variance": {
+                        "title": "Variancë e kostos",
+                        "body": "Sa i gjerë është intervali rreth kostos mesatare. 0.10 = ±10%, pra një mes prej €13.500 jep €12.150–€14.850. Më e gjerë = më e ndershme për pasigurinë; më e ngushtë = duket më e sigurt por rrezikon nën-vlerësim."
+                    },
+                    "disclaimer": {
+                        "title": "Disclaimer (EN + SQ)",
+                        "body": "Shfaqet direkt nën rezultatin në faqen kryesore që klientët ta dinë se është vlerësim, jo ofertë e detyrueshme. Nëse ndryshon tarifën ose rrezatimin, përditëso edhe vitin e referimit në disclaimer — t'i mbash matematikën dhe tekstin së bashku është arsyeja pse rrinë në një rresht."
+                    }
+                },
+                "roof": {
+                    "title": "Faktori i çatisë (nuk ndryshohet)",
+                    "body": "Klienti zgjedh një nga tre llojet e çatisë. Secila modifikon rrezatimin për të reflektuar performancën reale ndaj referencës (çati e pjerrët nga jugu).",
+                    "colType": "Lloji i çatisë",
+                    "colFactor": "Shumëzuesi",
+                    "colNote": "Arsyetimi",
+                    "tilted": "Çati e pjerrët nga jugu — bazë.",
+                    "flat": "Çati e rrafshët; montimi me ballast rrallë e arrin këndin optimal, humbje ~5%.",
+                    "unknown": "Klienti nuk na ka treguar — gabojmë në anën e sistemit pak më të madh."
+                },
+                "formula": {
+                    "title": "Formula, hap pas hapi",
+                    "intro": "Pesë hapa nga fatura mujore te vitet e kthimit. Çdo vlerësim që sheh klienti llogaritet pikërisht kështu në server.",
+                    "steps": {
+                        "monthlyKwh": {
+                            "title": "1. Fatura → energjia e konsumuar",
+                            "body": "Pjesëto faturën mujore me tarifën për të nxjerrë kWh të konsumuara në muaj, pastaj shumëzo me 12 për shifrën vjetore.",
+                            "expr": "kWh_vjetore = (fatura_mujore ÷ tarifa) × 12"
+                        },
+                        "requiredKwp": {
+                            "title": "2. Sa i madh duhet të jetë sistemi?",
+                            "body": "Pjesëto konsumin vjetor me atë që prodhon realisht 1 kWp diellor në kushtet e kësaj çatie.",
+                            "expr": "kWp_e_nevojshme = kWh_vjetore ÷ (rrezatimi × humbjet × faktori_çatisë)"
+                        },
+                        "roundQuarter": {
+                            "title": "3. Rrumbullako lart në 0.25 më të afërt",
+                            "body": "Sistemet reale shiten me panele të plota. Rrumbullakojmë lart që të mos nën-dimensionojmë — më mirë pak më shumë sesa ta lëmë klientin pa energji.",
+                            "expr": "kWp_sistemi = ⌈kWp_e_nevojshme × 4⌉ ÷ 4"
+                        },
+                        "cost": {
+                            "title": "4. Kostoja e instalimit (me interval)",
+                            "body": "Shumëzo madhësinë e sistemit me koston për kWp për mesataren, pastaj e shtrij me variancën për një diapazon poshtë/lart.",
+                            "expr": "mes = kWp × kosto_për_kWp;  intervali = mes × (1 ± variancë)"
+                        },
+                        "payback": {
+                            "title": "5. Periudha e kthimit",
+                            "body": "Sa vjet kursime energjie kthejnë investimin. Përdor koston mesatare — klienti sheh një numër, jo një interval.",
+                            "expr": "vite_kthimi = mes ÷ (fatura_mujore × 12)"
+                        }
+                    }
+                },
+                "example": {
+                    "title": "Shembull i punuar me vlerat aktuale",
+                    "intro": "Klient mostër: faturë €100/muaj, çati e pjerrët, Prishtinë. Numrat më poshtë rillogariten ndërsa redakton vlerat lart — kështu kontrollon ndikimin para se të shtypësh Ruaj.",
+                    "input": "Të dhënat:",
+                    "step1": "Hapi 1 — Fatura → kWh",
+                    "step2": "Hapi 2 — Madhësia e sistemit",
+                    "step3": "Hapi 3 — Rrumbullako lart në 0.25 kWp",
+                    "step4": "Hapi 4 — Kostoja e instalimit",
+                    "step5": "Hapi 5 — Kursimi vjetor + kthimi"
+                },
+                "safetyNote": "Këshillë: ndryshime të vogla kanë ndikim të madh. Vetëm rritja e tarifës nga 0.08 → 0.10 e ul kthimin nga ~11.3 në ~9.0 vjet për të njëjtën faturë. Kontrollo gjithmonë pamjen paraprake para se të ruash."
+            }
+        },
+        "logging": {
+            "title": "Logjet",
+            "subtitle": "Kontrolloni sa detaje të logjeve të mbajë backend-i.",
+            "verboseMode": "Modaliteti i detajuar",
+            "verboseExplanation": "Aktivizojeni për të parë logje të detajuara (SQL, thirrje të brendshme, siguria). Çaktivizojeni për të mbajtur logjet të qeta dhe për të shfaqur vetëm gjërat thelbësore dhe gabimet.",
+            "current": "Momentalisht",
+            "on": "I aktivizuar",
+            "off": "I çaktivizuar",
+            "ephemeralNote": "Shënim: kjo cilësje kthehet në vlerën e parazgjedhur kur serveri riniset.",
+            "tail": {
+                "title": "Logjet në kohë reale",
+                "subtitle": "Rreshtat e fundit nga skedari i logjeve të serverit. Vlefshëm vetëm kur është aktivizuar shkrimi në skedar (profili prod, ose vendos logging.file.name).",
+                "refresh": "Rifresko",
+                "loading": "Po ngarkohet…",
+                "autoRefresh": "Rifresko automatikisht çdo 5s",
+                "empty": "Asnjë log ende."
+            }
+        },
+        "products": {
+            "categoriesError": "Nuk i ngarkuam dot kategoritë. Lista më sipër mund të jetë e paplotë.",
+            "categoriesRetry": "Provo përsëri",
+            "title": "Produktet",
+            "subtitle": "Menaxhoni katalogun — drafte, produkte të publikuara dhe të arkivuara.",
+            "new": "Shto produkt",
+            "edit": "Ndrysho produktin",
+            "searchPlaceholder": "Kërkoni sipas emrit ose slug-ut…",
+            "allStatuses": "Të gjitha statuset",
+            "showDeleted": "Shfaq të fshirat",
+            "loading": "Duke ngarkuar…",
+            "empty": "Asnjë produkt nuk përputhet me këto filtra.",
+            "statusDeleted": "I fshirë",
+            "statuses": {
+                "DRAFT": "Draft",
+                "PUBLISHED": "I publikuar",
+                "ARCHIVED": "I arkivuar"
+            },
+            "reasons": {
+                "HOT_DEAL": "Ofertë",
+                "CLEARANCE": "Çlirim stoku",
+                "NEW_ARRIVAL": "I ri"
+            },
+            "col": {
+                "product": "Produkti",
+                "category": "Kategoria",
+                "price": "Çmimi",
+                "stock": "Stoku",
+                "status": "Statusi",
+                "spotlight": "Në zjarr",
+                "actions": "Veprime"
+            },
+            "actions": {
+                "edit": "Ndrysho",
+                "delete": "Fshi",
+                "restore": "Rikthe",
+                "spotlight": "Vendose në zjarr"
+            },
+            "form": {
+                "name": "Emri",
+                "type": "Lloji",
+                "status": "Statusi",
+                "price": "Çmimi (€)",
+                "salePrice": "Çmimi me zbritje (€)",
+                "stock": "Stoku",
+                "brand": "Marka",
+                "model": "Modeli",
+                "sku": "SKU",
+                "category": "Kategoria",
+                "noCategory": "Pa kategori",
+                "description": "Përshkrimi",
+                "featured": "I promovuar në faqen kryesore",
+                "save": "Ruaj",
+                "saving": "Duke ruajtur…",
+                "cancel": "Anulo"
+            },
+            "spotlight": {
+                "title": "Vendos në zjarr",
+                "help": "Zgjidhni një arsye për ta vendosur këtë produkt në raftin 'Në zjarr'. Lëreni skadencën bosh për një promovim të përhershëm — do të vazhdojë derisa ta hiqni.",
+                "reason": "Arsyeja",
+                "none": "Pa promovim",
+                "until": "Deri në",
+                "permanent": "Lëreni bosh për promovim të përhershëm."
+            },
+            "quickCreate": {
+                "title": "Shto një produkt të ri",
+                "help": "Fillo vetëm me bazat — pastaj mund të plotësosh çmimin, specifikat, fotot dhe ta publikosh nga redaktori.",
+                "name": "Emri i produktit",
+                "namePlaceholder": "p.sh. Panel SolarX 450W",
+                "type": "Lloji i produktit",
+                "brandOptional": "Marka (opsionale)",
+                "categoryOptional": "Kategoria (opsionale)",
+                "noCategory": "Asnjë kategori",
+                "createAndContinue": "Krijo dhe vazhdo"
+            },
+            "detail": {
+                "back": "Kthehu te produktet",
+                "tabs": {
+                    "overview": "Të përgjithshme",
+                    "pricing": "Çmimi & stoku",
+                    "specs": "Specifikat",
+                    "details": "Detajet",
+                    "links": "Lidhjet",
+                    "images": "Fotot",
+                    "spotlight": "Promovimi",
+                    "danger": "Zona me rrezik"
+                },
+                "overview": {
+                    "nameEn": "Emri (Anglisht)",
+                    "nameSq": "Emri (Shqip)",
+                    "descriptionEn": "Përshkrimi (Anglisht)",
+                    "descriptionSq": "Përshkrimi (Shqip)",
+                    "brand": "Marka",
+                    "model": "Modeli",
+                    "sku": "SKU",
+                    "type": "Lloji",
+                    "category": "Kategoria",
+                    "featured": "I promovuar në faqen kryesore"
+                },
+                "pricing": {
+                    "price": "Çmimi (€)",
+                    "salePrice": "Çmimi me zbritje (€)",
+                    "transport": "Çmimi i transportit (€, opsional)",
+                    "installation": "Çmimi i instalimit (€, opsional)",
+                    "feesHelp": "Lërini bosh nëse nuk aplikohen — klientët shohin vetëm rreshtat që plotësoni.",
+                    "stock": "Stoku",
+                    "stockHelp": "Numri aktual, zbritet me çdo porosi të paguar. Vendos 0 për të shënuar jashtë stokut.",
+                    "showStock": "Shfaq numrin e stokut te klientët",
+                    "showStockHelp": "Fikur e fsheh numrin në faqen publike; klientët shohin vetëm Në stok / Jashtë stokut.",
+                    "transportHelp": "Tarifë opsionale që shfaqet veçmas kur ky produkt ka nevojë për mbështetje në transport.",
+                    "installationHelp": "Tarifë opsionale shërbimi që shfaqet vetëm kur ofrohet instalim profesional."
+                },
+                "details": {
+                    "title": "Detajet e produktit",
+                    "subtitle": "Informacion i detajuar që klientët e shohin në faqen e produktit — specifikat, përputhshmëria, çfarë përmban paketa. Lejon tekst me rresht të ri.",
+                    "detailsEn": "Detajet (Anglisht)",
+                    "detailsSq": "Detajet (Shqip)",
+                    "placeholder": "p.sh. çfarë përmban paketa, përputhshmëria, certifikimet, gjatësitë e kabllove…",
+                    "help": "Informacion i detajuar që klientët e shohin në faqen e produktit — specifikat, përputhshmëria dhe çfarë përmban paketa."
+                },
+                "links": {
+                    "title": "Lidhjet e jashtme",
+                    "subtitle": "Shto lidhje për dokumentacion, fletë teknike, udhëzues instalimi apo video. Klientët i shohin në faqen e produktit.",
+                    "add": "Shto lidhje",
+                    "addTitle": "Shto lidhje",
+                    "editTitle": "Ndrysho lidhjen",
+                    "label": "Etiketa (opsionale)",
+                    "labelPlaceholder": "p.sh. Udhëzues instalimi",
+                    "url": "URL",
+                    "urlPlaceholder": "https://…",
+                    "save": "Ruaj lidhjen",
+                    "saving": "Duke ruajtur…",
+                    "empty": "Asnjë lidhje. Shto të parën më sipër.",
+                    "edit": "Ndrysho",
+                    "delete": "Hiq",
+                    "deleteConfirm": "Të fshihet lidhja \"{{label}}\"?",
+                    "help": "Shto lidhje për dokumentacion, fletë teknike, udhëzues instalimi apo video.",
+                    "cancel": "Anulo",
+                    "noLabel": "Lidhje pa emër"
+                },
+                "specs": {
+                    "wattage": "Fuqia (W)",
+                    "efficiency": "Efikasiteti (%)",
+                    "dimensions": "Përmasat",
+                    "weight": "Pesha (kg)",
+                    "warranty": "Garancia (vite)"
+                },
+                "danger": {
+                    "title": "Zona me rrezik",
+                    "unpublish": "Hiq nga publikimi",
+                    "unpublishHelp": "Ktheje në draft që klientët të mos e shohin ndërsa bën ndryshime.",
+                    "softDelete": "Fshi këtë produkt",
+                    "softDeleteConfirm": "Të fshihet ky produkt? Do të arkivohet dhe fshihet nga dyqani.",
+                    "softDeleteHelp": "E arkivon produktin dhe e fsheh nga dyqani. Mund ta rikthesh më vonë.",
+                    "restore": "Riktheje këtë produkt",
+                    "restoreHelp": "E kthen produktin si draft. Do të duhet ta publikosh përsëri për ta bërë aktiv."
+                }
+            },
+            "publish": {
+                "title": "Gati për publikim",
+                "helpReady": "Gjithçka është në rregull. Mund ta publikosh tani.",
+                "helpNotReady": "Rregullo pikat më poshtë para se produkti të publikohet.",
+                "button": "Publiko",
+                "unpublishButton": "Hiq nga publikimi",
+                "publishing": "Duke publikuar…",
+                "saved": "U ruajt."
+            },
+            "images": {
+                "title": "Fotot e produktit",
+                "subtitle": "Ngarko foto, zgjidh njërën si kryesore dhe riorganizoi. Fotoja kryesore shfaqet e para në dyqan.",
+                "upload": "Ngarko foto",
+                "uploading": "Duke ngarkuar…",
+                "searchPlaceholder": "Kërko sipas emrit të skedarit…",
+                "dropHint": "Zgjidh JPG, PNG, WEBP ose GIF. Skedarët ruhen me emër që t'i gjesh lehtë më vonë.",
+                "empty": "Asnjë foto ende. Ngarko të parën për të filluar.",
+                "primary": "Kryesore",
+                "makePrimary": "Vendos si kryesore",
+                "isMain": "Fotoja kryesore",
+                "delete": "Fshi foton",
+                "deleteConfirm": "Të fshihet fotoja \"{{filename}}\"?",
+                "moveUp": "Lart",
+                "moveDown": "Poshtë",
+                "altText": "Teksti alternativ",
+                "previewUnavailable": "S'mund të shfaqet"
+            },
+            "enhance": {
+                "cleanBackground": "Pastro sfondin (falas)",
+                "enhance": "Përmirëso me AI",
+                "needsToken": "Shto një token OpenAI te Cilësimet për ta përdorur Përmirësimin",
+                "processing": "Duke përmirësuar…",
+                "reviewTitle": "Shiko foton e përmirësuar",
+                "reviewHint": "Krahaso origjinalin me rezultatin e AI. Zbatoje për të zëvendësuar foton aktuale, ose hidhe — origjinali ruhet gjithmonë në disk.",
+                "original": "Origjinali",
+                "enhanced": "E përmirësuar",
+                "apply": "Zbato",
+                "applying": "Duke zbatuar…",
+                "discard": "Hidhe"
+            }
+        },
+        "reviews": {
+            "title": "Moderimi i vlerësimeve",
+            "subtitle": "Miratoni, refuzoni ose hiqni vlerësime të klientëve. Vetëm vlerësimet e miratuara shfaqen në dyqan.",
+            "loading": "Duke ngarkuar…",
+            "empty": "Asnjë vlerësim nuk përputhet me këto filtra.",
+            "loadError": "Nuk arritëm t'i ngarkojmë vlerësimet tani.",
+            "deleteConfirm": "Të fshihet ky vlerësim? Ky veprim nuk mund të kthehet.",
+            "filters": {
+                "all": "Të gjitha",
+                "pending": "Në pritje",
+                "approved": "Të miratuara",
+                "rejected": "Të refuzuara"
+            },
+            "status": {
+                "PENDING": "Në pritje",
+                "APPROVED": "I miratuar",
+                "REJECTED": "I refuzuar"
+            },
+            "actions": {
+                "approve": "Mirato",
+                "reject": "Refuzo",
+                "delete": "Fshi"
+            }
+        },
+        "emails": {
+            "title": "Dalja e email-eve",
+            "subtitle": "Çdo email transaksional që sistemi ka vendosur në radhë, dërguar ose ka dështuar ta dërgojë. Më të rejat sipër.",
+            "recipient": "Marrësi",
+            "subject": "Subjekti",
+            "template": "Shablloni",
+            "status": "Statusi",
+            "attempts": "Përpjekje",
+            "createdAt": "Krijuar",
+            "empty": "Asnjë email nuk përputhet me këtë filtër.",
+            "loadError": "Nuk arritëm ta ngarkojmë outbox-in e email-eve. Ju lutemi provoni përsëri.",
+            "pageOf": "Faqja {{page}} nga {{total}}",
+            "filterAll": "Të gjitha",
+            "filterPending": "Në pritje",
+            "filterSent": "Të dërguara",
+            "filterFailed": "Të dështuara"
+        },
+        "contact": {
+            "title": "Mesazhet e kontaktit",
+            "subtitle": "Mesazhet e klientëve nga formulari publik /contact. Më të rejat sipër.",
+            "empty": "Asnjë mesazh nuk përputhet me këtë filtër.",
+            "loadError": "Nuk arritëm t'i ngarkojmë mesazhet e kontaktit. Ju lutemi provoni përsëri.",
+            "pageOf": "Faqja {{page}} nga {{total}}",
+            "deleteConfirm": "Të fshihet mesazhi nga {{name}}?",
+            "filters": {
+                "all": "Të gjitha",
+                "new": "Të rinj",
+                "inProgress": "Në proces",
+                "resolved": "Të zgjidhura",
+                "spam": "Spam"
+            },
+            "col": {
+                "from": "Nga",
+                "subject": "Subjekti",
+                "message": "Mesazhi",
+                "status": "Statusi",
+                "received": "Marrë",
+                "actions": "Veprime"
+            },
+            "status": {
+                "NEW": "I ri",
+                "IN_PROGRESS": "Në proces",
+                "RESOLVED": "I zgjidhur",
+                "SPAM": "Spam"
+            },
+            "actions": {
+                "view": "Shiko mesazhin",
+                "reply": "Përgjigju me email",
+                "delete": "Fshi"
+            },
+            "detail": {
+                "noSubject": "(pa subjekt)",
+                "reply": "Përgjigju me email"
+            }
+        },
+        "installation": {
+            "title": "Projektet e instalimit",
+            "subtitle": "Ndiq çdo punë instalimi — kush, ku, çfarë instalohet dhe ku jemi në proces. Modelet e shërbimit përcaktojnë çmimin parazgjedhur në dyqan.",
+            "tabs": {
+                "jobs": "Punët",
+                "models": "Modelet e shërbimit"
+            },
+            "jobs": {
+                "title": "Punët e instalimit",
+                "subtitle": "Më të rejat të parat. Filtro sipas statusit, kërko sipas email-it të klientit.",
+                "new": "Punë e re",
+                "edit": "Edito punën",
+                "searchPlaceholder": "Kërko sipas email-it të klientit",
+                "refresh": "Rifresko",
+                "loading": "Po ngarkohen punët…",
+                "empty": "Asnjë punë instalimi nuk përputhet me këtë filtër.",
+                "deleteConfirm": "Të fshihet puna e instalimit për {{name}}? Ky veprim nuk mund të zhbëhet.",
+                "cancelReason": "Arsyeja e anulimit (jo e detyrueshme, por e dobishme)",
+                "move": "Lëviz te…",
+                "filterAll": "Të gjitha",
+                "status": {
+                    "REQUESTED": "E kërkuar",
+                    "SCHEDULED": "E planifikuar",
+                    "IN_PROGRESS": "Në proces",
+                    "ON_HOLD": "Në pritje",
+                    "COMPLETED": "E përfunduar",
+                    "CANCELLED": "E anuluar"
+                },
+                "col": {
+                    "customer": "Klienti",
+                    "site": "Vendndodhja",
+                    "products": "Produktet",
+                    "installer": "Instaluesi",
+                    "scheduled": "Planifikuar",
+                    "status": "Statusi",
+                    "actions": "Veprime"
+                },
+                "actions": {
+                    "edit": "Edito",
+                    "delete": "Fshi"
+                },
+                "form": {
+                    "customerName": "Emri i klientit",
+                    "customerEmail": "Email-i i klientit",
+                    "customerPhone": "Telefoni (opsional)",
+                    "installer": "Instaluesi i caktuar",
+                    "installerHint": "Emri i teknikut ose ekipit",
+                    "siteStreet": "Adresa (rruga)",
+                    "siteCity": "Qyteti",
+                    "sitePostal": "Kodi postar",
+                    "siteCountry": "Shteti",
+                    "option": "Modeli i shërbimit",
+                    "optionNone": "Asnjë — punë e personalizuar",
+                    "scheduledAt": "Planifikuar për",
+                    "basePrice": "Çmimi bazë (€)",
+                    "finalCost": "Kostoja finale (€)",
+                    "notes": "Shënime",
+                    "products": "Produktet që do instalohen",
+                    "addItem": "Shto produkt",
+                    "itemPickProduct": "Zgjidh një produkt…",
+                    "itemUnit": "Çmimi për njësi",
+                    "noItems": "Ende pa produkte — shtoji nëse kjo punë mbulon pajisje specifike.",
+                    "cancel": "Anulo",
+                    "save": "Ruaj punën",
+                    "saving": "Po ruhet…"
+                },
+                "errors": {
+                    "customerNameRequired": "Emri i klientit është i detyrueshëm.",
+                    "customerEmailRequired": "Email-i i klientit është i detyrueshëm.",
+                    "itemProductRequired": "Zgjidh një produkt për çdo rresht.",
+                    "itemQtyInvalid": "Sasia duhet të jetë të paktën 1."
+                }
+            },
+            "models": {
+                "title": "Modelet e shërbimit",
+                "new": "Model i ri",
+                "edit": "Edito",
+                "delete": "Fshi",
+                "defaultBadge": "PARAZGJEDHUR",
+                "basePrice": "Çmimi bazë",
+                "empty": "Ende pa modele shërbimi — krijo një për të vendosur çmimin parazgjedhur të instalimit në checkout.",
+                "loading": "Po ngarkohen modelet…",
+                "deleteConfirm": "Të fshihet modeli i shërbimit \"{{name}}\"? Punët ekzistuese do të mbajnë çmimin që kishin kur u krijuan.",
+                "pricing": {
+                    "FIXED": "Tarifë fikse",
+                    "PER_KW": "Për kW",
+                    "REGION": "Sipas rajonit"
+                },
+                "form": {
+                    "name": "Emri",
+                    "pricingModel": "Modeli i çmimit",
+                    "basePrice": "Çmimi bazë (€)",
+                    "perKwPrice": "Çmimi për kW (€, opsional)",
+                    "description": "Përshkrimi",
+                    "isDefault": "Model parazgjedhur (përdoret në checkout)",
+                    "isActive": "Aktiv (i dukshëm për klientët)",
+                    "cancel": "Anulo",
+                    "save": "Ruaj modelin",
+                    "saving": "Po ruhet…"
+                },
+                "errors": {
+                    "nameRequired": "Emri është i detyrueshëm.",
+                    "basePriceRequired": "Çmimi bazë është i detyrueshëm dhe duhet të jetë ≥ 0."
+                }
+            }
+        },
+        "orders": {
+            "eyebrow": "Përmbushja",
+            "title": "Porositë",
+            "subtitle": "Shqyrto çdo porosi, kontrollo rreshtat dhe lëvize sipas makinës së gjendjeve.",
+            "loading": "Po ngarkohen porositë…",
+            "loadError": "Nuk mundëm t'i ngarkonim porositë tani.",
+            "updateError": "Nuk mundëm ta përditësonim porosinë tani.",
+            "empty": "Asnjë porosi nuk përputhet me këtë filtër.",
+            "emptyHint": "Provo të heqësh intervalin e datave ose statusin — porosia mund të jetë në një faqe më të hershme.",
+            "bulk": {
+                "selectAll": "Zgjedh të gjitha",
+                "selected": "{{n}} të zgjedhura",
+                "pickStatus": "Ndrysho statusin në…",
+                "apply": "Apliko",
+                "applying": "Po aplikohet…",
+                "clear": "Pastro",
+                "applied": "U përditësuan {{updated}} · u anashkaluan {{skipped}}",
+                "confirm": "T'i lëvizim {{n}} porositë te {{status}}? Kjo është e vështirë të zhbëhet.",
+                "confirmApply": "Po, lëvizi"
+            },
+            "view": "Shiko",
+            "previous": "Më parë",
+            "next": "Tjetër",
+            "pageOf": "Faqja {{page}} nga {{total}}",
+            "itemCount": "{{count}} artikuj",
+            "totalOne": "1 porosi",
+            "totalMany": "{{count}} porosi",
+            "filters": {
+                "customerEmail": "Email-i i klientit",
+                "customerEmailPlaceholder": "Kërko sipas email-it të klientit",
+                "status": "Statusi",
+                "allStatuses": "Të gjitha",
+                "from": "Nga",
+                "to": "Deri",
+                "apply": "Zbato",
+                "reset": "Pastro",
+                "dateRange": "Intervali i datave",
+                "today": "Sot",
+                "last7": "7 ditët e fundit",
+                "last30": "30 ditët e fundit",
+                "custom": "Interval i personalizuar",
+                "all": "Gjithë koha"
+            },
+            "col": {
+                "order": "Porosia",
+                "customer": "Klienti",
+                "placed": "Vendosur",
+                "total": "Totali",
+                "status": "Statusi",
+                "items": "Artikuj",
+                "actions": "Veprimet"
+            },
+            "status": {
+                "PENDING": "Në pritje",
+                "PAID": "E paguar",
+                "ON_HOLD": "Pezulluar",
+                "PROCESSING": "Në proces",
+                "SHIPPED": "E dërguar",
+                "DELIVERED": "E dorëzuar",
+                "CANCELLED": "E anuluar",
+                "FAILED": "Dështoi",
+                "REFUNDED": "E rimbursuar",
+                "RETURNED": "E kthyer"
+            },
+            "detail": {
+                "title": "Porosia e zgjedhur",
+                "emptyTitle": "Zgjidh një porosi",
+                "empty": "Zgjidh një rresht për të parë klientin, artikujt, gjurmën e pagesës dhe statusin tjetër të lejuar.",
+                "customer": "Klienti",
+                "customerFallback": "Klient i panjohur",
+                "shipping": "Adresa e dërgesës",
+                "paymentIntent": "Payment intent i Stripe",
+                "payment": "Pagesa",
+                "paymentDev": "Modalitet testimi",
+                "copyId": "Kopjo ID",
+                "copied": "U kopjua!",
+                "installation": "Puna e instalimit",
+                "installationLinked": "E lidhur",
+                "installationOpen": "Hap punën",
+                "noInstallation": "Nuk ka punë instalimi të lidhur.",
+                "items": "Artikujt",
+                "noItems": "Kjo porosi nuk ka artikuj.",
+                "noProductName": "Produkti është hequr",
+                "quantity": "Sasia: {{count}}",
+                "timeline": "Kronologjia",
+                "created": "Krijuar",
+                "updated": "Përditësuar",
+                "paid": "Paguar",
+                "shipped": "Dërguar",
+                "delivered": "Dorëzuar",
+                "cancelled": "Anuluar",
+                "reason": "Arsyeja",
+                "moveTitle": "Lëviz porosinë",
+                "holdBack": "Pauzë / kthim prapa",
+                "moveHelp": "Këtu ofrohen vetëm gjendjet e radhës që lejohen. Shënimet opsionale ruhen për anulime, dështime dhe rimbursime.",
+                "noTransitions": "Kjo porosi është tashmë në një gjendje përfundimtare.",
+                "nextStatus": "Statusi tjetër",
+                "nextStatusPlaceholder": "Zgjidh statusin tjetër",
+                "reasonHelp": "Opsionale, por e dobishme kur ndryshimi i gjendjes ka nevojë për kontekst.",
+                "confirmTitle": "Ta lëvizim këtë porosi te {{status}}?",
+                "confirmHelp": "Kjo është e vështirë të zhbëhet. Mund të shtosh një shënim pse po e bën.",
+                "confirmApply": "Po, lëvize",
+                "confirmCancel": "Lëre siç është",
+                "apply": "Zbato ndryshimin",
+                "applying": "Po ruhet…",
+                "priceBreakdown": {
+                    "subtotal": "Nëntotali i mallrave",
+                    "transport": "Transporti",
+                    "installation": "Instalimi",
+                    "coupon": "Kuponi",
+                    "vatIncluded": "Përfshirë TVSH ({{rate}}%)",
+                    "total": "Totali i paguar"
+                },
+                "trackingTitle": "Gjurmimi i dërgesës",
+                "trackingHelp": "Vendos transportuesin + numrin e gjurmimit kur paketa niset. Klienti e sheh këtë në faqen e detajeve të porosisë.",
+                "trackingActive": "Aktualisht i caktuar",
+                "trackingNumber": "Numri i gjurmimit",
+                "trackingOpen": "Hap faqen e gjurmimit →",
+                "carrier": "Transportuesi",
+                "carrierPick": "Zgjidh një transportues…",
+                "saveTracking": "Ruaj gjurmimin",
+                "savingTracking": "Po ruhet…",
+                "clearTracking": "Pastro gjurmimin"
+            }
+        },
+        "blog": {
+            "list": {
+                "title": "Postimet e blogut",
+                "subtitle": "Shkruaj, edito dhe publiko postime dygjuhëshe. Krijo shpejt me të domosdoshmen, pastaj plotëso pjesën tjetër në redaktor.",
+                "new": "Postim i ri",
+                "searchPlaceholder": "Kërko sipas titullit ose slug-ut",
+                "allStatuses": "Të gjitha statuset",
+                "showDeleted": "Shfaq të fshirat",
+                "loading": "Duke ngarkuar postimet…",
+                "empty": "Asnjë postim nuk përputhet me filtrin.",
+                "col": {
+                    "post": "Postimi",
+                    "category": "Kategoria",
+                    "status": "Statusi",
+                    "published": "Publikuar",
+                    "views": "Shikime",
+                    "likes": "Pëlqime",
+                    "actions": "Veprime"
+                },
+                "neverPublished": "—",
+                "deleteConfirm": "Të fshihet \"{{title}}\"? Mund ta rikthesh nga zona e rrezikut.",
+                "restoreConfirm": "Të rikthehet \"{{title}}\" si draft?",
+                "deleteFailed": "Fshirja dështoi."
+            },
+            "statusDeleted": "I fshirë",
+            "statuses": {
+                "DRAFT": "Draft",
+                "PUBLISHED": "I publikuar",
+                "ARCHIVED": "I arkivuar"
+            },
+            "actions": {
+                "edit": "Edito postimin",
+                "delete": "Fshi postimin",
+                "restore": "Riktheje postimin"
+            },
+            "quickCreate": {
+                "title": "Postim i ri",
+                "help": "Vetëm bazat — gjithçka tjetër mund ta plotësosh në redaktor.",
+                "titleEn": "Titulli (Anglisht)",
+                "titleSq": "Titulli (Shqip)",
+                "category": "Kategoria (opsionale)",
+                "noCategory": "Pa kategori",
+                "create": "Krijo dhe vazhdo",
+                "saving": "Duke krijuar…"
+            },
+            "categories": {
+                "title": "Kategoritë e blogut",
+                "subtitle": "Grupo postimet sipas temës. Emrat janë të detyrueshëm në të dyja gjuhët; slug-u gjenerohet nga anglishtja.",
+                "new": "Kategori e re",
+                "edit": "Edito kategorinë",
+                "loading": "Duke ngarkuar kategoritë…",
+                "empty": "Ende nuk ka kategori.",
+                "active": "Aktive",
+                "inactive": "Joaktive",
+                "col": {
+                    "nameEn": "Emri (EN)",
+                    "nameSq": "Emri (SQ)",
+                    "slug": "Slug",
+                    "order": "Renditja",
+                    "active": "Statusi",
+                    "actions": "Veprime"
+                },
+                "actions": {
+                    "edit": "Edito kategorinë",
+                    "delete": "Fshi kategorinë"
+                },
+                "form": {
+                    "nameEn": "Emri (Anglisht)",
+                    "nameSq": "Emri (Shqip)",
+                    "descriptionEn": "Përshkrimi (Anglisht)",
+                    "descriptionSq": "Përshkrimi (Shqip)",
+                    "sortOrder": "Renditja",
+                    "active": "I dukshëm për lexuesit",
+                    "save": "Ruaj",
+                    "saving": "Duke ruajtur…"
+                }
+            },
+            "tags": {
+                "title": "Etiketat e blogut",
+                "subtitle": "Etiketa të lira për postimet. Emrat janë të detyrueshëm në të dyja gjuhët; slug-u gjenerohet nga anglishtja.",
+                "new": "Etiketë e re",
+                "edit": "Edito etiketën",
+                "loading": "Duke ngarkuar etiketat…",
+                "empty": "Ende nuk ka etiketa.",
+                "col": {
+                    "nameEn": "Emri (EN)",
+                    "nameSq": "Emri (SQ)",
+                    "slug": "Slug",
+                    "actions": "Veprime"
+                },
+                "actions": {
+                    "edit": "Edito etiketën",
+                    "delete": "Fshi etiketën"
+                },
+                "form": {
+                    "nameEn": "Emri (Anglisht)",
+                    "nameSq": "Emri (Shqip)",
+                    "save": "Ruaj",
+                    "saving": "Duke ruajtur…"
+                }
+            },
+            "comments": {
+                "title": "Komentet e blogut",
+                "subtitle": "Aprovo, refuzo ose hiq komentet e lexuesve para se të shfaqen në postim.",
+                "loading": "Duke ngarkuar komentet…",
+                "empty": "Asnjë koment nuk përputhet me filtrin.",
+                "deleteConfirm": "Të fshihet ky koment? Ky veprim nuk mund të kthehet.",
+                "filters": {
+                    "pending": "Në pritje",
+                    "all": "Të gjitha",
+                    "approved": "Aprovuar",
+                    "rejected": "Refuzuar"
+                },
+                "status": {
+                    "PENDING": "Në pritje",
+                    "APPROVED": "Aprovuar",
+                    "REJECTED": "Refuzuar"
+                },
+                "actions": {
+                    "approve": "Aprovo",
+                    "reject": "Refuzo",
+                    "delete": "Fshi"
+                }
+            },
+            "detail": {
+                "back": "Kthehu te postimet",
+                "loading": "Duke ngarkuar postimin…",
+                "notFound": "Postimi nuk u gjet.",
+                "saved": "U ruajt",
+                "save": "Ruaj",
+                "saving": "Duke ruajtur…",
+                "tabs": {
+                    "overview": "Përmbledhje",
+                    "seo": "SEO",
+                    "sections": "Seksionet",
+                    "links": "Lidhjet",
+                    "related": "Produktet e lidhura",
+                    "danger": "Zona e rrezikut"
+                },
+                "publish": {
+                    "title": "Gatishmëria për publikim",
+                    "helpReady": "Gjithçka në rregull — ky postim është gati për publikim.",
+                    "helpNotReady": "Rregullo listën më poshtë para se ta publikosh.",
+                    "button": "Publiko",
+                    "unpublishButton": "Hiq nga publikimi",
+                    "publishing": "Duke publikuar…"
+                },
+                "overview": {
+                    "titleEn": "Titulli (Anglisht)",
+                    "titleSq": "Titulli (Shqip)",
+                    "excerptEn": "Përmbledhja e shkurtër (Anglisht)",
+                    "excerptSq": "Përmbledhja e shkurtër (Shqip)",
+                    "summaryEn": "Përmbledhja (Anglisht)",
+                    "summarySq": "Përmbledhja (Shqip)",
+                    "coverImage": "URL e fotos kryesore",
+                    "ogImage": "Foto për ndarje në rrjete (OG)",
+                    "readingMinutes": "Minuta leximi",
+                    "category": "Kategoria",
+                    "noCategory": "Pa kategori",
+                    "featured": "I veçuar në faqen e blogut",
+                    "tags": "Etiketat",
+                    "noTags": "Ende nuk ka etiketa"
+                },
+                "seo": {
+                    "help": "Opsionale. Nëse e lë bosh, përdoret titulli i postimit dhe përmbledhja.",
+                    "metaTitleEn": "Meta titulli (Anglisht)",
+                    "metaTitleSq": "Meta titulli (Shqip)",
+                    "metaDescriptionEn": "Meta përshkrimi (Anglisht)",
+                    "metaDescriptionSq": "Meta përshkrimi (Shqip)"
+                },
+                "sections": {
+                    "add": "Shto seksion",
+                    "empty": "Ende nuk ka seksione — shto të parin.",
+                    "types": {
+                        "HEADING": "Titull",
+                        "PARAGRAPH": "Paragraf",
+                        "IMAGE": "Foto",
+                        "QUOTE": "Citim",
+                        "CALLOUT": "Theksim",
+                        "LIST": "Listë",
+                        "KEY_TAKEAWAYS": "Pikat kryesore",
+                        "VIDEO": "Video"
+                    },
+                    "bodyEn": "Përmbajtja (Anglisht)",
+                    "bodySq": "Përmbajtja (Shqip)",
+                    "imageUrl": "URL e fotos",
+                    "altEn": "Teksti alternativ (Anglisht)",
+                    "altSq": "Teksti alternativ (Shqip)",
+                    "attribution": "Atribuimi",
+                    "tone": "Toni",
+                    "toneInfo": "Informacion",
+                    "toneWarning": "Paralajmërim",
+                    "toneSuccess": "Sukses",
+                    "itemsEn": "Pikat (Anglisht) — një për rresht",
+                    "itemsSq": "Pikat (Shqip) — një për rresht",
+                    "videoUrl": "URL e videos",
+                    "videoUrlHint": "URL nga YouTube ose Vimeo",
+                    "moveUp": "Lëviz lart",
+                    "moveDown": "Lëviz poshtë",
+                    "delete": "Fshi seksionin",
+                    "deleteConfirm": "Të fshihet ky seksion?"
+                },
+                "links": {
+                    "help": "Lidhje të jashtme që shfaqen pranë artikullit — datasheet-e, faqe prodhuesi, udhëzues të lidhur.",
+                    "add": "Shto lidhje",
+                    "edit": "Edito lidhjen",
+                    "empty": "Ende nuk ka lidhje.",
+                    "delete": "Fshi lidhjen",
+                    "deleteConfirm": "Të fshihet kjo lidhje?",
+                    "label": "Etiketa (opsionale)",
+                    "url": "URL",
+                    "displayOrder": "Renditja",
+                    "save": "Ruaj",
+                    "saving": "Duke ruajtur…"
+                },
+                "related": {
+                    "help": "Zgjidh produkte të lidhura me këtë artikull — shfaqen në shiritin anësor.",
+                    "searchPlaceholder": "Kërko produkte…",
+                    "save": "Ruaj të lidhurat",
+                    "saving": "Duke ruajtur…",
+                    "empty": "Asnjë produkt nuk përputhet me kërkimin tënd."
+                },
+                "danger": {
+                    "title": "Zona e rrezikut",
+                    "help": "Postimet e fshira lehtë fshihen për lexuesit, por mund të rikthehen nga lista.",
+                    "delete": "Fshi lehtë postimin",
+                    "deleteConfirm": "Të fshihet lehtë ky postim? Mund të rikthehet nga lista.",
+                    "restore": "Riktheje postimin"
+                }
+            }
+        }
+    },
+    "mobileCta": {
+        "getQuote": "Merr ofertë falas",
+        "call": "Telefono",
+        "phone": "+383 44 000 000"
+    },
+    "footer": {
+        "tagline": "Pajisje diellore cilësore, instalim profesional dhe një ekip që e ndjek punën deri në fund. Ndërtuar për shtëpitë që e marrin energjinë seriozisht.",
+        "getQuote": "Merr një ofertë",
+        "callUs": "Na telefono",
+        "cols": {
+            "shop": "Dyqani",
+            "learn": "Mëso",
+            "account": "Llogaria",
+            "contact": "Kontakti"
+        },
+        "links": {
+            "allProducts": "Të gjitha produktet",
+            "panels": "Panele",
+            "inverters": "Invertorë",
+            "batteries": "Bateri",
+            "howItWorks": "Si funksionon",
+            "calculator": "Llogaritësi i kursimeve",
+            "blog": "Blogu",
+            "whyUs": "Pse SolarX",
+            "faq": "Pyetje të shpeshta",
+            "signIn": "Identifikohu",
+            "createAccount": "Krijo një llogari",
+            "cart": "Shporta"
+        },
+        "location": "Prishtinë, Kosovë",
+        "openContact": "Na kontakto",
+        "rights": "Të gjitha të drejtat e rezervuara.",
+        "legal": {
+            "privacy": "Privatësia",
+            "terms": "Kushtet",
+            "cookies": "Cookies"
+        },
+        "poweredBySun": "Me fuqinë e diellit"
+    },
+    "legal": {
+        "eyebrow": "Ligjore",
+        "title": "Ligjore & politikat",
+        "lastUpdated": "Përditësuar së fundi: Qershor 2026",
+        "tabs": {
+            "privacy": "Politika e privatësisë",
+            "terms": "Kushtet e shërbimit",
+            "cookies": "Politika e cookies"
+        },
+        "reviewNote": "Ky është një përmbledhje në gjuhë të thjeshtë, e ofruar për transparencë. Para se t'i mbështeteni për një blerje ose mosmarrëveshje, ju lutemi shqyrtoni politikën e plotë me një jurist të kualifikuar për juridiksionin tuaj."
+    },
+    "calculatorPage": {
+        "eyebrow": "Llogaritësi i kursimeve",
+        "title": "Shih sa mund të kursesh me diellin",
+        "subtitle": "Vendos faturën mujore të energjisë dhe llojin e çatisë për një vlerësim të menjëhershëm të madhësisë së sistemit, kostos dhe kthimit. Pa regjistrim, pa detyrim."
+    },
+    "howItWorks": {
+        "eyebrow": "Si funksionon",
+        "title": "Nga oferta te kursimet në katër hapa",
+        "subtitle": "Të kalosh në diell me SolarX është e thjeshtë. Ja saktësisht çfarë ndodh — dhe sa zgjat secila pjesë.",
+        "includedTitle": "Çfarë përfshihet",
+        "ctaTitle": "Gati për të filluar?",
+        "ctaSubtitle": "Merr një ofertë falas, pa detyrim, brenda 24 orëve.",
+        "ctaQuote": "Merr një ofertë falas",
+        "ctaCalculator": "Provo llogaritësin"
+    },
+    "whyUs": {
+        "eyebrow": "Pse SolarX",
+        "title": "Dielli, i bërë si duhet",
+        "subtitle": "Kushdo mund të të shesë një panel. Ne dizajnojmë, instalojmë dhe qëndrojmë pas një sistemi të plotë — me pajisje cilësore, çmime të ndershme dhe një ekip që mund ta arrish vërtet.",
+        "ctaTitle": "Le ta përmasojmë sistemin tënd",
+        "ctaSubtitle": "Na trego faturën dhe çatinë, dhe ne kthehemi me një ofertë të qartë — pa presion, pa terma të komplikuar.",
+        "ctaQuote": "Merr një ofertë falas",
+        "ctaShop": "Shfleto produktet"
+    },
+    "faq": {
+        "eyebrow": "Pyetje të shpeshta",
+        "title": "Pyetje, të përgjigjura",
+        "subtitle": "Gjërat që na pyesin më shpesh para se të kalojnë në diell.",
+        "stillQuestions": "Ke ende ndonjë pyetje?",
+        "contactCta": "Na kontakto"
+    },
+    "cookieConsent": {
+        "message": "Përdorim vetëm cookies thelbësore — të mbajnë të kyçur, ruajnë shportën dhe mbajnë mend gjuhën.",
+        "learnMore": "Politika e cookies",
+        "accept": "E kuptova"
+    },
+    "cart": {
+        "titlePrefix": "SHPORTA",
+        "titleSuffix": "JOTE",
+        "title": "SHPORTA",
+        "highlight": "JOTE",
+        "empty": "Shporta është bosh.",
+        "loadError": "Nuk arritëm ta ngarkojmë shportën. Ju lutemi provoni përsëri.",
+        "retry": "Provo përsëri",
+        "summary": "Përmbledhja e porosisë",
+        "subtotal": "Nëntotali",
+        "shipping": "Transporti",
+        "shippingValue": "FALAS",
+        "transport": "Transporti",
+        "installation": "Instalimi",
+        "dealDiscount": "Kursimi nga oferta",
+        "stockIssues": {
+            "title": "Disa artikuj në shportë kërkojnë vëmendje",
+            "insufficient": "{{name}} — ke {{requested}} në shportë, por në stok kanë mbetur vetëm {{available}}.",
+            "insufficientNoCount": "{{name}} — nuk ka stok të mjaftueshëm për sasinë në shportën tuaj.",
+            "unavailable": "{{name}} nuk është më në dispozicion.",
+            "checkoutBlocked": "Rregullo shportën për të vazhduar"
+        },
+        "total": "Totali",
+        "checkout": "Vazhdo te pagesa",
+        "continue": "Vazhdo blerjet",
+        "goShopping": "Hap dyqanin",
+        "saveForLater": "Ruaj për më vonë",
+        "increase": "Shto sasinë",
+        "priceChanged": "Çmimi ndryshoi nga {{from}} në {{to}} që kur e shtove.",
+        "maxStock": "Vetëm {{count}} në stok",
+        "savedTitle": "Të ruajtura për më vonë",
+        "savedSubtitle": "Artikuj që i le mënjanë. Ktheji në shportë kur të jesh gati.",
+        "savedEmpty": "Asgjë e ruajtur për momentin.",
+        "moveToCart": "Shto në shportë",
+        "removeSaved": "Hiq",
+        "savedSignInPrompt": "Hyr që të ruash artikujt për më vonë.",
+        "quoteError": "Nuk i rifreskuam dot çmimet. Totalet më poshtë mund të jenë të vjetruara.",
+        "quoteRetry": "Provo përsëri"
+    },
+    "checkout": {
+        "stockIssues": {
+            "fixInCart": "Kthehu te shporta për ta rregulluar"
+        },
+        "quote": {
+            "retry": "Provo përsëri"
+        },
+        "titlePrefix": "PAGESË E",
+        "titleSuffix": "SIGURT",
+        "title": "PAGESË E",
+        "highlight": "SIGURT",
+        "shippingAddress": "Adresa e dërgesës",
+        "back": "Kthehu",
+        "steps": {
+            "address": "Adresa",
+            "review": "Rishikimi",
+            "payment": "Pagesa"
+        },
+        "payment": {
+            "title": "Mënyra e pagesës",
+            "stripe": "Pagesë e sigurt me kartë (Stripe)",
+            "secure": "Transaksioni është i sigurt dhe i enkriptuar",
+            "methodTitle": "Si dëshiron të paguash?",
+            "methods": {
+                "stripe": "Pagesë me kartë",
+                "cash_on_delivery": "Pagesë në dorë",
+                "bank_transfer": "Transfertë bankare"
+            },
+            "methodHints": {
+                "stripe": "Paguaj me kartë tani, në mënyrë të sigurt.",
+                "cash_on_delivery": "Paguaj me para në dorë kur të vijë porosia.",
+                "bank_transfer": "Transfero në llogarinë tonë bankare — e konfirmojmë sapo të vijnë paratë."
+            },
+            "offline": {
+                "codIntro": "Do të paguash me para në dorë kur të dorëzohet porosia. Bëje porosinë për ta konfirmuar.",
+                "bankIntro": "Transfero shumën në llogarinë më poshtë, duke përdorur numrin e porosisë si referencë. E konfirmojmë porosinë sapo të vijë pagesa.",
+                "place": "Bëj porosinë"
+            },
+            "confirming": "Po konfirmohet pagesa…",
+            "pay": "Paguaj {{amount}}",
+            "devBypass": {
+                "title": "Modalitet demo — pa kartë reale",
+                "body": "Kjo është një demonstrim, prandaj nuk merret asnjë pagesë reale. Kliko butonin më poshtë për të simuluar një pagesë të suksesshme me kartë dhe për të parë si duket porosia pasi paguhet.",
+                "pay": "Konfirmo pagesën demo ({{amount}})"
+            }
+        },
+        "choice": {
+            "title": "ZGJIDH MËNYRËN E PAGESËS",
+            "subtitle": "Si dëshiron të vazhdosh me porosinë?",
+            "guest": "POROSIT SI MYSAFIR",
+            "login": "HYR NË LLOGARI",
+            "register": "KRIJO LLOGARI"
+        },
+        "shippingInfo": "Të dhënat e dërgesës",
+        "form": {
+            "name": "Emri i plotë",
+            "email": "Email",
+            "address": "Adresa e dërgesës",
+            "nameRequired": "Të lutem shkruaj emrin tënd të plotë.",
+            "addressRequired": "Të lutem shkruaj adresën e dërgesës.",
+            "emailUnavailable": "S'e lexuam dot email-in e llogarisë tënde. Rifresko faqen ose hyr sërish.",
+            "installation": "PREFERENCA E INSTALIMIT",
+            "installationPlaceholder": "Shëno datën e preferuar ose ndonjë shënim…",
+            "installationToggle": "Përfshi instalimin profesional",
+            "installationHelp": "Ekipi ynë merret me dërgesën dhe instalimin në vendngjarje. Hiq shenjën nëse do ta instalosh vetë.",
+            "installationNoFee": "I përfshirë",
+            "installationNoSchedule": "(pa preferencë)",
+            "continue": "Vazhdo"
+        },
+        "review": {
+            "title": "Rishiko porosinë",
+            "subtitle": "Verifiko të dhënat para se të paguash.",
+            "continue": "Vazhdo te pagesa",
+            "creating": "Po përgatitet porosia…",
+            "continueToPayment": "Vazhdo te pagesa"
+        },
+        "verify": {
+            "refreshing": "Po kontrollohet statusi i llogarisë…",
+            "title": "Verifiko email-in para pagesës",
+            "subtitle": "Për sigurinë e llogarisë, blerjet aktivizohen vetëm pasi të konfirmosh adresën e email-it.",
+            "resend": "Ridërgo email-in e verifikimit",
+            "sending": "Po dërgohet email-i…",
+            "sent": "Email-i u dërgua. Kontrollo inbox-in dhe dosjen spam.",
+            "error": "Nuk arritëm ta dërgojmë email-in. Provo përsëri.",
+            "backToCart": "Kthehu te shporta"
+        },
+        "summary": {
+            "title": "Përmbledhja e blerjes",
+            "qty": "Sasia",
+            "taxes": "Taksat e parashikuara",
+            "vatIncluded": "Përfshirë TVSH ({{rate}}%)",
+            "total": "Totali përfundimtar",
+            "installationFee": "Instalimi",
+            "processing": "PO PROCESOHET POROSIA…",
+            "complete": "PËRFUNDO BLERJEN"
+        },
+        "error": {
+            "create": "Nuk arritëm ta nisim porosinë. Provo përsëri.",
+            "confirm": "Pagesa nuk u konfirmua. Provo përsëri.",
+            "stripeNotReady": "Pagesa nuk është gati. Rifresko faqen dhe provo përsëri.",
+            "replaceFailed": "Nuk e përditësuam përpjekjen e mëparshme. Rifresko faqen dhe provo përsëri.",
+            "methodUnavailable": "Kjo mënyrë pagese sapo u çaktivizua. Të lutem zgjidh një tjetër.",
+            "quoteFailed": "Nuk i rifreskuam dot çmimet. Totalet më poshtë mund të jenë të vjetruara.",
+            "stripeNotConfigured": "Pagesat nuk janë konfiguruar për këtë mjedis. Na shkruaj për ndihmë."
+        },
+        "coupon": {
+            "label": "Ke një kupon?",
+            "placeholder": "SHKRUAJ KODIN",
+            "apply": "Apliko",
+            "applying": "Po kontrollohet…",
+            "applied": "Kuponi u aplikua",
+            "remove": "Hiq kuponin",
+            "failed": "Nuk arritëm ta aplikojmë atë kod."
+        },
+        "placeOrder": "Kryej porosinë",
+        "success": "Porosia u krye me sukses!"
+    },
+    "product": {
+        "breadcrumb": {
+            "home": "Ballina",
+            "shop": "Dyqani"
+        },
+        "status": {
+            "inStock": "NË STOK",
+            "outOfStock": "STOK I MBARUAR",
+            "stockCount": "{{count}} copë në stok"
+        },
+        "specs": {
+            "title": "Specifikimet",
+            "wattage": "Fuqia",
+            "efficiency": "Efikasiteti",
+            "dimensions": "Përmasat",
+            "weight": "Pesha",
+            "warranty": "Garancia",
+            "years": "vjet",
+            "brand": "Marka",
+            "model": "Modeli",
+            "sku": "SKU",
+            "type": "Lloji"
+        },
+        "onFire": {
+            "HOT_DEAL": "Ofertë",
+            "CLEARANCE": "Stok i fundit",
+            "NEW_ARRIVAL": "I ri",
+            "until": "Përfundon më {{date}}"
+        },
+        "deal": {
+            "endsOn": "përfundon"
+        },
+        "description": {
+            "title": "Për këtë produkt",
+            "empty": "Nuk ka ende përshkrim."
+        },
+        "details": {
+            "title": "Detajet e produktit"
+        },
+        "fees": {
+            "transport": "Transporti",
+            "installation": "Instalimi"
+        },
+        "links": {
+            "title": "Burime të dobishme"
+        },
+        "payments": {
+            "title": "Mënyrat e pagesës",
+            "secure": "Pagesa të sigurta",
+            "cash": "Paguaj me para në dorë",
+            "online": "Paguaj online",
+            "bankTransfer": "Paguaj me transfer bankar"
+        },
+        "reviews": {
+            "title": "Vlerësime",
+            "count": "{{count}} vlerësime",
+            "empty": "Ende pa vlerësime. Bëhu i pari që e vlerëson.",
+            "form": {
+                "title": "Shkruaj një vlerësim",
+                "rating": "Yjet",
+                "titleLabel": "Titulli (opsional)",
+                "titlePlaceholder": "Përmblidh përvojën tënde",
+                "bodyLabel": "Vlerësimi yt",
+                "bodyPlaceholder": "Trego përvojën me këtë produkt…",
+                "submit": "Dërgo vlerësimin",
+                "submitting": "Po dërgohet…",
+                "success": "Faleminderit — vlerësimi do të shfaqet pas miratimit.",
+                "invalid": "Të lutem zgjidh yjet dhe shkruaj diçka të shkurtër.",
+                "error": "Vlerësimi nuk u dërgua. Provo përsëri.",
+                "loginPrompt": "Duhet të jesh i kyçur për të lënë vlerësim.",
+                "loginCta": "Kyçu"
+            }
+        },
+        "installation": {
+            "title": "Shërbimi i instalimit",
+            "subtitle": "Instalim profesional nga ekipi i certifikuar",
+            "fee": "+ €1.500,00 tarifë fikse"
+        },
+        "quantity": "Sasia",
+        "addToCart": "Shto në shportë",
+        "backToShop": "Kthehu te dyqani",
+        "notFound": {
+            "title": "Produkti nuk u gjet",
+            "subtitle": "Ky produkt mund të jetë hequr ose nuk është më në katalog.",
+            "cta": "Shfleto të gjitha produktet"
+        },
+        "loading": "Po ngarkohet produkti…",
+        "shippingNotice": "Transporti llogaritet në pagesë",
+        "returnPolicy": "Vlen politika e kthimit brenda 30 ditëve"
+    },
+    "auth": {
+        "login": {
+            "eyebrow": "Mirë se erdhe sërish",
+            "title": "Hyr në",
+            "titleEmph": "llogarinë tënde.",
+            "subtitle": "Hyr në llogarinë tënde",
+            "emailLabel": "Email",
+            "emailPlaceholder": "emri@shembull.com",
+            "passwordLabel": "Fjalëkalimi",
+            "passwordPlaceholder": "••••••••",
+            "forgotPassword": "E harrove?",
+            "rememberMe": "Më mbaj të kyçur 30 ditë",
+            "submit": "Hyr",
+            "newcomer": "I ri këtu?",
+            "registerLink": "Krijo llogari",
+            "errorInvalid": "Email-i ose fjalëkalimi nuk është i saktë.",
+            "errorLocked": "Llogaria është bllokuar përkohësisht. Provo më vonë ose na shkruaj.",
+            "errorTooMany": "Shumë përpjekje. Prit pak dhe provo përsëri."
+        },
+        "register": {
+            "eyebrow": "Krijo një llogari",
+            "title": "Bashkohu me",
+            "titleEmph": "SolarX.",
+            "subtitle": "Krijo llogarinë në pak hapa",
+            "firstName": "Emri",
+            "lastName": "Mbiemri",
+            "emailLabel": "Email",
+            "emailPlaceholder": "emri@shembull.com",
+            "passwordLabel": "Fjalëkalim i fortë",
+            "passwordPlaceholder": "••••••••",
+            "submit": "Krijo llogarinë",
+            "alreadyMember": "Ke llogari tashmë?",
+            "loginLink": "Hyr",
+            "missingFields": "Të lutem shkruaj email-in dhe një fjalëkalim.",
+            "passwordTooShortClient": "Fjalëkalimi duhet të ketë të paktën 8 karaktere.",
+            "genericError": "Nuk e krijuam dot llogarinë tënde. Provo përsëri.",
+            "strength": {
+                "0": "Shumë e dobët",
+                "1": "E dobët",
+                "2": "Mesatare",
+                "3": "E fortë",
+                "4": "Shumë e fortë"
+            }
+        },
+        "panel": {
+            "titleA": "Energji që e",
+            "titleB": "zotëron ti.",
+            "body": "Krijo një llogari falas për oferta të personalizuara, ndjekjen e porosive dhe statusin live të instalimit.",
+            "benefit1": "Llogaritje kursimesh personale",
+            "benefit2": "Garanci 25 vjet, e dokumentuar",
+            "benefit3": "Oferta të hershme për anëtarë"
+        },
+        "errors": {
+            "EMAIL_REQUIRED": "Email-i është i detyrueshëm.",
+            "EMAIL_EXISTS": "Një llogari me këtë email ekziston tashmë.",
+            "PASSWORD_REQUIRED": "Fjalëkalimi është i detyrueshëm.",
+            "PASSWORD_TOO_SHORT": "Fjalëkalimi duhet të ketë të paktën 8 karaktere.",
+            "PASSWORD_TOO_LONG": "Fjalëkalimi është shumë i gjatë (maks. 128 karaktere).",
+            "PASSWORD_CONTAINS_EMAIL": "Fjalëkalimi nuk duhet të përmbajë adresën tënde të email-it.",
+            "PASSWORD_CONTAINS_FIRST_NAME": "Fjalëkalimi nuk duhet të përmbajë emrin tënd.",
+            "PASSWORD_CONTAINS_LAST_NAME": "Fjalëkalimi nuk duhet të përmbajë mbiemrin tënd.",
+            "PASSWORD_TOO_COMMON": "Ky fjalëkalim është shumë i zakonshëm. Zgjidh një tjetër.",
+            "PASSWORD_BREACHED": "Ky fjalëkalim është shfaqur në një rrjedhje të dhënash të njohur. Zgjidh një tjetër.",
+            "VERIFY_TOKEN_MISSING": "Mungon kodi i verifikimit.",
+            "VERIFY_TOKEN_INVALID": "Lidhja e verifikimit është e pavlefshme ose ka skaduar.",
+            "VERIFY_TOKEN_USED": "Kjo lidhje është përdorur tashmë.",
+            "VERIFY_TOKEN_EXPIRED": "Kjo lidhje ka skaduar — kërko një të re.",
+            "RESET_TOKEN_MISSING": "Mungon kodi i rivendosjes.",
+            "RESET_TOKEN_INVALID": "Lidhja e rivendosjes është e pavlefshme ose ka skaduar.",
+            "RESET_TOKEN_USED": "Kjo lidhje është përdorur tashmë.",
+            "RESET_TOKEN_EXPIRED": "Kjo lidhje ka skaduar — kërko një të re.",
+            "ACCOUNT_GONE": "Llogaria nuk ekziston më.",
+            "CURRENT_PASSWORD_WRONG": "Fjalëkalimi aktual është i pasaktë.",
+            "PASSWORD_UNCHANGED": "Zgjedh një fjalëkalim të ndryshëm nga ai aktual."
+        },
+        "forgot": {
+            "title": "Rivendos fjalëkalimin",
+            "subtitle": "Shkruaj email-in dhe ne ta dërgojmë një lidhje për të vendosur një fjalëkalim të ri.",
+            "back": "Kthehu te hyrja",
+            "emailLabel": "Email",
+            "emailPlaceholder": "ti@shembull.com",
+            "submit": "Dërgo lidhjen",
+            "submittedMessage": "Nëse ka një llogari me këtë email, lidhja për rivendosje është nisur. Kontrollo inbox-in (dhe dosjen spam)."
+        },
+        "reset": {
+            "title": "Vendos fjalëkalim të ri",
+            "subtitle": "Zgjidh një fjalëkalim të fortë — të paktën 12 karaktere.",
+            "passwordLabel": "Fjalëkalimi i ri",
+            "passwordHint": "Të paktën 12 karaktere. Përzie shkronja, numra dhe simbole.",
+            "confirmLabel": "Konfirmo fjalëkalimin e ri",
+            "submit": "Përditëso fjalëkalimin",
+            "doneMessage": "Fjalëkalimi u përditësua me sukses.",
+            "loginCta": "Hyr tani",
+            "errorMissingToken": "Lidhja nuk është e vlefshme ose mungon. Fillo përsëri nga faqja për rivendosje.",
+            "errorMismatch": "Fjalëkalimet nuk përputhen."
+        },
+        "verify": {
+            "verifying": "Po verifikohet email-i…",
+            "successTitle": "Email-i u verifikua",
+            "successMessage": "Email-i u konfirmua. Tani mund të kyçesh në llogari.",
+            "continueCta": "Vazhdo te hyrja",
+            "errorTitle": "Verifikimi dështoi",
+            "errorMessage": "Lidhja e verifikimit nuk është e vlefshme ose ka skaduar.",
+            "backToLogin": "Kthehu te hyrja"
+        }
+    },
+    "15% OFF": "15% ZBRITJE",
+    "Get 15% off all solar panels this spring!": "15% zbritje në të gjitha panelet këtë pranverë!",
+    "$500 OFF": "€500 ZBRITJE",
+    "Save $500 on any complete solar bundle.": "Kursen €500 në çdo pako të plotë.",
+    "$300 OFF": "€300 ZBRITJE",
+    "Save $300 on our new Eco Bundle!": "Kursen €300 në pakon e re Eco!",
+    "SAVE $300 ON OUR NEW ECO BUNDLE!": "KURSEN €300 NË PAKON E RE ECO!",
+    "Bundle Discount": "Zbritje për pako",
+    "toast": {
+        "saved": "U ruajt",
+        "deleted": "U fshi",
+        "orderStatusUpdated": "Statusi i porosisë u përditësua",
+        "trackingSaved": "Gjurmimi u ruajt",
+        "trackingCleared": "Gjurmimi u hoq",
+        "carrierSaved": "Transportuesi u ruajt",
+        "carrierDeleted": "Transportuesi u fshi",
+        "reviewUpdated": "Vlerësimi u përditësua",
+        "commentUpdated": "Komenti u përditësua",
+        "enhanceQueued": "Përmirësimi filloi",
+        "enhanceApplied": "Fotoja e përmirësuar u zbatua",
+        "error": "Diçka shkoi keq"
+    },
+    "common": {
+        "save": "Ruaj",
+        "saving": "Po ruhet…",
+        "cancel": "Anulo",
+        "delete": "Fshi",
+        "edit": "Ndrysho",
+        "refresh": "Rifresko"
+    }
+}

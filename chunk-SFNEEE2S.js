@@ -1,0 +1,1 @@
+import{V as r,_a as o}from"./chunk-62IUY6JU.js";var s=(()=>{class t{constructor(){this.calculatorVisible=o(!1)}static{this.\u0275fac=function(e){return new(e||t)}}static{this.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"})}}return t})();export{s as a};
